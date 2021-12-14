@@ -1,6 +1,6 @@
 - 👋 Hi, I’m MAK
 - 👀 I’m interested in Data Science
-- 🌱 I’m currently learning Data Science Foundations: Statistical Inference Specialization
+- 🌱 I’m currently learning Data Science Foundations: Statistical Inference Specialization & Intro to Machine learning with Tensor Flow from Udacity (Technology Scholarship by Bertelsmann)
 - 💞️ I’m looking to collaborate on any Data Science related project
 - 📫 How to reach me [Linkedin](https://www.linkedin.com/in/amil-khan-32b786222/), [Twitter](https://twitter.com/MohdAmilKhan8)
 
