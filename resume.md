@@ -14,7 +14,7 @@ Innovative and goal-oriented professional, dedicated team player skilled in mana
 ## Certifications
 -	Currently doing Data Science Foundation – Statistical Inference from University of Colorado Boulder, Coursera.
 -	Google Data Analytics Professional Certificate.
--	Data Analyst with Python Data Camp.
+-	[Data Analyst with Python Data Camp](https://www.datacamp.com/statement-of-accomplishment/track/8c30cbf389bf8aed14a4f843ba5961b8264e19ec?raw=1).
 
 ## Projects
 Google Data Analytics Capstone project – *How does Bike Share Navigate Speedy Success*.
