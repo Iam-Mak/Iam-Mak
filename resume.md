@@ -6,7 +6,7 @@ Innovative and goal-oriented professional, dedicated team player skilled in mana
 ## Skills
 -	**Programming:** Python(Pandas, Numpy), R(dplyr, prob)
 -	**Database:** Familiar with SQL, Bigquery
--	**Visualization:** Tableau, Power BI, Python(Matplotlib, Seaborn), R(ggplot2), MS PowerPoint, Jupyter Notebook, R-Notebook
+-	**Visualization:** [Tableau](https://www.datacamp.com/statement-of-accomplishment/track/174308e98762b4d0abf3ca06e15b704d90c7bbd8?raw=1), Power BI, Python(Matplotlib, Seaborn), R(ggplot2), MS PowerPoint, Jupyter Notebook, R-Notebook
 -	**Analytical:** Excel (Pivots, Lookup), Spreadsheet, Exploratory data analysis
 -	Critical thinking, Attention to detail
 -	Good Communication skills and Creative Problem Solving
