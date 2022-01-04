@@ -11,7 +11,7 @@ Innovative and goal-oriented professional, dedicated team player skilled in mana
 -	Critical thinking, Attention to detail
 -	Good Communication skills and Creative Problem Solving
 
-## Certifications
+## [Courses and Certifications](https://github.com/Iam-Mak/Iam-Mak/blob/main/Courses%20%26%20Certificates.md)
 -	Currently doing Data Science Foundation – Statistical Inference from University of Colorado Boulder, Coursera.
 -	Google Data Analytics Professional Certificate.
 -	[Data Analyst with Python Data Camp](https://www.datacamp.com/statement-of-accomplishment/track/8c30cbf389bf8aed14a4f843ba5961b8264e19ec?raw=1).
