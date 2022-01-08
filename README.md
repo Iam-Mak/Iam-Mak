@@ -1,4 +1,4 @@
-### Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I am [Amil](https://github.com/Iam-Mak/Iam-Mak/blob/main/resume.md) (Iam-Mak) !   
+### Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I am Amil (Iam-Mak) !   
 
 
 - 👀 I’m interested in Data Science
