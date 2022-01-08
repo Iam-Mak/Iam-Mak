@@ -1,9 +1,13 @@
 ### Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I am Amil (Iam-Mak) !   
 
 
-- 👀 I’m interested in Data Science
+- 👀 I’m interested in **Data Science**
 - 🌱 I’m currently learning Data Science Foundations: Statistical Inference Specialization & Intro to Machine learning with Tensor Flow from Udacity (Technology Scholarship by Bertelsmann)
 - 💞️ I’m looking to collaborate on any Data Science related project
+
+![image](https://user-images.githubusercontent.com/92245436/148645445-a104bacf-fb0d-48d3-acc7-df2185d0aef8.png)
+
+
 <!---
 Iam-Mak/Iam-Mak is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
