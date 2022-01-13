@@ -2,10 +2,13 @@
 
 
 - 👀 I’m interested in **Data Science**
-- 🌱 I’m currently learning Data Science Foundations: Statistical Inference Specialization & Intro to Machine learning with Tensor Flow from Udacity (Technology Scholarship by Bertelsmann)
+- 🌱 I’m currently learning
+     1.  Data Science Foundations: Statistical Inference Specialization.
+     2.  Intro to Machine learning with Tensor Flow from Udacity (Technology Scholarship by Bertelsmann).
+     3.  Data Analytics with Python and Machine Learning NPTEL by the Ministry of Human Resource and Development, GoI.
+     4.  Big Data Fundamentals By IBM
 - 💞️ I’m looking to collaborate on any Data Science related project
 
-![image](https://user-images.githubusercontent.com/92245436/148645445-a104bacf-fb0d-48d3-acc7-df2185d0aef8.png)
 
 
 <!---
