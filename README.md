@@ -10,6 +10,14 @@
 - 💞️ I’m looking to collaborate on any Data Science related project
 
 
+### Profile and Portfolio
+- [Linkedin](https://www.linkedin.com/in/iam-mak/)
+- [Credly](https://www.credly.com/users/mohd-amil-khan)
+- [DataCamp](https://www.datacamp.com/profile/iammak)
+
+
+
+
 
 <!---
 Iam-Mak/Iam-Mak is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
