@@ -6,7 +6,6 @@
      1.  Data Science Foundations: Statistical Inference Specialization.
      2.  Intro to Machine learning with Tensor Flow from Udacity (Technology Scholarship by Bertelsmann).
      3.  Data Analytics with Python and Machine Learning NPTEL by the Ministry of Human Resource and Development, GoI.
-     4.  Big Data Fundamentals By IBM
 - 💞️ I’m looking to collaborate on any Data Science related project
 
 
