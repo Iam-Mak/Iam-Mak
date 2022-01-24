@@ -12,7 +12,6 @@
 ### Profile and Portfolio
 - [Linkedin](https://www.linkedin.com/in/iam-mak/)
 - [Credly](https://www.credly.com/users/mohd-amil-khan)
-- [DataCamp](https://www.datacamp.com/profile/iammak)
 
 
 ### [Courses & Certificates](https://github.com/Iam-Mak/Iam-Mak/blob/main/Courses%20%26%20Certificates.md)
