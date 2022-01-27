@@ -16,8 +16,12 @@
 
 ### [Courses & Certificates](https://github.com/Iam-Mak/Iam-Mak/blob/main/Courses%20%26%20Certificates.md)
 
-
-
+### Skills
+![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=2CD4A7)
+![](https://img.shields.io/badge/Code-R-informational?style=flat&logo=r&logoColor=white&color=2CD4A7)
+![](https://img.shields.io/badge/ML-ScikitLearn-informational?style=flat&logo=sklearn&logoColor=white&color=2CD4A7)
+![](https://img.shields.io/badge/DataViz-Plotly-informational?style=flat&logo=plotly&logoColor=white&color=2CD4A7)
+![](https://img.shields.io/badge/DataViz-Seaborn-informational?style=flat&logo=seaborn&logoColor=white&color=2CD4A7)
 
 
 <!---
