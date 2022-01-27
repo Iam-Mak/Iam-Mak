@@ -1,3 +1,10 @@
+## NPTEL Data Science Domain Certification
+- [Python for Data Science](https://github.com/Iam-Mak/Data-Science-/tree/main/NPTEL%20Data%20Science%20Domain%20Certification/1.%20Python%20for%20Data%20Science) (*In Progress*)
+- [Data Analytics with Python](https://github.com/Iam-Mak/Data-Science-/tree/main/NPTEL%20Data%20Science%20Domain%20Certification/2.%20Data%20Analytics%20with%20Python) (*In Progress*)
+- [Data Science for Engineers in R](https://github.com/Iam-Mak/Data-Science-/tree/main/NPTEL%20Data%20Science%20Domain%20Certification/3.%20Data%20Science%20for%20Engineers%20in%20R) (*In Progress*)
+- Introduction to Machine Learning (*In Progress*)
+
+
 ## Data Science Foundations: Statistical Inference Specialization
 - [Probability Theory: Foundation for Data Science](https://coursera.org/share/bc225d0dc5dc2272800305b0356430dc)
 - Statistical Inference for Estimation in Data Science (*In Progress*)
