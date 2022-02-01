@@ -1,12 +1,12 @@
 ### Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I am Amil (Iam-Mak) !   
 
 
-- 👀 I’m interested in **Data Science**
+- 👀 I’m interested in Business Analytics
 - 🌱 I’m currently learning
      1.  Data Science Foundations: Statistical Inference Specialization.
      2.  Intro to Machine learning with Tensor Flow from Udacity (Technology Scholarship by Bertelsmann).
      3.  Data Analytics with Python and Machine Learning NPTEL by the Ministry of Human Resource and Development, GoI.
-- 💞️ I’m looking to collaborate on any Data Science related project
+- 💞️ I’m looking to collaborate on any Business Analytics related projects
 
 
 ### Profile and Portfolio
