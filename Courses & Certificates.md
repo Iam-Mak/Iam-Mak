@@ -7,7 +7,7 @@
 
 ## Data Science Foundations: Statistical Inference Specialization
 - [Probability Theory: Foundation for Data Science](https://coursera.org/share/bc225d0dc5dc2272800305b0356430dc)
-- Statistical Inference for Estimation in Data Science (*In Progress*)
+- [Statistical Inference for Estimation in Data Science](https://coursera.org/share/c69ff8d6e0d627ff8d7e0a962f8f4351)
 - Statistical Inference and Hypothesis Testing in Data Science Applications (*In Progress*)
 
 ## [Tableau Fundamentals Track (Jan 04, 2022) Datacamp](https://www.datacamp.com/statement-of-accomplishment/track/174308e98762b4d0abf3ca06e15b704d90c7bbd8) 
