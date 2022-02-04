@@ -1,13 +1,9 @@
 ### Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I am Amil (Iam-Mak) !   
 
 
-- 👀 I’m interested in Business Analytics
-- 🌱 I’m currently learning
-     1.  Data Science Foundations: Statistical Inference Specialization.
-     2.  Intro to Machine learning with Tensor Flow from Udacity (Technology Scholarship by Bertelsmann).
-     3.  Data Analytics with Python and Machine Learning NPTEL by the Ministry of Human Resource and Development, GoI.
-- 💞️ I’m looking to collaborate on any Business Analytics related projects
-
+- 👀 I’m interested in Data Science and  Business Analytics
+- 🌱 I’m currently learning - Intro to Machine learning with Tensor Flow from Udacity (Technology Scholarship by Bertelsmann).
+- 💞️ I’m looking to collaborate on Data Science related projects
 
 ### Profile 
 - [Linkedin](https://www.linkedin.com/in/iam-mak/)
@@ -18,14 +14,9 @@
 
 
 ### [Courses & Certificates](https://github.com/Iam-Mak/Iam-Mak/blob/main/Courses%20%26%20Certificates.md)
-
-### Skills
-![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=2CD4A7)
-![](https://img.shields.io/badge/Code-R-informational?style=flat&logo=r&logoColor=white&color=2CD4A7)
-![](https://img.shields.io/badge/ML-ScikitLearn-informational?style=flat&logo=sklearn&logoColor=white&color=2CD4A7)
-![](https://img.shields.io/badge/DataViz-Plotly-informational?style=flat&logo=plotly&logoColor=white&color=2CD4A7)
-![](https://img.shields.io/badge/DataViz-Seaborn-informational?style=flat&logo=seaborn&logoColor=white&color=2CD4A7)
-
+- Data Science Foundations: Statistical Inference Specialization
+- Vital Skills for Data Science Specialization
+- Google Data Analytics 
 
 <!---
 Iam-Mak/Iam-Mak is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
