@@ -9,9 +9,12 @@
 - 💞️ I’m looking to collaborate on any Business Analytics related projects
 
 
-### Profile and Portfolio
+### Profile 
 - [Linkedin](https://www.linkedin.com/in/iam-mak/)
 - [Credly](https://www.credly.com/users/mohd-amil-khan)
+
+### Portfolio
+- [Data Analytics Portfolio](https://iam-mak.github.io/Data-Analytics-Projects/index.html)
 
 
 ### [Courses & Certificates](https://github.com/Iam-Mak/Iam-Mak/blob/main/Courses%20%26%20Certificates.md)
