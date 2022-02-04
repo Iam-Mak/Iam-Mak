@@ -1,3 +1,7 @@
+## Vital Skills for Data Science Specialization
+- Cybersecurity for Data Science (*In Progress*)
+
+
 ## NPTEL Data Science Domain Certification
 - [Python for Data Science](https://github.com/Iam-Mak/Data-Science-/tree/main/NPTEL%20Data%20Science%20Domain%20Certification/1.%20Python%20for%20Data%20Science) (*In Progress*)
 - [Data Analytics with Python](https://github.com/Iam-Mak/Data-Science-/tree/main/NPTEL%20Data%20Science%20Domain%20Certification/2.%20Data%20Analytics%20with%20Python) (*In Progress*)
