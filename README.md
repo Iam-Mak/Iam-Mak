@@ -1,22 +1,29 @@
-### Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I am Amil (Iam-Mak) !   
+<h1 align="center"> Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I am Amil (Iam-Mak) !   </h1>
+
+<h3 align="center">I am a Data Science and Business Analytics Enthusiast</h3>
+
+- 🔭 I’m currently working on **Predict Fare of Airlines Tickets using Machine Learning**
+
+- 🌱 I’m currently learning **Supervised Machine Learning**
+
+-  :computer: Check my portfolio : [Data Analytics Portfolio](https://iam-mak.github.io/Data-Analytics-Projects/index.html)
+
+- 👨‍💻 Know about my experiences [Resume](https://github.com/Iam-Mak/Iam-Mak)
+- :page_with_curl: My [Courses & Certificates](https://github.com/Iam-Mak/Iam-Mak/blob/main/Courses%20%26%20Certificates.md)
+
+- ⚡ Fun fact **Still Looking** 
+
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> </p>
 
 
-- 👀 I’m interested in Data Science and  Business Analytics
-- 🌱 I’m currently learning - Intro to Machine learning with Tensor Flow from Udacity (Technology Scholarship by Bertelsmann).
-- 💞️ I’m looking to collaborate on Data Science related projects
-
-### Profile 
-- [Linkedin](https://www.linkedin.com/in/iam-mak/)
-- [Credly](https://www.credly.com/users/mohd-amil-khan)
-
-### Portfolio
-- [Data Analytics Portfolio](https://iam-mak.github.io/Data-Analytics-Projects/index.html)
 
 
-### [Courses & Certificates](https://github.com/Iam-Mak/Iam-Mak/blob/main/Courses%20%26%20Certificates.md)
-- Data Science Foundations: Statistical Inference Specialization
-- Vital Skills for Data Science Specialization
-- Google Data Analytics 
+
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=iam-mak&" alt="iam-mak" /></p>
+
+
 
 <!---
 Iam-Mak/Iam-Mak is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
