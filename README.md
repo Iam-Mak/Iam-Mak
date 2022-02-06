@@ -4,7 +4,7 @@
 
 - 🔭 I’m currently working on **Predict Fare of Airlines Tickets using Machine Learning**
 
-- 🌱 I’m currently learning **Supervised Machine Learning**
+- 🌱 I’m currently learning **Supervised Machine Learning** and **BigQuery**
 
 -  :computer: Check my portfolio : [Data Analytics Portfolio](https://iam-mak.github.io/Data-Analytics-Projects/index.html)
 
