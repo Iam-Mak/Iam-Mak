@@ -1,3 +1,6 @@
+## [From Data to Insights with Google Cloud Specialization](https://github.com/Iam-Mak/Data-Analytics/tree/main/From%20Data%20to%20Insights%20with%20Google%20Cloud%20Specialization)
+- Exploring and Preparing your Data with BigQuery (*In Progress*)
+
 ## Vital Skills for Data Science Specialization
 - Cybersecurity for Data Science (*In Progress*)
 
