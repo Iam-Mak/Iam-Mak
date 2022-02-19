@@ -1,5 +1,7 @@
+## [SQL for Data Analysis, Udacity](https://github.com/Iam-Mak/Data-Analytics/tree/main/SQL%20for%20Data%20Analysis%2C%20Udacity)
+
 ## [From Data to Insights with Google Cloud Specialization](https://github.com/Iam-Mak/Data-Analytics/tree/main/From%20Data%20to%20Insights%20with%20Google%20Cloud%20Specialization)
-- Exploring and Preparing your Data with BigQuery (*In Progress*)
+- Exploring and Preparing your Data with BigQuery
 
 ## Vital Skills for Data Science Specialization
 - Cybersecurity for Data Science (*In Progress*)
