@@ -1,11 +1,9 @@
-## [SQL for Data Analysis, Udacity](https://github.com/Iam-Mak/Data-Analytics/tree/main/SQL%20for%20Data%20Analysis%2C%20Udacity)
-
 ## From Data to Insights with Google Cloud Specialization
 - [Exploring and Preparing your Data with BigQuery](https://github.com/Iam-Mak/Data-Analytics/tree/main/From%20Data%20to%20Insights%20with%20Google%20Cloud%20Specialization)
 
 ## Vital Skills for Data Science Specialization
 - Cybersecurity for Data Science (*In Progress*)
-
+- Fundamentals of Data Visualization (*In Progress*)
 
 ## NPTEL Data Science Domain Certification
 - [Python for Data Science](https://github.com/Iam-Mak/Data-Science-/tree/main/NPTEL%20Data%20Science%20Domain%20Certification/1.%20Python%20for%20Data%20Science) (*In Progress*)
