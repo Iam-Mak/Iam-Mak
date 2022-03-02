@@ -2,9 +2,9 @@
 
 <h3 align="center">I am a Data Science and Business Analytics Enthusiast</h3>
 
-- 🔭 I’m currently working on **Predict Fare of Airlines Tickets using Machine Learning**
+- 🔭 I’m currently working on **Project: Find Donors for CharityML**
 
-- 🌱 I’m currently learning **Supervised Machine Learning** and **BigQuery**
+- 🌱 I’m currently learning Introduction to Machine Learning with TensorFlow Nanodegree Program
 
 -  :computer: Check my portfolio : [Data Analytics Portfolio](https://iam-mak.github.io/Data-Analytics-Portfolio/index.html)
 
