@@ -1,3 +1,19 @@
+## Introduction to Machine Learning with TensorFlow Nanodegree Program
+- Supervised Learning
+- Introduction to Neural Networks with TensorFlow (*In Progress*)
+- Unsupervised Learning (*In Progress*)
+- Prerequisite
+  - Python for Data Analysis
+  - SQL for Data Analysis
+  - Command Line Essentials
+  - Git & Github
+  - Python for Data Visualization
+  - Statistics for Data Analysis
+  - Linear Algebra
+
+## LinkedIn Learning
+- Master SQL for Data Science
+
 ## From Data to Insights with Google Cloud Specialization
 - [Exploring and Preparing your Data with BigQuery](https://github.com/Iam-Mak/Data-Analytics/tree/main/From%20Data%20to%20Insights%20with%20Google%20Cloud%20Specialization)
 
@@ -5,11 +21,10 @@
 - Cybersecurity for Data Science (*In Progress*)
 - Fundamentals of Data Visualization (*In Progress*)
 
-## NPTEL Data Science Domain Certification
+## NPTEL Data Science Courses (audit)
 - [Python for Data Science](https://github.com/Iam-Mak/Data-Science-/tree/main/NPTEL%20Data%20Science%20Domain%20Certification/1.%20Python%20for%20Data%20Science) (*In Progress*)
 - [Data Analytics with Python](https://github.com/Iam-Mak/Data-Science-/tree/main/NPTEL%20Data%20Science%20Domain%20Certification/2.%20Data%20Analytics%20with%20Python) (*In Progress*)
-- [Data Science for Engineers in R](https://github.com/Iam-Mak/Data-Science-/tree/main/NPTEL%20Data%20Science%20Domain%20Certification/3.%20Data%20Science%20for%20Engineers%20in%20R) (*In Progress*)
-- Introduction to Machine Learning (*In Progress*)
+
 
 
 ## Data Science Foundations: Statistical Inference Specialization
