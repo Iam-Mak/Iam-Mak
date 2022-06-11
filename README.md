@@ -1,4 +1,4 @@
-<h1 align="center"> Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I am Amil (Iam-Mak) !   </h1>
+<h1 align="center"> Hi there, I am Amil (Iam-Mak) !   </h1>
 
 <h3 align="center">I am a Data Science and Business Analytics Enthusiast</h3>
 
