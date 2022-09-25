@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning Introduction to Machine Learning with TensorFlow Nanodegree Program
 
--  :computer: Check my portfolio : [Data Analytics Portfolio](https://iam-mak.github.io/Data-Analytics-Portfolio/index.html)
+-  :computer: Check my portfolio :[My Portfolio](https://iam-mak.github.io/Iam-Mak/index.html), [Data Analytics Portfolio](https://iam-mak.github.io/Data-Analytics-Portfolio/index.html)
 
 - 👨‍💻 Know about my experiences [Resume](https://github.com/Iam-Mak/Iam-Mak)
 - :page_with_curl: My [Courses & Certificates](https://github.com/Iam-Mak/Iam-Mak/blob/main/Courses%20%26%20Certificates.md)
