@@ -2,11 +2,11 @@
 
 <h3 align="center">I am a Data Science and Business Analytics Enthusiast</h3>
 
-- 🔭 I’m currently working on **Project: Find Donors for CharityML**
+- 🔭 I’m currently working on **Project: Identify Customer Segments**
 
-- 🌱 I’m currently learning Introduction to Machine Learning with TensorFlow Nanodegree Program
+- 🌱 I’m currently learning Spark and Tableau
 
--  :computer: Check my portfolio :[My Portfolio](https://iam-mak.github.io/Iam-Mak/index.html), [Data Analytics Portfolio](https://iam-mak.github.io/Data-Analytics-Portfolio/index.html)
+-  :computer: Check my portfolio :[My Portfolio](https://iam-mak.github.io/Iam-Mak/index.html), [My Projects](https://iam-mak.github.io/Data-Science-And-Analytics-Portfolio-/)
 
 - 👨‍💻 Know about my experiences [Resume](https://github.com/Iam-Mak/Iam-Mak)
 - :page_with_curl: My [Courses & Certificates](https://github.com/Iam-Mak/Iam-Mak/blob/main/Courses%20%26%20Certificates.md)
