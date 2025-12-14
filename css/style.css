@@ -8807,7 +8807,10 @@ h1, h2, h3, h4, h5,
           -ms-transform: translateY(-50%);
           transform: translateY(-50%);
           background: #3B82F6;
-          }
+          }#navi li a.current:after {
+    display: none !important;
+}
+
 
 .page {
   width: 100%;

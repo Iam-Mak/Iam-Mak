@@ -340,11 +340,15 @@ window.onload = function() {
     }
   }
   // INJECT CSS
-  var css = document.createElement("style");
-  css.type = "text/css";
-  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-  document.body.appendChild(css);
+// Add this in your JS after the existing css injection
+var css2 = document.createElement("style");
+css2.type = "text/css";
+css2.innerHTML = ".txt-rotate { display: inline; white-space: nowrap; }";
+document.body.appendChild(css2);
+
 };
+
+
 
 
 })(jQuery);
