@@ -9806,3 +9806,22 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+  
+.featured-project-wrapper {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.featured-project-image {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+.featured-project-text {
+  padding-top: 0;
+}

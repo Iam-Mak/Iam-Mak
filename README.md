@@ -1,5 +1,3 @@
-
-
 <h1 align="center">Hi there, I'm Amil Khan (Iam-Mak) 👋</h1>
 
 <div align="center">
@@ -11,37 +9,38 @@
 
 </div>
 
-<br />
+---
+
+## 👨‍💻 About Me
+
+I build and operate **data driven systems** with a focus on reliability, automation, and production readiness. My experience spans **data pipelines, analytics platforms, cloud based integration, and CI/CD workflows**, where I enjoy turning raw data into systems that can be monitored, scaled, and trusted in real world environments.
+
+I am currently pursuing a **Master’s in Machine Learning and Mathematical Modelling**, strengthening my foundation in applied machine learning, statistical modelling, and MLOps concepts. My long term interest lies in working at the intersection of **data engineering and machine learning**, contributing to practical, production ready solutions rather than purely experimental code.
 
 ---
 
-### 👨‍💻 About Me
+## What I’m Currently Working On
 
-I am a **Cloud and Data Professional** with industry experience in building reliable data platforms and automation pipelines. Currently pursuing a **Master's in Machine Learning and Mathematical Modeling**, I bridge the gap between theoretical mathematics and practical AI applications.
-
-
-
-
+- Strengthening fundamentals in **machine learning, statistical modelling, and optimisation**
+- Building **end to end ML workflows** using Python (data preparation → modelling → evaluation)
+- Learning **MLOps concepts** such as model versioning, monitoring, and deployment patterns
+- Applying **cloud and automation principles** to data and ML pipelines
+- Improving code quality, reproducibility, and experiment tracking
 
 ---
 
-### GitHub Analytics
+##  Technical Focus Areas
 
-<div align="center" style="display: flex; justify-content: center; gap: 20px;">
-  <a href="https://github.com/Iam-Mak">
-    <img src="https://github-readme-stats.vercel.app/api?username=Iam-Mak&show_icons=true&theme=default&hide_border=false&rank_icon=github" alt="Amil's GitHub Stats" height="170" />
-  </a>
-  
+- **Data Engineering:** Data pipelines, integration patterns, analytics ready data models  
+- **Analytics & Monitoring:** SQL based analysis, dashboards, operational metrics  
+- **Cloud & Automation:** CI/CD workflows, containerisation, cloud platforms  
+- **Machine Learning (Learning & Applied):** scikit-learn, PyTorch, model evaluation, MLOps concepts  
 
-  <a href="https://github.com/Iam-Mak">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Iam-Mak&layout=compact&theme=default&hide_border=false" alt="Top Languages" height="170" />
-  </a>
-</div>
 
 ---
 
 <div align="center">
-  <p><i>Let's connect and build something amazing!</i></p>
+  <p><i>Always learning, building, and improving — feel free to connect.</i></p>
   <a href="https://www.linkedin.com/in/iam-mak">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin" alt="Connect on LinkedIn" />
   </a>
@@ -49,4 +48,3 @@ I am a **Cloud and Data Professional** with industry experience in building reli
     <img src="https://img.shields.io/github/followers/Iam-Mak?label=Follow&style=social" alt="Follow on GitHub" />
   </a>
 </div>
-
