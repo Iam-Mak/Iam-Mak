@@ -9825,3 +9825,11 @@ textarea.form-control {
 .featured-project-text {
   padding-top: 0;
 }
+
+.goal {
+  color: #2563EB !important;
+}
+
+.services-1:hover .goal {
+  color: #000000 !important;
+}
