@@ -13,32 +13,40 @@
 
 ## 👨‍💻 About Me
 
-I build and operate **data driven systems** with a focus on reliability, automation, and production readiness. My experience spans **data pipelines, analytics platforms, cloud based integration, and CI/CD workflows**, where I enjoy turning raw data into systems that can be monitored, scaled, and trusted in real world environments.
+I work on **data driven systems**, with experience in **data pipelines**, **analytics platforms**, **cloud integrations**, and **CI/CD workflows**. I focus on building solutions that are **reliable**, **maintainable**, and suitable for real world use.
 
-I am currently pursuing a **Master’s in Machine Learning and Mathematical Modelling**, strengthening my foundation in applied machine learning, statistical modelling, and MLOps concepts. My long term interest lies in working at the intersection of **data engineering and machine learning**, contributing to practical, production ready solutions rather than purely experimental code.
+I am currently pursuing a **Master’s in Machine Learning and Mathematical Modelling**, developing my skills in **machine learning**, **statistical modelling**, and **MLOps**.
 
----
+I’m interested in the intersection of **data engineering** and **machine learning**, aiming to build systems that move beyond experimentation into **practical, production ready applications**.
 
-## What I’m Currently Working On
 
-- Strengthening fundamentals in **machine learning, statistical modelling, and optimisation**
-- Building **end to end ML workflows** using Python (data preparation → modelling → evaluation)
-- Learning **MLOps concepts** such as model versioning, monitoring, and deployment patterns
-- Applying **cloud and automation principles** to data and ML pipelines
-- Improving code quality, reproducibility, and experiment tracking
+## 💻 What I’m Currently Working On
 
----
-
-##  Technical Focus Areas
-
-- **Data Engineering:** Data pipelines, integration patterns, analytics ready data models  
-- **Analytics & Monitoring:** SQL based analysis, dashboards, operational metrics  
-- **Cloud & Automation:** CI/CD workflows, containerisation, cloud platforms  
-- **Machine Learning (Learning & Applied):** scikit-learn, PyTorch, model evaluation, MLOps concepts  
-
+- Strengthening fundamentals in **machine learning**, **statistical modelling**, and **optimisation**
+- Building **end-to-end ML workflows** in Python (data preparation → modelling → evaluation)
+- Learning **MLOps practices**, including **model versioning**, **monitoring**, and basic **deployment patterns**
+- Applying **cloud and automation principles** to **data and ML pipelines**
+- Improving code quality, testing, and overall **system reliability**
 
 ---
 
+
+## ⚙️ Technical Focus Areas
+
+- **Data Engineering:** Data pipelines, integration patterns, and analytics-ready data models  
+- **Analytics & Monitoring:** SQL-based analysis, dashboards, and operational metrics  
+- **Cloud & Automation:** CI/CD workflows, containerisation, and cloud platforms  
+- **Machine Learning (Learning & Applied):** scikit-learn, PyTorch, model evaluation, and MLOps practices  
+
+
+---
+
+
+## 📊 GitHub Activity
+
+![GitHub Streak](https://streak-stats.demolab.com?user=Iam-Mak&theme=default)
+
+---
 <div align="center">
   <p><i>Always learning, building, and improving — feel free to connect.</i></p>
   <a href="https://www.linkedin.com/in/iam-mak">
