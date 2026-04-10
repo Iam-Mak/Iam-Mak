@@ -74,7 +74,7 @@
 					<h1 class="main-title">Projects</h1>
 
 					<p class="main-subtitle">
-						A collection of projects exploring machine learning, data, and systems through hands-on implementation.
+						A collection of projects focused on machine learning, data systems, and real world implementation.
 					</p>
 
 					</div>
@@ -99,10 +99,11 @@
 				<!-- Heading -->
 				<div class="row justify-content-center py-5">
 				<div class="col-lg-8 text-center">
+
 					<h2 class="section-heading">Featured Project</h2>
 
 					<p class="section-subtitle">
-						A deep learning project focused on image classification and model evaluation.
+						MobileNetV2-based image classification using transfer learning to identify 102 flower categories from the Oxford Flowers dataset.	
 					</p>
 				</div>
 				</div>
@@ -110,7 +111,7 @@
 				<!-- Project Card -->
 				<div class="row justify-content-center">
 				<div class="col-xl-11">
-					<div class="featured-project">
+					<div class="featured-project ftco-animate">
 
 					<div class="row align-items-center g-5">
 
@@ -127,22 +128,22 @@
 						<div class="col-lg-6">
 						<div class="featured-content">
 
-							<span class="badge">Deep Learning</span>
+							<span class="badge">PyTorch</span>
+							<span class="badge">MobileNetV2</span>
+							<span class="badge">Transfer Learning</span>
+							<span class="badge">Image Classification</span>
 
 							<h3>Flower Image Classifier</h3>
 
 							<p class="lead">
-							Built a convolutional neural network (CNN) to classify flower species with high accuracy.
+							MobileNetV2-based image classification using transfer learning to identify 102 flower categories.
 							</p>
 
 							<p>
-							This project covers the full machine learning pipeline — data preprocessing, model training,
-							hyperparameter tuning, and evaluation using performance metrics.
+							Trained on the Oxford Flowers 102 dataset using pretrained ImageNet weights and partial fine-tuning.
 							</p>
 
-							<div class="tech">
-							TensorFlow • CNN • Image Processing • Model Evaluation
-							</div>
+							<p><b>Task:</b> Multi-class classification (102 categories)</p>
 
 							<div class="mt-4">
 							<a href="https://iam-mak.github.io/ml_foundations/flower_image_classification.html"
@@ -151,7 +152,7 @@
 								View Project
 							</a>
 
-							<a href="https://github.com/Iam-Mak/ml_foundations/blob/main/ml_project/flower_image_classification/flower_image_classification.ipynb"
+							<a href="https://github.com/Iam-Mak/ml_foundations/blob/main/ml_project/flower_image_classification/notebooks/flower_image_classification.ipynb"
 								target="_blank"
 								class="btn btn-outline-primary">
 								View Code
@@ -170,97 +171,50 @@
 			</div>
 		</section>
 
-		
-		<section class="ftco-section" id="project-section">
+		<section class="ftco-section" id="ml-projects">
 			<div class="container">
 
 				<!-- Section Title -->
 				<div class="row justify-content-center mb-5">
 				<div class="col-md-8 text-center">
-					<h2 class="section-heading">Other Projects</h2>
-
+					<h2 class="section-heading">Machine Learning</h2>
 					<p class="section-subtitle">
-						Selected work exploring machine learning, data systems, and applied analytics.
+					Projects focused on model development, training, and evaluation.
 					</p>
-
 				</div>
 				</div>
 
-				<!-- PROJECT GRID -->
+				<!-- Project Grid -->
 				<div class="row project-row">
 
-				<!-- Project 1 -->
-				<div class="col-md-6">
-					<div class="project-card">
+				<!-- Finding Donors -->
+				<div class="col-md-6" >
+					<div class="project-card ftco-animate"">
+
 					<div class="project-img">
 						<img src="images/charityML.png" alt="Finding Donors">
 					</div>
 
 					<div class="project-body">
-						<h5>Finding Donors</h5>
+
+						<h5>Finding Donors (ML Classification)</h5>
+
 						<p>
-						Built classification models to identify high-potential donors using structured data and feature engineering.
+						Built a supervised learning model to identify high-income individuals likely to donate, using feature engineering and model evaluation techniques.
 						</p>
-						<a href="https://iam-mak.github.io/ml_foundations/finding_donors_charityml.html"
-						target="_blank"
-						class="btn-project">View Project</a>
-					</div>
-					</div>
-				</div>
 
-				<!-- Project 2 
-				<div class="col-md-6">
-					<div class="project-card">
-					<div class="project-img">
-						<img src="images/flowerClassifier.png" alt="Image Classifier">
-					</div>
+						<p><b>Task:</b> Binary Classification</p>
 
-					<div class="project-body">
-						<h5>Image Classifier</h5>
-						<p>
-						Developed a CNN-based model to classify flower species using deep learning techniques.
+						<p class="tech-small">
+							Python • Scikit-learn • Pandas • Supervised Learning
 						</p>
-						<a href="https://iam-mak.github.io/Udacity-Intro-to-Machine-Learning/Project%202.html"
-						target="_blank"
-						class="btn-project">View Project</a>
-					</div>
-					</div>
-				</div>-->
-
-				<!-- Project 3 -->
-				<div class="col-md-6">
-					<div class="project-card">
-					<div class="project-img">
-						<img src="images/belabeaticon.png" alt="Bellabeat Analysis">
-					</div>
-
-					<div class="project-body">
-						<h5>Bellabeat Analysis</h5>
-						<p>
-						Analysed smart device usage data to extract behavioural insights and support decision-making.
-						</p>
-						<a href="https://github.com/Iam-Mak/google-data-analytics-specializations/blob/main/wellness-technology-case-study/readme.md"
-						target="_blank"
-						class="btn-project">View Project</a>
-					</div>
-					</div>
-				</div>
-
-				<!-- Project 4 -->
-				<div class="col-md-6">
-					<div class="project-card">
-					<div class="project-img">
-						<img src="images/cyclistic.png" alt="Cyclistic Case Study">
-					</div>
-
-					<div class="project-body">
-						<h5>Cyclistic Case Study</h5>
-						<p>
-						Explored user behaviour trends to support data-driven marketing strategies.
-						</p>
-						<a href="https://github.com/Iam-Mak/google-data-analytics-specializations/blob/main/bike-share-case-study/readme.md"
-						target="_blank"
-						class="btn-project">View Project</a>
+						<div class="mt-3 text-center"> 
+							<a href="https://iam-mak.github.io/ml_foundations/finding_donors_charityml.html"
+								target="_blank"
+								class="btn btn-primary btn-sm">
+								View Project
+							</a>
+						</div>
 					</div>
 					</div>
 				</div>
@@ -268,6 +222,208 @@
 				</div>
 			</div>
 		</section>
+
+		<section class="ftco-section" id="analytics-projects">
+			<div class="container">
+
+				<!-- Section Title -->
+				<div class="row justify-content-center mb-5">
+				<div class="col-md-8 text-center">
+					<h2 class="section-heading">Data Analytics</h2>
+					<p class="section-subtitle">
+					Projects focused on data analysis, insights, and decision-making.
+					</p>
+				</div>
+				</div>
+
+				<!-- Project Grid -->
+				<div class="row project-row">
+
+				<!-- Bellabeat -->
+				<div class="col-md-6">
+					<div class="project-card ftco-animate">
+					<div class="project-img">
+						<img src="images/belabeaticon.png" alt="Bellabeat Analysis">
+					</div>
+
+					<div class="project-body">
+						<h5>Bellabeat Analysis</h5>
+
+						<p>
+						Analyzed smart device usage data to identify behavioral patterns and generate actionable insights.
+						</p>
+
+						<p><b>Focus:</b> Behavioral Data Analysis</p>
+
+						<p class="tech-small">
+						SQL • Python • Data Analysis • Visualization
+						</p>
+						<div class="mt-3 text-center">  
+							<a href="https://github.com/Iam-Mak/google-data-analytics-specializations/blob/main/wellness-technology-case-study/readme.md"
+							target="_blank"
+							class="btn btn-primary btn-sm">
+							View Project
+							</a>
+						</div>
+					</div>
+					</div>
+				</div>
+
+				<!-- Cyclistic -->
+				<div class="col-md-6">
+					<div class="project-card ftco-animate">
+					<div class="project-img">
+						<img src="images/cyclistic.png" alt="Cyclistic Case Study">
+					</div>
+
+					<div class="project-body">
+						<h5>Cyclistic Case Study</h5>
+
+						<p>
+						Explored user behavior trends to support data-driven marketing strategies and business decisions.
+						</p>
+
+						<p><b>Focus:</b> Exploratory Data Analysis</p>
+
+						<p class="tech-small">
+						Python • Excel • Data Analysis • Visualization
+						</p>
+						<div class="mt-3 text-center">  
+							<a href="https://github.com/Iam-Mak/google-data-analytics-specializations/blob/main/bike-share-case-study/readme.md"
+							target="_blank"
+							class="btn btn-primary btn-sm">
+							View Project
+							</a>
+						</div>
+						</div>
+					</div>
+					</div>
+				</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="ftco-section" id="research-projects">
+			<div class="container">
+
+				<!-- Section Title -->
+				<div class="row justify-content-center mb-5">
+				<div class="col-md-8 text-center">
+					<h2 class="section-heading">Research & Academic</h2>
+					<p class="section-subtitle">
+					Experimental work focused on dynamical systems and optimization techniques.
+					</p>
+				</div>
+				</div>
+
+				<!-- Project Grid -->
+				<div class="row project-row">
+
+				<!-- Reservoir Computing -->
+				<div class="col-md-6">
+					<div class="project-card ftco-animate">
+
+						<div class="project-img">
+						<img src="images/lorenz_plot.png" alt="Lorenz Attractor">
+						</div>
+
+						<div class="project-body">
+						<h5>Next Generation Reservoir Computing</h5>
+
+						<p>
+							Implemented the Next Generation Reservoir Computing framework to model chaotic dynamical systems (Lorenz-63, Double Scroll), achieving accurate short-term predictions and capturing system dynamics.
+						</p>
+
+						<p><b>Focus:</b> Dynamical Systems & Nonlinear Modeling</p>
+
+						<p class="tech-small">
+							Python • Dynamical Systems • Reservoir Computing • Time Series
+						</p>
+						<div class="mt-3 text-center"> 
+							<a href="https://github.com/Iam-Mak/ng-rc-modeling"
+								target="_blank"
+								class="btn btn-primary btn-sm">
+								View Project
+							</a>
+						</div>
+						</div>
+
+					</div>
+				</div>
+				
+				<!-- Unsupervised Learning -->
+				<div class="col-md-6">
+					<div class="project-card ftco-animate">
+
+						<div class="project-img">
+						<img src="images/clustering.png" alt="Clustering Analysis">
+						</div>
+
+						<div class="project-body">
+						<h5>Clustering Analysis (Unsupervised Learning)</h5>
+
+						<p>
+							Implemented and evaluated clustering algorithms (k-means, hierarchical, and density-based), identifying limitations of k-means for non-spherical data and comparing standard and mini-batch variants.
+						</p>
+
+						<p><b>Focus:</b> Unsupervised Learning & Clustering</p>
+
+						<p class="tech-small">
+							Python • Scikit-learn • Clustering • Unsupervised Learning
+						</p>
+
+						<div class="mt-3 text-center"> 
+							<a href="https://github.com/Iam-Mak/clustering-algorithms-comparative-analysis"
+								target="_blank"
+								class="btn btn-primary btn-sm">
+								View Project
+							</a>
+						</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Adam Optimizer -->
+				<div class="col-md-6">
+					<div class="project-card ftco-animate">
+
+						<div class="project-img">
+						<img src="images/adam_convergence.png" alt="Adam Optimizer Convergence">
+						</div>
+
+						<div class="project-body">
+						<h5>Adam Optimizer Analysis</h5>
+
+						<p>
+							Analyzed the Adam optimization algorithm, studying convergence behavior and the impact of adaptive learning rates and hyperparameter tuning.
+						</p>
+
+						<p><b>Focus:</b> Optimization & Machine Learning Theory</p>
+
+						<p class="tech-small">
+							Optimization • Gradient Descent • Machine Learning
+						</p>
+
+						<div class="mt-3 text-center">
+							<a href="https://github.com/Iam-Mak/adam-optimizer-convergence-analysis"
+								target="_blank"
+								class="btn btn-primary btn-sm">
+								View Project
+							</a>
+						</div>
+						</div>
+
+					</div>
+				</div>
+
+				</div>
+			</div>
+		</section>
+
+
+
+		
 		
 
 

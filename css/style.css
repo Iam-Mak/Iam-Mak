@@ -10419,6 +10419,7 @@ textarea.form-control {
   row-gap: 30px;
 }
 
+
 /* CARD */
 .project-card {
   background: #ffffff;
@@ -10431,21 +10432,22 @@ textarea.form-control {
   flex-direction: column;
 }
 
-/* IMAGE */
+/* IMAGE CONTAINER */
 .project-img {
-  height: 240px;
+  height: 220px;
   overflow: hidden;
+  background: #fff; /* pure white */
 }
 
+/* IMAGE */
 .project-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center;
-  transition: transform 0.4s ease;
+  object-fit: cover; /* THIS is key */
+  transition: transform 0.3s ease;
 }
 
-/* IMAGE HOVER */
+/* HOVER */
 .project-card:hover .project-img img {
   transform: scale(1.05);
 }
@@ -10513,4 +10515,10 @@ textarea.form-control {
 .section-subtitle {
   color: #6B7280;
   font-size: 16px;
+}
+
+.tech-small {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
 }
