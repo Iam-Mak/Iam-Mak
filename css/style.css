@@ -10289,7 +10289,7 @@ textarea.form-control {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f3f4f6;
+  background: #ffffff;
   border-radius: 16px;
   padding: 20px;
   overflow: hidden;
@@ -10521,4 +10521,110 @@ textarea.form-control {
   font-size: 12px;
   color: #666;
   margin-top: 5px;
+}
+
+.skills-modern {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.skill-card {
+  position: relative;
+  padding: 22px;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #ffffff, #f9fafb);
+  border: 1px solid #e6e6e6;
+  transition: all 0.3s ease;
+  min-height: 160px;
+}
+
+.skill-card:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.skill-card::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  width: 35px;
+  height: 4px;
+  border-radius: 4px;
+}
+
+.skill-card h6 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+
+.skill-card h6 i {
+  width: 20px;
+  height: 20px;
+  color: #6366f1;
+  background: #eef2ff;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.skill-tags span {
+  display: inline-block;
+  background: #f3f6f9;
+  padding: 6px 12px;
+  margin: 6px 6px 0 0;
+  border-radius: 20px;
+  font-size: 13px;
+  transition: 0.2s;
+}
+
+.skill-tags span:hover {
+  background: #007bff;
+  color: #ffffff;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.cert-card {
+  padding: 14px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+.cert-inner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cert-logo {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
+
+.cert-card h5 {
+  font-size: 13.5px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.cert-org {
+  font-size: 12px;
+  color: #666;
+  margin: 2px 0 0;
+}
+
+.cert-date {
+  font-size: 11px;
+  color: #999;
+  margin: 0;
 }
