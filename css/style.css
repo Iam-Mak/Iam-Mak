@@ -14272,23 +14272,28 @@ textarea.form-control {
 .skills-modern {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 18px;   /* reduced from 25 → tighter, cleaner */
+  gap: 18px;
+  /* reduced from 25 → tighter, cleaner */
 }
 
 /* Card */
 .skill-card {
   background: #fff;
-  padding: 18px;   /* reduced from 25 → less bulky */
+  padding: 18px;
+  /* reduced from 25 → less bulky */
   border-radius: 12px;
-  border: 1px solid #e5e7eb;   /* subtle structure */
-  box-shadow: none;            /* remove heavy shadow */
+  border: 1px solid #e5e7eb;
+  /* subtle structure */
+  box-shadow: none;
+  /* remove heavy shadow */
   transition: all 0.2s ease;
 }
 
 /* Hover */
 .skill-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);  /* soft shadow only on hover */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  /* soft shadow only on hover */
 }
 
 /* Title */
@@ -14801,8 +14806,10 @@ textarea.form-control {
 
   display: flex;
   flex-direction: column;
-  justify-content: center;   /* centers content nicely */
-  min-height: 110px;         /* makes all cards equal height */
+  justify-content: center;
+  /* centers content nicely */
+  min-height: 110px;
+  /* makes all cards equal height */
 
   transition: all 0.2s ease;
 }
@@ -14810,13 +14817,13 @@ textarea.form-control {
 /* Hover */
 .cert-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 /* Logo */
 .cert-logo {
   height: 26px;
-  margin-bottom: 12px;   
+  margin-bottom: 12px;
 }
 
 /* Title */
@@ -14829,7 +14836,8 @@ textarea.form-control {
 }
 
 .cert-code {
-  display: block;        /* forces next line */
+  display: block;
+  /* forces next line */
   font-size: 12px;
   color: #6B7280;
   font-weight: 500;
@@ -14853,6 +14861,7 @@ textarea.form-control {
     grid-template-columns: 1fr;
   }
 }
+
 /* clean underline animation */
 .navbar-nav .nav-link::after {
   content: "";
@@ -14975,20 +14984,23 @@ html {
 
 /* Company name */
 .edu-header h5 {
-  font-size: 18px;     /* ↑ increased */
+  font-size: 18px;
+  /* ↑ increased */
   font-weight: 600;
   margin: 0;
 }
 
 /* Date */
 .edu-date {
-  font-size: 14px;     /* ↑ increased */
+  font-size: 14px;
+  /* ↑ increased */
   color: #6b7280;
 }
 
 /* Role */
 .edu-degree {
-  font-size: 15px;     /* ↑ increased */
+  font-size: 15px;
+  /* ↑ increased */
   font-weight: 500;
   color: #374151;
   margin: 5px 0 12px;
@@ -14996,7 +15008,8 @@ html {
 
 /* Summary */
 .exp-summary {
-  font-size: 15px;     /* ↑ increased */
+  font-size: 15px;
+  /* ↑ increased */
   line-height: 1.55;
   color: #374151;
   margin-bottom: 14px;
@@ -15004,7 +15017,8 @@ html {
 
 /* Project title */
 .proj-title {
-  font-size: 15px;     /* ↑ increased */
+  font-size: 15px;
+  /* ↑ increased */
   font-weight: 600;
   color: #111827;
   margin-top: 16px;
@@ -15013,7 +15027,8 @@ html {
 
 /* Bullet points */
 .edu-points li {
-  font-size: 14px;     /* font-family: "Inter", "Segoe UI", Arial, sans-serif; ↑ increased */
+  font-size: 14px;
+  /* font-family: "Inter", "Segoe UI", Arial, sans-serif; ↑ increased */
   line-height: 1.5;
   color: #374151;
   margin-bottom: 4px;
@@ -15021,32 +15036,39 @@ html {
 
 .hero-container {
   text-align: center;
-  max-width: 880px;   /* slightly tighter than 900 → better focus */
+  max-width: 880px;
+  /* slightly tighter than 900 → better focus */
   margin: 0 auto;
   padding: 60px 20px 40px;
 }
 
 /* Title */
 .hero-container .hero-title {
-  font-size: 30px;    /* slightly stronger than 26 */
+  font-size: 30px;
+  /* slightly stronger than 26 */
   font-weight: 600;
   color: #111827;
-  margin-bottom: 10px;  /* tighter spacing */
-  line-height: 1.25;    /* cleaner line balance */
+  margin-bottom: 10px;
+  /* tighter spacing */
+  line-height: 1.25;
+  /* cleaner line balance */
 }
 
 /* Subtitle */
 .hero-container .hero-subtitle {
   color: #6B7280;
-  font-size: 16px;     /* slightly reduced → better hierarchy */
-  max-width: 640px;    /* tighter → easier reading */
+  font-size: 16px;
+  /* slightly reduced → better hierarchy */
+  max-width: 640px;
+  /* tighter → easier reading */
   margin: auto;
   line-height: 1.6;
 }
 
 /* Flow */
 .hero-container .hero-flow {
-  margin-top: 12px;    /* slightly tighter */
+  margin-top: 12px;
+  /* slightly tighter */
   font-size: 13.5px;
   color: #4B5563;
   letter-spacing: 0.4px;
@@ -15093,3 +15115,76 @@ html {
   line-height: 1.6;
 }
 
+.exp-card h6.pd-fix {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+.project-detail .tech-tag {
+  background: #ffffff;
+  color: #3b82f6;
+  padding: 4px 10px;
+  border-radius: 14px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid #3b82f6;
+
+  transition: all 0.2s ease;
+}
+
+/*  Hover: invert colors */
+.project-detail .tech-tag:hover {
+  background: #3b82f6;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.custom-btn {
+  transition: all 0.2s ease;
+  font-size: 13px;
+  border-color: #3b82f6;
+  color: #3b82f6;
+}
+
+
+/* Enhance hover WITHOUT removing Bootstrap behavior */
+.custom-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(59, 130, 246, 0.25);
+}
+
+/* Body text → BLACK */
+.project-section-fix .section-text {
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 14px;
+  color: #111827;
+  /* black-ish */
+}
+
+/* Headings → clean black */
+.project-section-fix .proj-heading {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 22px;
+  margin-bottom: 8px;
+  color: #111827;
+
+  border: none;
+  padding: 0;
+}
+
+/* Body text → black */
+.project-section-fix .section-text {
+  color: #111827;
+  line-height: 1.7;
+}
+
+/* Lists → black */
+.project-section-fix .custom-list li {
+  color: #111827;
+  line-height: 1.6;
+}
