@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<meta property="og:title" content="Amil" />
-	<meta property="og:description" content="AI & ML Portfolio" />
+	<meta property="og:description" content="Portfolio" />
 
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
@@ -25,24 +25,29 @@
 
 </head>
 
+
+
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light ftco_navbar ftco-navbar-light site-navbar-target"
-		id="ftco-navbar">
+	<nav class="navbar navbar-expand-lg site-navbar-target" id="navbar">
 		<div class="container">
 
-			<!-- Brand / Logo -->
+			<!-- Logo -->
 			<a class="navbar-brand" href="index.html">
-				<span class="dot">.</span>Amil
+				Amil
 			</a>
 
-			<!-- Navbar toggle button -->
-			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
-				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+			<!-- Mobile Toggle -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
 				<span class="oi oi-menu"></span>
+
 			</button>
 
-			<div class="collapse navbar-collapse" id="ftco-nav">
+			<!-- Nav Links -->
+			<div class="collapse navbar-collapse" id="navbarNav">
+
 				<ul class="navbar-nav ml-auto">
 
 					<li class="nav-item">
@@ -60,580 +65,1036 @@
 					<li class="nav-item">
 						<a href="#contact-section" class="nav-link">Contact</a>
 					</li>
-					<!-- 
-					<li class="nav-item">
-						<a href="https://iam-mak.github.io/myblogs/" class="nav-link" target="_blank">
-						Blog
-					</a>
-					</li>-->
+
+					<li class="nav-item d-flex align-items-center">
+						<button onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme">
+
+							<span id="theme-icon">☀️</span>
+
+						</button>
+					</li>
+
+					<!-- Future Blog Link -->
+					<!--
+				<li class="nav-item">
+					<a href="blog.html" class="nav-link">Blog</a>
+				</li>
+				-->
 
 				</ul>
+
 			</div>
 		</div>
 	</nav>
 
 	<!-- Hero Section -->
-	<section id="home-section" bg-light class="hero-wrap js-fullheight">
-		<div id="particles-js"></div>
+	<section id="home-section" class="hero-wrap">
+
 		<div class="container position-relative">
-			<div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
-				<div class="col-12 ftco-animate d-flex align-items-center justify-content-center">
-					<div class="text text-center">
 
-						<div class="hero-container">
+			<div class="row justify-content-center align-items-center ">
 
-							<h2 class="hero-title">
-								Building machine learning systems
-							</h2>
+				<div class="col-lg-8">
 
-							<p class="hero-subtitle">
-								Focused on data pipelines, model development, and practical system design
-							</p>
+					<div class="hero-container">
 
-							<p class="hero-flow">
-								Data → Models → Production
-							</p>
+						<p class="hero-label">
+							Data Engineering • Machine Learning • Azure
+						</p>
+
+						<h1 class="hero-title">
+							From Data Pipelines <br>
+							to Production ML
+						</h1>
+
+						<p class="hero-subtitle">
+							Designing scalable data pipelines, ML workflows,
+							and production-ready applications
+						</p>
+
+						<div class="hero-flow">
+
+							<span>Data</span>
+							<span>→</span>
+
+							<span>Pipelines</span>
+							<span>→</span>
+
+							<span>Models</span>
+							<span>→</span>
+
+							<span>Production</span>
 
 						</div>
 
+						<div class="hero-actions">
 
-						<!-- Actions 
-							<div class="mt-4 d-flex justify-content-center">
-								<a href="resume/amil_khan.pdf" target="_blank"
-									class="btn btn-outline-primary btn-lg rounded-pill px-4 mr-2">
-									View CV
-								</a>-->
+							<a href="#project-section" class="hero-btn">
+								View Projects
+							</a>
 
-						<a href="#project-section" class="btn btn-outline-primary btn-lg rounded-pill px-4">
-							Explore Projects
+							<!-- Future Resume Button -->
+							<!--
+						<a href="resume/amil_khan.pdf"
+							target="_blank"
+							class="hero-btn secondary">
+
+							View Resume
+
 						</a>
+						-->
+
+						</div>
+
 					</div>
 
 				</div>
+
 			</div>
-		</div>
-
-		<!-- Scroll Indicator -->
-		<div class="scrollDown">
-			<span></span>
-			<span></span>
-			<span></span>
-		</div>
 
 		</div>
+
 	</section>
 
-	<!-- About Me -->
-	<section class="ftco-about img ftco-section" id="about-section">
+	<!-- About Section -->
+	<section class="about-section" id="about-section">
+
 		<div class="container">
+
 			<div class="row align-items-center">
 
-				<!-- LEFT: Text -->
-				<div class="col-md-8 col-lg-8 ftco-animate">
-					<h2 class="mb-4">About Me</h2>
+				<!-- About Content -->
+				<div class="col-lg-8">
 
-					<p class="about-text mb-3">
-						I am an engineer with a background in manufacturing, where I worked with operational data to
-						understand equipment performance and maintenance patterns. This experience sparked my interest
-						in using data to solve problems and exploring how technology can be applied to build intelligent
-						solutions.
-					</p>
+					<div class="about-content">
 
-					<p class="about-text mb-3">
-						Building on this interest, I transitioned into data and cloud engineering, shifting from
-						analysing data to working with systems that support it. Through experience in system
-						integration, cloud technologies, and data workflows, I developed a broader understanding of how
-						scalable and reliable systems are designed and operated.
-					</p>
+						<h2 class="section-title">
+							About Me
+						</h2>
 
-					<p class="about-text">
-						Currently, I am pursuing a Master's in Machine Learning and Mathematical Modelling, focusing on
-						applying machine learning within real world systems. I am particularly interested in building
-						scalable, production ready solutions that combine data, systems, and machine learning.
-					</p>
+						<p class="about-text">
+							I began my career in manufacturing, working with operational and maintenance data to
+							understand equipment performance and system behaviour. This experience sparked my interest
+							in using data and technology to solve real world problems.
+						</p>
+
+						<p class="about-text">
+							Over time, I transitioned into data and cloud engineering, focusing on system integration,
+							scalable data workflows, and cloud-based platforms. Through this shift, I developed a
+							broader understanding of how reliable production systems are designed and operated.
+						</p>
+
+						<p class="about-text">
+							Currently, I am pursuing a Master’s in Machine Learning and Mathematical Modelling, with a
+							focus on applying machine learning within practical systems. My interests lie in building
+							scalable data and ML solutions that bridge engineering, cloud, and intelligent applications.
+						</p>
+
+					</div>
+
 				</div>
 
-				<!-- RIGHT: Image -->
-				<div class="col-md-4 col-lg-4 ftco-animate d-flex justify-content-center justify-content-md-end">
-					<img src="https://raw.githubusercontent.com/Iam-Mak/myblogs/main/assets/images/iam_mak.png"
-						alt="Profile Image" class="about-img">
+				<!-- Profile Image -->
+				<div class="col-lg-4 d-flex justify-content-center">
+
+					<div class="about-image-wrapper">
+
+						<img src="https://raw.githubusercontent.com/Iam-Mak/myblogs/main/assets/images/iam_mak.png"
+							alt="Amil" class="about-img">
+
+					</div>
+
 				</div>
 
 			</div>
+
 		</div>
+
 	</section>
 
-	<!-- Background Section (New) -->
-	<section class="ftco-section " id="background-section">
+
+
+	<!-- Experience Section -->
+	<section class="experience-section" id="experience-section">
+
 		<div class="container">
 
-			<!-- Section Intro -->
-			<div class="row justify-content-center mb-5">
-				<div class="col-md-10 text-center">
+			<!-- Section Header -->
+			<div class="section-heading">
 
-					<h2 class="section-title">
-						Experience
-					</h2>
+				<h2 class="section-title">
+					Experience
+				</h2>
 
-					<p class="section-subtitle">
-						Experience working with data systems, cloud infrastructure, and production workflows, building
-						practical and reliable applications.
-					</p>
+				<p class="section-subtitle">
+					Experience building scalable data workflows, cloud systems,
+					and production-focused engineering solutions.
+				</p>
 
-				</div>
 			</div>
 
-			<!-- Experience -->
+			<!-- Experience List -->
+			<div class="experience-list">
 
-			<div class="row mb-5">
-				<div class="col-md-12">
-					<div class="exp-list">
+				<!-- Experience Card -->
+				<div class="experience-card">
 
-						<!-- Job 1 -->
+					<!-- Company Logo -->
+					<div class="experience-logo">
 
-						<div class="edu-item card-hover ftco-animate">
+						<img src="https://www.theecl.com/images/logo/Image1.jpg" alt="Cubastion Consulting">
 
-							<div class="edu-logo">
-								<img src="https://www.theecl.com/images/logo/Image1.jpg">
-							</div>
+					</div>
 
-							<div class="edu-content">
+					<!-- Experience Content -->
+					<div class="experience-content">
 
-								<div class="edu-header">
-									<h5>Cubastion Consulting Pvt. Ltd, India</h5>
-									<span class="edu-date">Apr 2022 – Aug 2025</span>
-								</div>
+						<!-- Header -->
+						<div class="experience-header">
 
-								<p class="edu-degree">Senior Associate Consultant (Data Engineering & Automation)</p>
+							<div>
 
-								<p class="exp-summary">
-									Worked on data platforms and automation systems, improving data accessibility,
-									system reliability, and deployment efficiency.
+								<h3 class="experience-company">
+									Cubastion Consulting Pvt. Ltd, India
+								</h3>
+
+								<p class="experience-role">
+									Senior Associate Consultant
 								</p>
 
-								<!-- Project 1 -->
-								<h6 class="proj-title">Central Customer Data Platform</h6>
-								<ul class="edu-points">
-									<li>Enabled real-time access to distributed customer data using zero-copy
-										integration between Databricks and Salesforce</li>
-									<li>Optimised architecture for performance, cost, and scalability across large
-										datasets</li>
-									<li>Built robust API-driven pipelines ensuring consistent and reliable data flow
-									</li>
-									<li>Improved system observability through performance and usage monitoring
-										dashboards</li>
-								</ul>
-
-								<!-- Project 2 -->
-								<h6 class="proj-title">CI/CD Automation & Deployment Platform</h6>
-								<ul class="edu-points">
-									<li>Automated end-to-end deployment workflows using event-driven CI/CD pipelines
-									</li>
-									<li>Reduced manual effort by ~40% while improving release consistency and
-										traceability</li>
-									<li>Integrated multiple systems via APIs to enable seamless deployment processes
-									</li>
-									<li>Enhanced system reliability with logging, monitoring, and alerting mechanisms
-									</li>
-								</ul>
-
-								<!-- Project 3 -->
-								<h6 class="proj-title">Operational Analytics Platform</h6>
-								<ul class="edu-points">
-									<li>Transformed operational data into actionable insights through structured data
-										models</li>
-									<li>Identified inefficiencies and long-running processes using backend analysis</li>
-									<li>Enabled real-time performance tracking via interactive dashboards</li>
-									<li>Ensured stable system delivery across development, QA, and production
-										environments</li>
-								</ul>
-
 							</div>
+
+							<span class="experience-date">
+								Apr 2022 — Aug 2025
+							</span>
+
 						</div>
 
-						<!-- Job 2 -->
+						<!-- Summary -->
+						<p class="experience-summary">
+							Worked on cloud data platforms, analytics systems, and deployment automation workflows,
+							improving data accessibility, operational visibility, and system reliability across
+							enterprise environments.
+						</p>
 
-						<div class="edu-item card-hover ftco-animate">
+						<!-- Project 1 -->
+						<div class="experience-project">
 
-							<div class="edu-logo">
-								<img
-									src="https://mms.businesswire.com/media/20211222005272/en/1313547/4/Vedanta_Logo_%28JPG%29.jpg">
-							</div>
+							<h4 class="project-title">
+								Cloud Data Integration & Analytics Platform
+							</h4>
 
-							<div class="edu-content">
+							<ul class="experience-points">
 
-								<div class="edu-header">
-									<h5>Vedanta Limited, India</h5>
-									<span class="edu-date">Jun 2018 – Aug 2020</span>
-								</div>
+								<li>
+									Enabled scalable access to vehicle service and operational data through zero-copy
+									integration between Azure Databricks and Salesforce Data Cloud
+								</li>
 
-								<p class="edu-degree">Assistant Manager (Operations & Reliability Engineering)</p>
+								<li>
+									Optimised data access workflows for performance, scalability, and efficient
+									analytics processing across integrated cloud platforms
+								</li>
 
-								<ul class="edu-points">
-									<li>Analysed maintenance data across 40+ industrial machines to identify failure
-										patterns and improve system reliability</li>
-									<li>Applied reliability metrics (MTBF, MTTR, availability) to optimise maintenance
-										planning, reducing unplanned downtime by ~20%</li>
-									<li>Conducted root cause analysis to prioritise high-risk equipment and enhance
-										preventive maintenance strategies</li>
-								</ul>
+								<li>
+									Built API-driven batch ingestion and integration workflows to support reliable
+									transfer and processing of operational datasets
+								</li>
 
-							</div>
+							</ul>
+
 						</div>
 
-						<!-- Internship -->
-						<div class="edu-item card-hover ftco-animate">
+						<!-- Project 2 -->
+						<div class="experience-project">
 
-							<div class="edu-logo">
-								<img
-									src="https://upload.wikimedia.org/wikipedia/en/3/3e/Hindustan_Aeronautics_Limited_Logo.svg">
-							</div>
+							<h4 class="project-title">
+								CI/CD Automation & Deployment Platform
+							</h4>
 
-							<div class="edu-content">
+							<ul class="experience-points">
 
-								<div class="edu-header">
-									<h5>Hindustan Aeronautics Limited, India</h5>
-									<span class="edu-date">Sept 2018 – Oct 2018</span>
-								</div>
+								<li>
+									Automated end-to-end deployment workflows using event-driven CI/CD pipelines
+								</li>
 
-								<p class="edu-degree">Industrial Training (Aerospace Manufacturing & Quality)</p>
+								<li>
+									Reduced manual operational effort by ~40% while improving release consistency and
+									traceability
+								</li>
 
-								<ul class="edu-points">
-									<li>Supported quality assurance of aerospace components, ensuring compliance with
-										engineering and safety standards</li>
-									<li>Performed inspection and validation processes for safety-critical systems to
-										improve reliability</li>
-								</ul>
+								<li>
+									Improved operational reliability through monitoring, logging, and automated failure
+									notifications
+								</li>
 
-							</div>
+							</ul>
+
 						</div>
 
+						<!-- Project 3 -->
+						<div class="experience-project">
 
-					</div>
-				</div>
-			</div>
+							<h4 class="project-title">
+								Operational Analytics & Data Workflows
+							</h4>
 
-			<!-- Skills -->
+							<ul class="experience-points">
 
-			<div class="row mb-5">
-				<div class="col-md-12">
-					<h3 class="mb-4" style="font-weight:500;">
-						Skills
-					</h3>
+								<li>
+									Built backend analytics workflows to process operational KPIs, SLA trends, and
+									system performance metrics
+								</li>
 
-					<div class="skills-modern">
+								<li>
+									Developed automated data ingestion and validation workflows for structured
+									operational reporting
+								</li>
 
-						<div class="skill-card">
-							<h6><i data-lucide="brain"></i> Machine Learning</h6>
-							<div class="skill-tags">
-								<span>Supervised Learning</span>
-								<span>Unsupervised Learning</span>
-								<span>Model Evaluation</span>
-								<span>Feature Engineering</span>
-								<span>Scikit-learn</span>
-							</div>
-						</div>
+								<li>
+									Supported deployment and release workflows across development, testing, and
+									production environments
+								</li>
 
-						<div class="skill-card">
-							<h6><i data-lucide="cpu"></i> Deep Learning</h6>
-							<div class="skill-tags">
-								<span>CNNs</span>
-								<span>Neural Networks</span>
-								<span>PyTorch</span>
-							</div>
-						</div>
+							</ul>
 
-						<div class="skill-card">
-							<h6><i data-lucide="database"></i> Data Processing & Engineering</h6>
-							<div class="skill-tags">
-								<span>Python</span>
-								<span>NumPy</span>
-								<span>Pandas</span>
-								<span>Data Preprocessing</span>
-								<span>REST APIs</span>
-								<span>FastAPI</span>
-								<span>SQL</span>
-								<span>Git</span>
-							</div>
-						</div>
-
-						<div class="skill-card">
-							<h6><i data-lucide="cloud"></i> Cloud & MLOps</h6>
-							<div class="skill-tags">
-								<span>Microsoft Azure</span>
-								<span>Docker</span>
-								<span>CI/CD Pipelines</span>
-								<span>Linux</span>
-								<span>Model Deployment</span>
-								<span>Workflow Automation</span>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-
-
-			<!-- Education -->
-			<div class="row mb-5">
-				<div class="col-md-12">
-					<h3 class="mb-4" style="font-weight:500;">
-						Education
-					</h3>
-
-					<div class="edu-list  ">
-
-						<!-- MSc -->
-						<div class="edu-item card-hover ftco-animate">
-							<div class="edu-logo">
-								<img src="https://ncee.org.uk/wp-content/uploads/2024/03/cork-300x143.png">
-							</div>
-
-							<div class="edu-content">
-								<div class="edu-header">
-									<h5>University College Cork, Ireland</h5>
-									<span class="edu-date">Sep 2025 – Present</span>
-								</div>
-
-								<p class="edu-degree">MSc Mathematical Modelling & Machine Learning</p>
-
-								<ul class="edu-points">
-									<li>Implemented reservoir computing (NGRC) models to simulate and predict chaotic
-										systems such as Lorenz-63 and double scroll circuits</li>
-									<li>Analysed convergence behaviour of optimisation algorithms (Adam, SGD, Momentum,
-										AdaGrad) across nonlinear objective functions</li>
-									<li>Applied clustering techniques (K-Means, hierarchical, DBSCAN) and evaluated
-										performance using Silhouette, Davies-Bouldin, and Calinski-Harabasz metrics</li>
-									<li>Worked with numerical methods and scientific computing to model, simulate, and
-										analyse complex data-driven systems</li>
-								</ul>
-							</div>
-						</div>
-
-						<!-- B.Tech -->
-						<div class="edu-item card-hover ftco-animate">
-							<div class="edu-logo">
-								<img
-									src="https://upload.wikimedia.org/wikipedia/en/b/b5/National_Institute_of_Technology%2C_Patna_Logo.png">
-							</div>
-
-							<div class="edu-content">
-								<div class="edu-header">
-									<h5>National Institute of Technology Patna, India</h5>
-									<span class="edu-date">Aug 2014 - May 2018</span>
-								</div>
-								<p class="edu-degree">B.Tech Mechanical Engineering</p>
-
-								<ul class="edu-points">
-									<li>Designed and built a pneumatic sheet metal cutting system integrating mechanical
-										and control components</li>
-									<li>Analysed system performance using force calculations and operating parameters to
-										estimate cutting capacity</li>
-									<li>Evaluated system behaviour under different operating conditions and design
-										constraints</li>
-									<li>Awarded 1st place in a national design competition (IIT Kharagpur)</li>
-								</ul>
-							</div>
-						</div>
-
-
-					</div>
-				</div>
-			</div>
-
-			<!-- Certifications -->
-
-			<div class="row">
-				<div class="col-md-12">
-
-					<h3 class="cert-title">
-						Certifications
-					</h3>
-
-					<div class="cert-grid">
-
-						<div class="cert-card">
-							<img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
-								class="cert-logo">
-
-							<h5 class="cert-title-main">
-								Azure AI Engineer
-								<span class="cert-code">AI-102</span>
-							</h5>
-
-							<p class="cert-org">Microsoft</p>
-							<span class="cert-date">Dec 2025</span>
-						</div>
-
-						<div class="cert-card">
-							<img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
-								class="cert-logo">
-							<h5>
-								Azure Data Scientist
-								<span class="cert-code">DP-100</span>
-							</h5>
-
-							<p class="cert-org">Microsoft</p>
-							<span class="cert-date">Dec 2023</span>
-						</div>
-
-						<div class="cert-card">
-							<img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg"
-								class="cert-logo">
-							<h5>AI Specialist</h5>
-							<p class="cert-org">Salesforce</p>
-							<span class="cert-date">Oct 2024</span>
-						</div>
-
-						<div class="cert-card">
-							<img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg"
-								class="cert-logo">
-							<h5>Data Cloud Consultant</h5>
-							<p class="cert-org">Salesforce</p>
-							<span class="cert-date">Nov 2024</span>
 						</div>
 
 					</div>
 
 				</div>
+
+				<!-- Experience Card -->
+				<div class="experience-card">
+
+					<!-- Company Logo -->
+					<div class="experience-logo">
+
+						<img src="https://mms.businesswire.com/media/20211222005272/en/1313547/4/Vedanta_Logo_%28JPG%29.jpg"
+							alt="Vedanta Limited">
+
+					</div>
+
+					<!-- Experience Content -->
+					<div class="experience-content">
+
+						<!-- Header -->
+						<div class="experience-header">
+
+							<div>
+
+								<h3 class="experience-company">
+									Vedanta Limited, India
+								</h3>
+
+								<p class="experience-role">
+									Assistant Manager
+								</p>
+
+							</div>
+
+							<span class="experience-date">
+								Jun 2018 — Aug 2020
+							</span>
+
+						</div>
+
+						<!-- Summary -->
+						<p class="experience-summary">
+							Worked in large-scale aluminium manufacturing operations, focusing on equipment reliability,
+							preventive maintenance, and operational performance improvement.
+						</p>
+
+						<!-- Responsibilities -->
+						<div class="experience-project">
+
+							<h4 class="project-title">
+								Operations & Reliability Engineering
+							</h4>
+
+							<ul class="experience-points">
+
+								<li>
+									Analysed maintenance and reliability data across 40+ industrial machines to identify
+									recurring failure patterns and improve equipment performance
+								</li>
+
+								<li>
+									Applied MTBF, MTTR, downtime, and availability analysis to optimise maintenance
+									planning, reducing unplanned downtime by ~20%
+								</li>
+
+								<li>
+									Performed root cause analysis and preventive maintenance planning to improve
+									operational reliability and support structured decision-making
+								</li>
+
+							</ul>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<!-- Experience Card -->
+				<div class="experience-card">
+
+					<!-- Company Logo -->
+					<div class="experience-logo">
+
+						<img src="https://upload.wikimedia.org/wikipedia/en/3/3e/Hindustan_Aeronautics_Limited_Logo.svg"
+							alt="Hindustan Aeronautics Limited">
+
+					</div>
+
+					<!-- Experience Content -->
+					<div class="experience-content">
+
+						<!-- Header -->
+						<div class="experience-header">
+
+							<div>
+
+								<h3 class="experience-company">
+									Hindustan Aeronautics Limited, India
+								</h3>
+
+								<p class="experience-role">
+									Industrial Training — Aerospace Manufacturing & Quality
+								</p>
+
+							</div>
+
+							<span class="experience-date">
+								Sept 2018 — Oct 2018
+							</span>
+
+						</div>
+
+						<!-- Summary -->
+						<p class="experience-summary">
+							Completed industrial training focused on aerospace manufacturing operations, quality
+							assurance processes, and reliability standards within safety-critical engineering
+							environments.
+						</p>
+
+						<!-- Responsibilities -->
+						<div class="experience-project">
+
+							<h4 class="project-title">
+								Manufacturing Quality & Reliability
+							</h4>
+
+							<ul class="experience-points">
+
+								<li>
+									Supported quality assurance and inspection workflows for aerospace components to
+									ensure compliance with engineering and safety standards
+								</li>
+
+								<li>
+									Performed inspection and validation activities for safety-critical systems to
+									improve operational reliability and process consistency
+								</li>
+
+							</ul>
+
+						</div>
+
+					</div>
+
+				</div>
+
 			</div>
+
 		</div>
+
 	</section>
 
-	<section class="ftco-section" id="project-section">
-		<div class="container-fluid px-md-5">
+	<!-- Skills Section -->
+	<section class="skills-section" id="skills-section">
 
-			<!-- Heading -->
-			<div class="row justify-content-center py-5">
-				<div class="col-md-10 text-center">
-					<h2 class="mb-3">Ongoing Projects</h2>
-					<p class="text-muted">
-						Developing a computer vision system for automated vehicle damage assessment in insurance
-						workflows.
-					</p>
+		<div class="container">
+
+			<!-- Section Heading -->
+			<div class="section-heading">
+
+				<h2 class="section-title">
+					Skills
+				</h2>
+
+				<p class="section-subtitle">
+					Technical skills focused on data systems, machine learning, cloud platforms, and scalable
+					engineering workflows.
+				</p>
+
+			</div>
+
+			<!-- Skills Grid -->
+			<div class="skills-grid">
+
+				<!-- Data Engineering -->
+				<div class="skill-card">
+
+					<h3 class="skill-title">
+						Data Engineering
+					</h3>
+
+					<div class="skill-tags">
+
+						<span>Python</span>
+						<span>SQL</span>
+						<span>PySpark</span>
+						<span>Pandas</span>
+						<span>NumPy</span>
+						<span>Data Pipelines</span>
+						<span>REST APIs</span>
+						<span>FastAPI</span>
+
+					</div>
+
 				</div>
+
+				<!-- Machine Learning -->
+				<div class="skill-card">
+
+					<h3 class="skill-title">
+						Machine Learning
+					</h3>
+
+					<div class="skill-tags">
+
+						<span>Scikit-learn</span>
+						<span>Feature Engineering</span>
+						<span>Model Evaluation</span>
+						<span>Supervised Learning</span>
+						<span>Unsupervised Learning</span>
+						<span>Neural Networks</span>
+						<span>PyTorch</span>
+
+					</div>
+
+				</div>
+
+				<!-- Cloud & Platforms -->
+				<div class="skill-card">
+
+					<h3 class="skill-title">
+						Cloud & Platforms
+					</h3>
+
+					<div class="skill-tags">
+
+						<span>Microsoft Azure</span>
+						<span>Azure Databricks</span>
+						<span>Docker</span>
+						<span>CI/CD Pipelines</span>
+						<span>Workflow Automation</span>
+						<span>Linux</span>
+
+					</div>
+
+				</div>
+
+				<!-- Tools & Engineering -->
+				<div class="skill-card">
+
+					<h3 class="skill-title">
+						Tools & Engineering
+					</h3>
+
+					<div class="skill-tags">
+
+						<span>Git</span>
+						<span>System Integration</span>
+						<span>Monitoring</span>
+						<span>Deployment Workflows</span>
+						<span>Operational Analytics</span>
+						<span>Production Systems</span>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<!-- Education Section -->
+	<section class="education-section" id="education-section">
+
+		<div class="container">
+
+			<!-- Section Heading -->
+			<div class="section-heading">
+
+				<h2 class="section-title">
+					Education
+				</h2>
+
+				<p class="section-subtitle">
+					Academic background focused on machine learning, mathematical modelling, and engineering systems.
+				</p>
+
+			</div>
+
+			<!-- Education List -->
+			<div class="education-list">
+
+				<!-- MSc -->
+				<div class="experience-card">
+
+					<!-- Logo -->
+					<div class="experience-logo">
+
+						<img src="https://ncee.org.uk/wp-content/uploads/2024/03/cork-300x143.png"
+							alt="University College Cork">
+
+					</div>
+
+					<!-- Content -->
+					<div class="experience-content">
+
+						<!-- Header -->
+						<div class="experience-header">
+
+							<div>
+
+								<h3 class="experience-company">
+									University College Cork, Ireland
+								</h3>
+
+								<p class="experience-role">
+									MSc Mathematical Modelling & Machine Learning
+								</p>
+
+							</div>
+
+							<span class="experience-date">
+								Sep 2025 — Present
+							</span>
+
+						</div>
+
+						<!-- Summary -->
+						<p class="experience-summary">
+							Focused on machine learning systems, optimisation methods, scientific computing, and
+							modelling complex data-driven systems.
+						</p>
+
+						<!-- Highlights -->
+						<div class="experience-project">
+
+							<h4 class="project-title">
+								Key Areas
+							</h4>
+
+							<ul class="experience-points">
+
+								<li>
+									Implemented reservoir computing (NGRC) models to simulate and predict chaotic
+									systems including Lorenz-63 and double scroll circuits
+								</li>
+
+								<li>
+									Analysed convergence behaviour of optimisation algorithms including Adam, SGD,
+									Momentum, and AdaGrad across nonlinear objective functions
+								</li>
+
+								<li>
+									Applied clustering techniques including K-Means, hierarchical clustering, and DBSCAN
+									using multiple evaluation metrics
+								</li>
+
+								<li>
+									Worked with numerical methods and scientific computing to model and analyse complex
+									systems
+								</li>
+
+							</ul>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<!-- B.Tech -->
+				<div class="experience-card">
+
+					<!-- Logo -->
+					<div class="experience-logo">
+
+						<img src="https://upload.wikimedia.org/wikipedia/en/b/b5/National_Institute_of_Technology%2C_Patna_Logo.png"
+							alt="NIT Patna">
+
+					</div>
+
+					<!-- Content -->
+					<div class="experience-content">
+
+						<!-- Header -->
+						<div class="experience-header">
+
+							<div>
+
+								<h3 class="experience-company">
+									National Institute of Technology Patna, India
+								</h3>
+
+								<p class="experience-role">
+									B.Tech Mechanical Engineering
+								</p>
+
+							</div>
+
+							<span class="experience-date">
+								Aug 2014 — May 2018
+							</span>
+
+						</div>
+
+						<!-- Summary -->
+						<p class="experience-summary">
+							Developed engineering foundations in system design, manufacturing processes, reliability
+							analysis, and applied problem solving.
+						</p>
+
+						<!-- Highlights -->
+						<div class="experience-project">
+
+							<h4 class="project-title">
+								Key Areas
+							</h4>
+
+							<ul class="experience-points">
+
+								<li>
+									Designed and developed a pneumatic sheet metal cutting system integrating mechanical
+									and control components
+								</li>
+
+								<li>
+									Analysed system performance using force calculations and operational parameters to
+									estimate cutting capacity
+								</li>
+
+								<li>
+									Evaluated system behaviour under varying operating conditions and design constraints
+								</li>
+
+								<li>
+									Awarded 1st place in a national engineering design competition at IIT Kharagpur
+								</li>
+
+							</ul>
+
+						</div>
+
+					</div>
+
+				</div>
+
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<!-- Certifications Section -->
+	<section class="certifications-section" id="certifications-section">
+
+		<div class="container">
+
+			<!-- Section Heading -->
+			<div class="section-heading">
+
+				<h2 class="section-title">
+					Certifications
+				</h2>
+
+				<p class="section-subtitle">
+					Certifications focused on cloud platforms, AI systems, and modern data engineering technologies.
+				</p>
+
+			</div>
+
+			<!-- Certification Grid -->
+			<div class="certifications-grid">
+
+				<!-- Certification -->
+				<div class="certification-card">
+
+					<img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft"
+						class="certification-logo">
+
+					<div class="certification-content">
+
+						<h3 class="certification-title">
+							Azure AI Engineer Associate
+						</h3>
+
+						<p class="certification-meta">
+							Microsoft • AI-102
+						</p>
+
+					</div>
+
+				</div>
+
+				<!-- Certification -->
+				<div class="certification-card">
+
+					<img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft"
+						class="certification-logo">
+
+					<div class="certification-content">
+
+						<h3 class="certification-title">
+							Azure Data Scientist Associate
+						</h3>
+
+						<p class="certification-meta">
+							Microsoft • DP-100
+						</p>
+
+					</div>
+
+				</div>
+
+				<!-- Certification -->
+				<div class="certification-card">
+
+					<img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg"
+						alt="Salesforce" class="certification-logo">
+
+					<div class="certification-content">
+
+						<h3 class="certification-title">
+							AI Specialist
+						</h3>
+
+						<p class="certification-meta">
+							Salesforce
+						</p>
+
+					</div>
+
+				</div>
+
+				<!-- Certification -->
+				<div class="certification-card">
+
+					<img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg"
+						alt="Salesforce" class="certification-logo">
+
+					<div class="certification-content">
+
+						<h3 class="certification-title">
+							Data Cloud Consultant
+						</h3>
+
+						<p class="certification-meta">
+							Salesforce
+						</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+
+
+	<!-- Projects Section -->
+	<section class="projects-section" id="project-section">
+
+		<div class="container">
+
+			<!-- Section Heading -->
+			<div class="section-heading">
+
+				<h2 class="section-title">
+					Projects
+				</h2>
+
+				<p class="section-subtitle">
+					Building practical machine learning and data-driven systems focused on scalable deployment and
+					real-world engineering workflows.
+				</p>
+
 			</div>
 
 			<!-- Featured Project -->
-			<div class="featured-container">
-				<div class="featured-project-wrapper card-hover">
+			<div class="project-card">
 
-					<div class="row align-items-center">
+				<!-- Left Image -->
+				<div class="project-image">
 
-						<!-- Image -->
-						<div class="col-md-6 mb-4 mb-md-0">
-							<img src="images/vehicle-damage-detection-system.png"
-								class="featured-project-image img-fluid" alt="Vehicle Damage Detection">
-						</div>
+					<img src="images/vehicle-damage-detection-system.png" alt="Vehicle Damage Detection">
 
-						<!-- Content -->
-						<div class="col-md-6 pl-md-5">
+				</div>
 
-							<h3 class="mb-3">Vehicle Damage Detection</h3>
+				<!-- Right Content -->
+				<div class="project-content">
 
-							<p class="mb-3">
-								Detects and localises vehicle damage from images, enabling automated inspection and
-								decision-making in insurance workflows.
-							</p>
+					<!-- Header -->
+					<div class="project-header">
 
-							<ul class="project-points">
-								<li>Detects and localises vehicle damage from image data</li>
-								<li>Extracts structured damage information for downstream tasks</li>
-								<li>Designed for scalable insurance inspection workflows</li>
-								<li><b>Status:</b> Phase 1 - Damage Detection</li>
-							</ul>
+						<h3 class="project-name">
+							Vehicle Damage Detection
+						</h3>
 
-							<p class="tech-stack">
-								Python · Deep Learning · OpenCV · FastAPI
-							</p>
+						<p class="project-status">
+							Ongoing Project · Phase 1 — Damage Detection
+						</p>
 
-							<p><b>Focus:</b> Detection accuracy and real-world deployment readiness</p>
+					</div>
 
-							<div class="mt-3">
-								<a href="projects/vehicle-damage-detection-system.html" target="_blank"
-									class="btn btn-outline-primary">
-									Explore Project →
-								</a>
-							</div>
+					<!-- Summary -->
+					<p class="project-summary">
+						Developing a computer vision system that detects and localises vehicle damage from images to
+						support automated inspection and scalable insurance workflows.
+					</p>
 
-						</div>
+					<!-- Key Focus -->
+					<div class="project-block">
+
+						<h4 class="project-subtitle">
+							Key Focus Areas
+						</h4>
+
+						<ul class="project-points">
+
+							<li>
+								Detects and localises vehicle damage from image data
+							</li>
+
+							<li>
+								Extracts structured damage information for downstream processing
+							</li>
+
+							<li>
+								Designed for scalable insurance inspection workflows
+							</li>
+
+							<li>
+								Focused on deployment readiness and inference performance
+							</li>
+
+						</ul>
+
+					</div>
+
+					<!-- Tech Stack -->
+					<div class="project-tech">
+
+						<span>Python</span>
+						<span>Deep Learning</span>
+						<span>OpenCV</span>
+						<span>FastAPI</span>
+
+					</div>
+
+					<!-- Action -->
+					<div class="project-actions">
+
+						<a href="projects/vehicle-damage-detection-system.html" target="_blank" class="hero-btn">
+							Explore Project
+						</a>
 
 					</div>
 
 				</div>
+
 			</div>
 
-			<!-- View All Projects (ONLY for main page) -->
-			<div class="counter-wrap ftco-animate d-flex justify-content-center mt-5">
-				<div class="text-center">
-					<a href="projects.html" class="btn btn-outline-primary py-3 px-4">
-						View All Projects
-					</a>
-				</div>
+			<!-- Footer -->
+			<div class="projects-footer">
+
+				<a href="projects.html" class="hero-btn">
+					View All Projects
+				</a>
+
 			</div>
 
 		</div>
+
 	</section>
 
 
-	<footer id="contact-section" class="ftco-footer ftco-section">
-		<div class="container text-center">
+	<!-- =========================================
+     FOOTER / CONTACT
+    ========================================= -->
 
-			<!-- Title -->
-			<h2 style="font-weight:600; margin-bottom:10px;">
-				Get in Touch
-			</h2>
+	<footer class="footer-section" id="contact-section">
 
-			<!-- Subtext -->
-			<p style="color:#6B7280; font-size:15px; margin-bottom:25px;">
-				Open to internships, projects, and collaborations.
-			</p>
+		<div class="container">
 
-			<!-- Social + Contact Icons -->
-			<ul class="ftco-footer-social list-unstyled d-flex justify-content-center mb-4">
-				<li class="mx-2">
-					<a href="https://www.linkedin.com/in/iam-mak/" target="_blank">
-						<span class="icon-linkedin-square"></span>
-					</a>
-				</li>
-				<li class="mx-2">
-					<a href="https://github.com/Iam-Mak" target="_blank">
-						<span class="icon-github"></span>
-					</a>
-				</li>
-				<li class="mx-2">
-					<a href="mailto:mohd.amilk09@gmail.com">
-						<span class="icon-paper-plane"></span>
-					</a>
-				</li>
-				<li class="mx-2">
-					<a href="tel:+917302344786">
-						<span class="icon-phone2"></span>
-					</a>
-				</li>
-			</ul>
+			<!-- Heading -->
+			<div class="footer-content">
 
-			<!-- Back to Top -->
-			<div class="mt-3">
-				<a href="#home-section" class="btn btn-outline-secondary rounded-pill px-4 py-2"
-					style="font-size:13px; letter-spacing:0.4px;">
+				<h2 class="footer-title">
+					Get in Touch
+				</h2>
+
+				<p class="footer-subtitle">
+					Open to internships, projects, and collaborations.
+				</p>
+
+			</div>
+
+			<!-- Social Links -->
+			<div class="footer-socials">
+
+				<a href="https://www.linkedin.com/in/iam-mak/" target="_blank" class="footer-social-link">
+					<span class="icon-linkedin-square"></span>
+				</a>
+
+				<a href="https://github.com/Iam-Mak" target="_blank" class="footer-social-link">
+					<span class="icon-github"></span>
+				</a>
+
+				<a href="mailto:mohd.amilk09@gmail.com" class="footer-social-link">
+					<span class="icon-paper-plane"></span>
+				</a>
+
+				<a href="tel:+917302344786" class="footer-social-link">
+					<span class="icon-phone2"></span>
+				</a>
+
+			</div>
+
+			<!-- Back To Top -->
+			<div class="footer-actions">
+
+				<a href="#home-section" class="hero-btn">
 					Back to Top ↑
 				</a>
+
 			</div>
 
 			<!-- Divider -->
-			<div style="height:1px; background:#E5E7EB; width:60%; margin:30px auto;"></div>
+			<div class="footer-divider"></div>
 
 			<!-- Bottom -->
-			<p style="font-size:14px; color:#9CA3AF;">
+			<p class="footer-bottom">
 				©
-				<script>document.write(new Date().getFullYear());</script> Amil Khan
+				<script>document.write(new Date().getFullYear());</script>
+				Amil Khan
 			</p>
 
 		</div>
+
 	</footer>
-
-
 
 	<!-- loader -->
 	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
@@ -657,9 +1118,6 @@
 	<script src="js/main.js"></script>
 
 	<script src="https://unpkg.com/lucide@latest"></script>
-	<script>
-		lucide.createIcons();
-	</script>
 </body>
 
 </html>

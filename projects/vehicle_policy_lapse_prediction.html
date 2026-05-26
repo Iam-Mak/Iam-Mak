@@ -8,12 +8,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<meta property="og:title" content="Amil" />
-	<meta property="og:description" content="AI & ML Portfolio" />
+	<meta property="og:description" content="Portfolio" />
 
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 	<link rel="icon" href="images/mak.png">
-
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/animate.css">
 	<link rel="stylesheet" href="../css/owl.carousel.min.css">
@@ -22,37 +22,52 @@
 	<link rel="stylesheet" href="../css/aos.css">
 	<link rel="stylesheet" href="../css/flaticon.css">
 	<link rel="stylesheet" href="../css/icomoon.css">
+
 </head>
+
+
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-
-	<nav class="navbar navbar-expand-lg navbar-light bg-light ftco_navbar ftco-navbar-light site-navbar-target"
-		id="ftco-navbar">
+	<nav class="navbar navbar-expand-lg site-navbar-target" id="navbar">
 		<div class="container">
 
-			<!-- Brand / Logo -->
-			<a class="navbar-brand" href="../index.html">
-				<span class="dot">.</span>Amil
+			<!-- Logo -->
+			<a class="navbar-brand" href="index.html">
+				Amil
 			</a>
 
-			<!-- Navbar toggle button -->
-			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
-				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+			<!-- Mobile Toggle -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
 				<span class="oi oi-menu"></span>
+
 			</button>
 
-			<div class="collapse navbar-collapse" id="ftco-nav">
-				<ul class="navbar-nav nav ml-auto">
+			<!-- Nav Links -->
+			<div class="collapse navbar-collapse" id="navbarNav">
+
+				<ul class="navbar-nav ml-auto">
 
 					<li class="nav-item">
 						<a href="../index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="../index.html#about-section" class="nav-link">About</a>
 					</li>
 					<li class="nav-item">
 						<a href="../projects.html" class="nav-link">Projects</a>
 					</li>
 					<li class="nav-item">
 						<a href="#contact-section" class="nav-link">Contact</a>
+					</li>
+					<li class="nav-item d-flex align-items-center">
+						<button onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme">
+
+							<span id="theme-icon">☀️</span>
+
+						</button>
 					</li>
 
 					<!-- 
@@ -68,191 +83,277 @@
 		</div>
 	</nav>
 
-	<!-- Particles background -->
-	<section class="ftco-section project-section-fix" id="project-section">
+	<!-- =========================================
+     PROJECT DETAILS SECTION
+========================================= -->
+
+	<section class="project-detail-section" id="project-section">
+
 		<div class="container">
-			<div class="row mb-5">
-				<div class="col-md-12">
-					<div class="exp-list">
 
-						<div class="exp-card card-hover ftco-animate">
+			<div class="project-detail-card">
 
-							<!-- HEADER -->
-							<div class="exp-block text-center project-header">
-								<h4 class="project-title">
-									Vehicle Policy Lapse Prediction
-								</h4>
-								<p class="project-subtitle">
-									Predicting customer churn using behavioural and policy data
-								</p>
-							</div>
+				<!-- =========================================
+			     HEADER
+			========================================= -->
 
-							<!-- IMAGE + TECH -->
-							<div class="exp-block project-detail text-center">
-								<div class="project-image-wrap">
-									<img src="../images/vehiclePolicyLapse.png" class="img-fluid project-image">
-								</div>
+				<div class="project-detail-header">
 
-								<div class="tech-stack">
-									<span class="tech-tag">Python</span>
-									<span class="tech-tag">Scikit-learn</span>
-									<span class="tech-tag">MLflow</span>
-									<span class="tech-tag">FastAPI</span>
-								</div>
-							</div>
+					<h1 class="project-detail-title">
+						Vehicle Policy Lapse Prediction
+					</h1>
 
-							<!-- CONTENT -->
-							<div class="exp-block project-content">
+					<p class="project-detail-subtitle">
+						Predicting customer churn using behavioural and policy data
+					</p>
 
-								<h6 class="proj-heading">Summary</h6>
-								<p class="section-text">
-									Developed a production-ready ML system using ~23k insurance policies to predict
-									lapse risk (~13% positive class).
-									The system outputs probability scores to rank customers, enabling targeted retention
-									strategies.
-									Deployed as a containerized FastAPI service on Azure.
-								</p>
+				</div>
 
-								<h6 class="proj-heading">System Architecture</h6>
-								<ul class="custom-list">
-									<li>End-to-end pipeline: data → preprocessing → model → API</li>
-									<li>Training pipeline generates reusable artifacts</li>
-									<li>FastAPI service for real-time predictions</li>
-									<li>Dockerized and deployed on Azure Web App</li>
-									<li>Consistent inference using stored preprocessing and model artifacts</li>
-								</ul>
 
-								<h6 class="proj-heading">Model & Performance</h6>
-								<p class="section-text">
-									Logistic Regression baseline with class balancing (~13% lapse).
-								</p>
+				<!-- =========================================
+			     IMAGE
+			========================================= -->
 
-								<p class="section-text"><strong>Performance:</strong></p>
-								<ul class="custom-list">
-									<li><strong>ROC-AUC:</strong> 0.60</li>
-									<li><strong>Recall (Lapse):</strong> 0.96</li>
-									<li><strong>Precision (Lapse):</strong> 0.13</li>
-								</ul>
+				<div class="project-detail-image-wrap">
 
-								<p class="section-text">
-									Recall-focused approach to maximise detection of high-risk customers.
-								</p>
+					<img src="../images/vehiclePolicyLapse.png" alt="Vehicle Policy Lapse Prediction"
+						class="project-detail-image">
 
-								<h6 class="proj-heading">Key Insights</h6>
-								<ul class="custom-list">
-									<li>Strong class imbalance (~13%) makes recall critical</li>
-									<li>Premium-related variables were highly correlated and reduced</li>
-									<li>Younger policyholders show higher lapse rates</li>
-									<li>Feature selection improved interpretability more than performance</li>
-								</ul>
+				</div>
 
-								<h6 class="proj-heading">Business Impact</h6>
-								<p class="section-text">
-									Enables early identification of high-risk customers, supporting targeted retention
-									strategies and improving revenue stability.
-									Helps insurers prioritise interventions efficiently.
-								</p>
 
-								<h6 class="proj-heading">Deployment & Engineering</h6>
-								<ul class="custom-list">
-									<li>Dockerized (python:3.10-slim)</li>
-									<li>FastAPI + Gunicorn API service</li>
-									<li>Deployed on Azure Web App</li>
-									<li>Dependency management via requirements.txt</li>
-									<li>Non-root container for improved security</li>
-									<li>Optimized builds using Docker layer caching</li>
-								</ul>
+				<!-- =========================================
+			     TECH STACK
+			========================================= -->
 
-								<h6 class="proj-heading">Data & Features</h6>
-								<ul class="custom-list">
-									<li>~23,000 policies, 19 features</li>
-									<li>Removed highly correlated premium variables (&gt;0.89)</li>
-									<li>Selected top 15 features</li>
-									<li>Encoded categorical variables</li>
-									<li>Handled skewed distributions</li>
-								</ul>
+				<div class="project-detail-tech">
 
-								<h6 class="proj-heading">Future Improvements</h6>
-								<ul class="custom-list">
-									<li>Tree-based models (XGBoost, LightGBM)</li>
-									<li>Model tracking (MLflow)</li>
-									<li>Monitoring for data drift</li>
-									<li>Automated retraining pipeline</li>
-									<li>Add explainability layer</li>
-								</ul>
+					<span>Python</span>
+					<span>Scikit-learn</span>
+					<span>MLflow</span>
+					<span>FastAPI</span>
+					<span>Azure</span>
+					<span>Docker</span>
 
-							</div>
+				</div>
 
-							<!-- BUTTON -->
-							<div class="exp-block text-center">
-								<a href="#" class="btn btn-outline-primary rounded-pill px-4 custom-btn">
-									View Code →
-								</a>
-							</div>
 
-						</div>
+				<!-- =========================================
+			     CONTENT
+			========================================= -->
+
+				<div class="project-detail-content">
+
+					<!-- Summary -->
+					<div class="project-detail-block">
+
+						<h3>Summary</h3>
+
+						<p>
+							Developed a production-ready ML system using ~23k insurance policies to predict lapse risk
+							(~13% positive class). The system outputs probability scores to rank customers, enabling
+							targeted retention strategies and operational decision-making workflows.
+						</p>
 
 					</div>
+
+
+					<!-- Architecture -->
+					<div class="project-detail-block">
+
+						<h3>System Architecture</h3>
+
+						<ul>
+
+							<li>End-to-end ML workflow from ingestion → preprocessing → model → API</li>
+
+							<li>Reusable training pipeline generating deployment-ready artifacts</li>
+
+							<li>FastAPI inference service for real-time predictions</li>
+
+							<li>Dockerized deployment on Azure Web App</li>
+
+							<li>Consistent inference using persisted preprocessing artifacts</li>
+
+						</ul>
+
+					</div>
+
+
+					<!-- Performance -->
+					<div class="project-detail-block">
+
+						<h3>Model & Performance</h3>
+
+						<p>
+							Logistic Regression baseline trained using class balancing strategies to handle ~13%
+							positive lapse distribution.
+						</p>
+
+						<ul>
+
+							<li><strong>ROC-AUC:</strong> 0.60</li>
+
+							<li><strong>Recall:</strong> 0.96</li>
+
+							<li><strong>Precision:</strong> 0.13</li>
+
+						</ul>
+
+						<p>
+							Optimised for recall to maximise identification of high-risk customers.
+						</p>
+
+					</div>
+
+
+					<!-- Insights -->
+					<div class="project-detail-block">
+
+						<h3>Key Insights</h3>
+
+						<ul>
+
+							<li>Strong class imbalance made recall-focused optimisation critical</li>
+
+							<li>Premium-related variables showed strong multicollinearity</li>
+
+							<li>Younger policyholders demonstrated higher lapse rates</li>
+
+							<li>Feature selection improved interpretability more than raw performance</li>
+
+						</ul>
+
+					</div>
+
+
+					<!-- Deployment -->
+					<div class="project-detail-block">
+
+						<h3>Deployment & Engineering</h3>
+
+						<ul>
+
+							<li>Dockerized using python:3.10-slim</li>
+
+							<li>FastAPI + Gunicorn inference service</li>
+
+							<li>Azure Web App deployment</li>
+
+							<li>Optimised container builds using layer caching</li>
+
+							<li>Non-root container execution for improved security</li>
+
+						</ul>
+
+					</div>
+
+
+					<!-- Future -->
+					<div class="project-detail-block">
+
+						<h3>Future Improvements</h3>
+
+						<ul>
+
+							<li>XGBoost and LightGBM experimentation</li>
+
+							<li>MLflow experiment tracking</li>
+
+							<li>Monitoring and data drift detection</li>
+
+							<li>Automated retraining workflows</li>
+
+							<li>Model explainability integration</li>
+
+						</ul>
+
+					</div>
+
 				</div>
+
+
+				<!-- =========================================
+			     ACTIONS
+			========================================= -->
+
+				<div class="project-detail-actions">
+
+					<a href="#" class="hero-btn">
+						View Code
+					</a>
+
+				</div>
+
 			</div>
+
 		</div>
+
 	</section>
 
-	<footer id="contact-section" class="ftco-footer ftco-section">
-		<div class="container text-center">
+	<!-- =========================================
+     FOOTER / CONTACT
+	========================================= -->
 
-			<!-- Title -->
-			<h2 style="font-weight:600; margin-bottom:10px;">
-				Get in Touch
-			</h2>
+	<footer class="footer-section" id="contact-section">
 
-			<!-- Subtext -->
-			<p style="color:#6B7280; font-size:15px; margin-bottom:25px;">
-				Open to internships, projects, and collaborations.
-			</p>
+		<div class="container">
 
-			<!-- Social + Contact Icons -->
-			<ul class="ftco-footer-social list-unstyled d-flex justify-content-center mb-4">
-				<li class="mx-2">
-					<a href="https://www.linkedin.com/in/iam-mak/" target="_blank">
-						<span class="icon-linkedin-square"></span>
-					</a>
-				</li>
-				<li class="mx-2">
-					<a href="https://github.com/Iam-Mak" target="_blank">
-						<span class="icon-github"></span>
-					</a>
-				</li>
-				<li class="mx-2">
-					<a href="mailto:mohd.amilk09@gmail.com">
-						<span class="icon-paper-plane"></span>
-					</a>
-				</li>
-				<li class="mx-2">
-					<a href="tel:+917302344786">
-						<span class="icon-phone2"></span>
-					</a>
-				</li>
-			</ul>
+			<!-- Heading -->
+			<div class="footer-content">
 
-			<!-- Back to Top -->
-			<div class="mt-3">
-				<a href="#home-section" class="btn btn-outline-secondary rounded-pill px-4 py-2"
-					style="font-size:13px; letter-spacing:0.4px;">
+				<h2 class="footer-title">
+					Get in Touch
+				</h2>
+
+				<p class="footer-subtitle">
+					Open to internships, projects, and collaborations.
+				</p>
+
+			</div>
+
+			<!-- Social Links -->
+			<div class="footer-socials">
+
+				<a href="https://www.linkedin.com/in/iam-mak/" target="_blank" class="footer-social-link">
+					<span class="icon-linkedin-square"></span>
+				</a>
+
+				<a href="https://github.com/Iam-Mak" target="_blank" class="footer-social-link">
+					<span class="icon-github"></span>
+				</a>
+
+				<a href="mailto:mohd.amilk09@gmail.com" class="footer-social-link">
+					<span class="icon-paper-plane"></span>
+				</a>
+
+				<a href="tel:+917302344786" class="footer-social-link">
+					<span class="icon-phone2"></span>
+				</a>
+
+			</div>
+
+			<!-- Back To Top -->
+			<div class="footer-actions">
+
+				<a href="#home-section" class="hero-btn">
 					Back to Top ↑
 				</a>
+
 			</div>
 
 			<!-- Divider -->
-			<div style="height:1px; background:#E5E7EB; width:60%; margin:30px auto;"></div>
+			<div class="footer-divider"></div>
 
 			<!-- Bottom -->
-			<p style="font-size:14px; color:#9CA3AF;">
+			<p class="footer-bottom">
 				©
-				<script>document.write(new Date().getFullYear());</script> Amil Khan
+				<script>document.write(new Date().getFullYear());</script>
+				Amil Khan
 			</p>
 
 		</div>
+
 	</footer>
 
 

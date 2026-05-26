@@ -8,12 +8,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<meta property="og:title" content="Amil" />
-	<meta property="og:description" content="AI & ML Portfolio" />
+	<meta property="og:description" content="Portfolio" />
 
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 	<link rel="icon" href="images/mak.png">
-
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/animate.css">
 	<link rel="stylesheet" href="../css/owl.carousel.min.css">
@@ -22,37 +22,52 @@
 	<link rel="stylesheet" href="../css/aos.css">
 	<link rel="stylesheet" href="../css/flaticon.css">
 	<link rel="stylesheet" href="../css/icomoon.css">
+
 </head>
+
+
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-
-	<nav class="navbar navbar-expand-lg navbar-light bg-light ftco_navbar ftco-navbar-light site-navbar-target"
-		id="ftco-navbar">
+	<nav class="navbar navbar-expand-lg site-navbar-target" id="navbar">
 		<div class="container">
 
-			<!-- Brand / Logo -->
-			<a class="navbar-brand" href="../index.html">
-				<span class="dot">.</span>Amil
+			<!-- Logo -->
+			<a class="navbar-brand" href="index.html">
+				Amil
 			</a>
 
-			<!-- Navbar toggle button -->
-			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
-				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+			<!-- Mobile Toggle -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
 				<span class="oi oi-menu"></span>
+
 			</button>
 
-			<div class="collapse navbar-collapse" id="ftco-nav">
-				<ul class="navbar-nav nav ml-auto">
+			<!-- Nav Links -->
+			<div class="collapse navbar-collapse" id="navbarNav">
+
+				<ul class="navbar-nav ml-auto">
 
 					<li class="nav-item">
 						<a href="../index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="../index.html#about-section" class="nav-link">About</a>
 					</li>
 					<li class="nav-item">
 						<a href="../projects.html" class="nav-link">Projects</a>
 					</li>
 					<li class="nav-item">
 						<a href="#contact-section" class="nav-link">Contact</a>
+					</li>
+					<li class="nav-item d-flex align-items-center">
+						<button onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme">
+
+							<span id="theme-icon">☀️</span>
+
+						</button>
 					</li>
 
 					<!-- 
@@ -68,157 +83,291 @@
 		</div>
 	</nav>
 
-	<!-- Particles background -->
-<section class="ftco-section project-section-fix" id="project-section">
-  <div class="container">
-    <div class="row mb-5">
-      <div class="col-md-12">
-        <div class="exp-list">
+	<!-- =========================================
+     PROJECT DETAIL SECTION
+========================================= -->
 
-          <div class="exp-card card-hover ftco-animate">
+	<section class="project-detail-section" id="project-section">
 
-            <!-- HEADER -->
-            <div class="exp-block text-center project-header">
-              <h4 class="project-title">
-                Flower Image Classification
-              </h4>
+		<div class="container">
 
-              <p class="project-impact">
-                 81.10% Accuracy • 102 Classes • MobileNetV2 • Lightweight Model
-              </p>
+			<div class="project-detail-card">
 
-              <p class="project-subtitle">
-                Transfer learning approach for efficient multi-class image classification
-              </p>
-            </div>
+				<!-- =========================================
+			     HEADER
+			========================================= -->
 
-            <!-- IMAGE + TECH -->
-            <div class="exp-block project-detail text-center">
-              <div class="project-image-wrap">
-                <img src="../images/flowerClassifierMain.png" class="img-fluid project-image">
-              </div>
+				<div class="project-detail-header">
 
-              <!-- Optional: add prediction output image -->
-              <!--
-              <div class="project-image-wrap mt-3">
-                <img src="../images/predictions_grid.png" class="img-fluid project-image">
-              </div>
-              -->
+					<h1 class="project-detail-title">
+						Flower Image Classification
+					</h1>
 
-              <div class="tech-stack">
-                <span class="tech-tag">Python</span>
-                <span class="tech-tag">PyTorch</span>
-                <span class="tech-tag">MobileNetV2</span>
-                <span class="tech-tag">Transfer Learning</span>
-              </div>
-            </div>
+					<p class="project-detail-impact">
+						81.10% Accuracy • 102 Classes • MobileNetV2 • Lightweight Deep Learning Model
+					</p>
 
-            <!-- CONTENT -->
-            <div class="exp-block project-content">
+					<p class="project-detail-subtitle">
+						Transfer learning pipeline for efficient multi-class flower image classification using
+						MobileNetV2.
+					</p>
 
-              <h6 class="proj-heading">Overview</h6>
-              <p class="section-text">
-                Built an image classification system to recognize 102 flower species using transfer learning with MobileNetV2. 
-                Starting from a limited dataset, the model was adapted to learn meaningful visual features and make reliable predictions on unseen images.
-              </p>
+				</div>
 
-              <p class="section-text">
-                The focus was to balance <strong>performance and efficiency</strong>, using a lightweight architecture suitable for real-world applications.
-              </p>
 
-              <h6 class="proj-heading">Approach</h6>
-              <p class="section-text">
-                Leveraged a pretrained MobileNetV2 model by replacing the final classification layer. 
-                Feature extraction layers were frozen while training a custom classifier, enabling efficient learning with limited data.
-              </p>
+				<!-- =========================================
+			     IMAGE
+			========================================= -->
 
-              <h6 class="proj-heading">Key Highlights</h6>
-              <ul class="custom-list">
-                <li>Transfer learning with MobileNetV2</li>
-                <li>102-class multi-category classification</li>
-                <li>Efficient model with ~3.5M parameters</li>
-                <li>Complete pipeline: preprocessing → training → evaluation → inference</li>
-              </ul>
+				<div class="project-detail-image-wrap">
 
-              <h6 class="proj-heading">Results</h6>
-              <p class="section-text">
-                Achieved <strong>81.10% test accuracy</strong>, demonstrating strong generalization on unseen data. 
-                The model performs confidently across most classes, with opportunities for further improvement through fine-tuning and data augmentation.
-              </p>
+					<img src="../images/flowerClassifierMain.png" alt="Flower Image Classification"
+						class="project-detail-image">
 
-            </div>
+				</div>
 
-            <!-- BUTTON -->
-            <div class="exp-block text-center">
-              <a href="https://github.com/Iam-Mak/ml_foundations/tree/main/ml_project/flower_image_classification" 
-                 class="btn btn-outline-primary rounded-pill px-4 custom-btn">
-                View Code →
-              </a>
-            </div>
 
-          </div>
+				<!-- =========================================
+			     TECH STACK
+			========================================= -->
 
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+				<div class="project-detail-tech">
 
-	<footer id="contact-section" class="ftco-footer ftco-section">
-		<div class="container text-center">
+					<span>Python</span>
+					<span>PyTorch</span>
+					<span>MobileNetV2</span>
+					<span>Transfer Learning</span>
+					<span>Deep Learning</span>
 
-			<!-- Title -->
-			<h2 style="font-weight:600; margin-bottom:10px;">
-				Get in Touch
-			</h2>
+				</div>
 
-			<!-- Subtext -->
-			<p style="color:#6B7280; font-size:15px; margin-bottom:25px;">
-				Open to internships, projects, and collaborations.
-			</p>
 
-			<!-- Social + Contact Icons -->
-			<ul class="ftco-footer-social list-unstyled d-flex justify-content-center mb-4">
-				<li class="mx-2">
-					<a href="https://www.linkedin.com/in/iam-mak/" target="_blank">
-						<span class="icon-linkedin-square"></span>
+				<!-- =========================================
+			     CONTENT
+			========================================= -->
+
+				<div class="project-detail-content">
+
+
+					<!-- Overview -->
+					<div class="project-detail-block">
+
+						<h3>Overview</h3>
+
+						<p>
+							Developed a deep learning image classification system capable of recognizing 102 flower
+							species using transfer learning with MobileNetV2. The model was trained to learn meaningful
+							visual representations while maintaining computational efficiency.
+						</p>
+
+						<p>
+							The project focused on balancing prediction performance and lightweight deployment
+							suitability for real-world applications.
+						</p>
+
+					</div>
+
+
+					<!-- Approach -->
+					<div class="project-detail-block">
+
+						<h3>Approach</h3>
+
+						<p>
+							Leveraged a pretrained MobileNetV2 backbone and replaced the final classification layer for
+							custom multi-class prediction. Early layers were frozen during initial training to preserve
+							learned feature representations while adapting the classifier to the flower dataset.
+						</p>
+
+						<ul>
+
+							<li>Transfer learning with MobileNetV2</li>
+
+							<li>Custom classifier head for 102-class prediction</li>
+
+							<li>Efficient training using pretrained features</li>
+
+							<li>Image preprocessing and normalization pipeline</li>
+
+						</ul>
+
+					</div>
+
+
+					<!-- Key Highlights -->
+					<div class="project-detail-block">
+
+						<h3>Key Highlights</h3>
+
+						<ul>
+
+							<li>102-class multi-category image classification</li>
+
+							<li>Lightweight architecture with ~3.5M parameters</li>
+
+							<li>Complete pipeline from preprocessing to inference</li>
+
+							<li>Efficient deep learning workflow using transfer learning</li>
+
+							<li>Balanced model performance and computational efficiency</li>
+
+						</ul>
+
+					</div>
+
+
+					<!-- Results -->
+					<div class="project-detail-block">
+
+						<h3>Results</h3>
+
+						<p>
+							Achieved <strong>81.10% test accuracy</strong>, demonstrating strong generalization
+							capability on unseen flower images. The model performs reliably across most classes while
+							remaining lightweight enough for efficient inference.
+						</p>
+
+						<ul>
+
+							<li><strong>Accuracy:</strong> 81.10%</li>
+
+							<li><strong>Classes:</strong> 102 flower categories</li>
+
+							<li><strong>Architecture:</strong> MobileNetV2</li>
+
+							<li><strong>Model Size:</strong> ~3.5M parameters</li>
+
+						</ul>
+
+					</div>
+
+
+					<!-- Insights -->
+					<div class="project-detail-block">
+
+						<h3>Key Insights</h3>
+
+						<ul>
+
+							<li>Transfer learning significantly improved training efficiency</li>
+
+							<li>Pretrained visual features generalized effectively across flower species</li>
+
+							<li>Lightweight architectures can achieve strong classification performance</li>
+
+							<li>Data augmentation improves robustness and generalization capability</li>
+
+						</ul>
+
+					</div>
+
+
+					<!-- Future Improvements -->
+					<div class="project-detail-block">
+
+						<h3>Future Improvements</h3>
+
+						<ul>
+
+							<li>Fine-tuning deeper MobileNetV2 layers</li>
+
+							<li>Advanced augmentation strategies</li>
+
+							<li>Experimentation with EfficientNet architectures</li>
+
+							<li>Deployment as lightweight inference API</li>
+
+							<li>Mobile-friendly deployment optimisation</li>
+
+						</ul>
+
+					</div>
+
+				</div>
+
+
+				<!-- =========================================
+			     ACTIONS
+			========================================= -->
+
+				<div class="project-detail-actions">
+
+					<a href="https://github.com/Iam-Mak/ml_foundations/tree/main/ml_project/flower_image_classification"
+						target="_blank" class="hero-btn">
+						View Code
 					</a>
-				</li>
-				<li class="mx-2">
-					<a href="https://github.com/Iam-Mak" target="_blank">
-						<span class="icon-github"></span>
-					</a>
-				</li>
-				<li class="mx-2">
-					<a href="mailto:mohd.amilk09@gmail.com">
-						<span class="icon-paper-plane"></span>
-					</a>
-				</li>
-				<li class="mx-2">
-					<a href="tel:+917302344786">
-						<span class="icon-phone2"></span>
-					</a>
-				</li>
-			</ul>
 
-			<!-- Back to Top -->
-			<div class="mt-3">
-				<a href="#home-section" class="btn btn-outline-secondary rounded-pill px-4 py-2"
-					style="font-size:13px; letter-spacing:0.4px;">
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<!-- =========================================
+     FOOTER / CONTACT
+	========================================= -->
+
+	<footer class="footer-section" id="contact-section">
+
+		<div class="container">
+
+			<!-- Heading -->
+			<div class="footer-content">
+
+				<h2 class="footer-title">
+					Get in Touch
+				</h2>
+
+				<p class="footer-subtitle">
+					Open to internships, projects, and collaborations.
+				</p>
+
+			</div>
+
+			<!-- Social Links -->
+			<div class="footer-socials">
+
+				<a href="https://www.linkedin.com/in/iam-mak/" target="_blank" class="footer-social-link">
+					<span class="icon-linkedin-square"></span>
+				</a>
+
+				<a href="https://github.com/Iam-Mak" target="_blank" class="footer-social-link">
+					<span class="icon-github"></span>
+				</a>
+
+				<a href="mailto:mohd.amilk09@gmail.com" class="footer-social-link">
+					<span class="icon-paper-plane"></span>
+				</a>
+
+				<a href="tel:+917302344786" class="footer-social-link">
+					<span class="icon-phone2"></span>
+				</a>
+
+			</div>
+
+			<!-- Back To Top -->
+			<div class="footer-actions">
+
+				<a href="#home-section" class="hero-btn">
 					Back to Top ↑
 				</a>
+
 			</div>
 
 			<!-- Divider -->
-			<div style="height:1px; background:#E5E7EB; width:60%; margin:30px auto;"></div>
+			<div class="footer-divider"></div>
 
 			<!-- Bottom -->
-			<p style="font-size:14px; color:#9CA3AF;">
+			<p class="footer-bottom">
 				©
-				<script>document.write(new Date().getFullYear());</script> Amil Khan
+				<script>document.write(new Date().getFullYear());</script>
+				Amil Khan
 			</p>
 
 		</div>
+
 	</footer>
 
 

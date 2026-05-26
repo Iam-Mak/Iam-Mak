@@ -83,6 +83,7 @@
 		</div>
 	</nav>
 
+
 	<!-- =========================================
      PROJECT DETAIL SECTION
 ========================================= -->
@@ -100,11 +101,12 @@
 				<div class="project-detail-header">
 
 					<h1 class="project-detail-title">
-						Vehicle Damage Detection System
+						Vehicle Policy Lapse Prediction
 					</h1>
 
 					<p class="project-detail-subtitle">
-						YOLOv8-based computer vision system for automated vehicle damage detection and localization.
+						Machine learning pipeline for predicting vehicle insurance policy lapse using behavioural and
+						policy-level data.
 					</p>
 
 				</div>
@@ -116,7 +118,7 @@
 
 				<div class="project-detail-image-wrap">
 
-					<img src="../images/vehicle-damage-detection-system.png" alt="Vehicle Damage Detection System"
+					<img src="../images/vehiclePolicyLapse.png" alt="Vehicle Policy Lapse Prediction"
 						class="project-detail-image">
 
 				</div>
@@ -129,10 +131,11 @@
 				<div class="project-detail-tech">
 
 					<span>Python</span>
-					<span>PyTorch</span>
-					<span>YOLOv8</span>
-					<span>Computer Vision</span>
-					<span>Object Detection</span>
+					<span>Scikit-learn</span>
+					<span>MLflow</span>
+					<span>FastAPI</span>
+					<span>Docker</span>
+					<span>Azure</span>
 
 				</div>
 
@@ -144,104 +147,71 @@
 				<div class="project-detail-content">
 
 
-					<!-- Overview -->
+					<!-- Summary -->
 					<div class="project-detail-block">
 
 						<h3>Overview</h3>
 
 						<p>
-							Developed a YOLOv8-based computer vision pipeline to detect and localize vehicle damage from
-							images. The system identifies damaged regions and classifies damage types, enabling
-							automated inspection workflows and reducing manual assessment effort.
+							Developed a production-ready machine learning system using approximately 23,000 insurance
+							policies to predict customer lapse risk. The pipeline generates probability scores to rank
+							high-risk customers, supporting targeted retention strategies and operational
+							decision-making.
 						</p>
 
 						<p>
-							Designed for real-world use cases such as insurance claim assessment, automated inspection
-							systems, and operational vehicle damage analysis.
-						</p>
-
-						<p>
-							<strong>Status:</strong> Model training and evaluation completed; deployment and interface
-							development in progress.
+							The solution was deployed as a containerized FastAPI service on Azure for scalable real-time
+							inference.
 						</p>
 
 					</div>
 
 
-					<!-- Dataset -->
+					<!-- Architecture -->
 					<div class="project-detail-block">
 
-						<h3>Dataset</h3>
+						<h3>System Architecture</h3>
 
 						<ul>
 
-							<li>Annotated dataset with bounding boxes for multiple damage categories</li>
+							<li>End-to-end workflow from preprocessing → training → inference API</li>
 
-							<li>Includes real-world variation in lighting, backgrounds, and viewing angles</li>
+							<li>Reusable training pipeline generating deployment-ready artifacts</li>
 
-							<li>Preprocessed and structured for object detection training workflows</li>
+							<li>FastAPI inference service for real-time predictions</li>
 
-							<li>Separated into training and validation datasets</li>
+							<li>Dockerized deployment on Azure Web App</li>
+
+							<li>Consistent inference using stored preprocessing and model artifacts</li>
 
 						</ul>
 
 					</div>
 
 
-					<!-- Approach -->
+					<!-- Performance -->
 					<div class="project-detail-block">
 
-						<h3>Approach</h3>
-
-						<ul>
-
-							<li>Trained YOLOv8 model for damage detection and localization</li>
-
-							<li>Applied augmentation techniques to improve generalization</li>
-
-							<li>Optimised training for balanced precision and recall</li>
-
-							<li>Generated predictions using bounding boxes and confidence scores</li>
-
-							<li>Evaluated using standard object detection metrics</li>
-
-						</ul>
-
-					</div>
-
-
-					<!-- Model -->
-					<div class="project-detail-block">
-
-						<h3>Model</h3>
+						<h3>Model & Performance</h3>
 
 						<p>
-							YOLOv8 (You Only Look Once) was selected for efficient real-time object detection. The
-							architecture processes images in a single pass, simultaneously predicting damage location
-							and category, making it suitable for scalable deployment scenarios.
+							Logistic Regression was used as the baseline model with class balancing strategies to
+							address strong class imbalance (~13% lapse rate).
 						</p>
-
-					</div>
-
-
-					<!-- Results -->
-					<div class="project-detail-block">
-
-						<h3>Results</h3>
 
 						<ul>
 
-							<li><strong>Precision:</strong> 0.69</li>
+							<li><strong>ROC-AUC:</strong> 0.60</li>
 
-							<li><strong>Recall:</strong> 0.67</li>
+							<li><strong>Recall (Lapse):</strong> 0.96</li>
 
-							<li><strong>mAP@0.5:</strong> 0.68</li>
-
-							<li><strong>mAP@0.5:0.95:</strong> 0.54</li>
-
-							<li>Reliable detection performance across varied real-world image conditions</li>
+							<li><strong>Precision (Lapse):</strong> 0.13</li>
 
 						</ul>
+
+						<p>
+							The system was optimized for recall to maximize identification of high-risk customers.
+						</p>
 
 					</div>
 
@@ -253,35 +223,95 @@
 
 						<ul>
 
-							<li>Detection performance is highly sensitive to image quality and illumination</li>
+							<li>Strong class imbalance made recall-focused optimisation critical</li>
 
-							<li>Diverse annotated data significantly improves generalization capability</li>
+							<li>Premium-related variables showed high multicollinearity</li>
 
-							<li>YOLO architecture enables efficient end-to-end detection workflows</li>
+							<li>Younger policyholders demonstrated higher lapse probability</li>
 
-							<li>Bounding box annotation quality strongly impacts localization accuracy</li>
+							<li>Feature selection improved interpretability more than predictive performance</li>
 
 						</ul>
 
 					</div>
 
 
-					<!-- Next Steps -->
+					<!-- Business -->
 					<div class="project-detail-block">
 
-						<h3>Next Steps</h3>
+						<h3>Business Impact</h3>
+
+						<p>
+							The system enables early identification of customers at high risk of policy lapse,
+							supporting targeted retention campaigns and improving operational efficiency.
+							Probability-based ranking helps prioritize interventions more effectively.
+						</p>
+
+					</div>
+
+
+					<!-- Deployment -->
+					<div class="project-detail-block">
+
+						<h3>Deployment & Engineering</h3>
 
 						<ul>
 
-							<li>Develop Streamlit interface for real-time predictions</li>
+							<li>Dockerized using python:3.10-slim</li>
 
-							<li>Export structured prediction outputs and confidence scores</li>
+							<li>FastAPI + Gunicorn inference service</li>
 
-							<li>Deploy inference API for external integrations</li>
+							<li>Azure Web App deployment</li>
 
-							<li>Extend system with damage severity estimation</li>
+							<li>Dependency management using requirements.txt</li>
 
-							<li>Investigate segmentation-based approaches for finer localization</li>
+							<li>Non-root container execution for improved security</li>
+
+							<li>Optimized Docker builds using layer caching</li>
+
+						</ul>
+
+					</div>
+
+
+					<!-- Data -->
+					<div class="project-detail-block">
+
+						<h3>Data & Features</h3>
+
+						<ul>
+
+							<li>~23,000 policies with 19 input features</li>
+
+							<li>Removed highly correlated premium variables (>0.89 correlation)</li>
+
+							<li>Selected top 15 predictive features</li>
+
+							<li>Encoded categorical variables for model training</li>
+
+							<li>Handled skewed feature distributions</li>
+
+						</ul>
+
+					</div>
+
+
+					<!-- Future -->
+					<div class="project-detail-block">
+
+						<h3>Future Improvements</h3>
+
+						<ul>
+
+							<li>Experimentation with XGBoost and LightGBM</li>
+
+							<li>Expanded MLflow experiment tracking workflows</li>
+
+							<li>Monitoring and drift detection pipelines</li>
+
+							<li>Automated retraining infrastructure</li>
+
+							<li>Model explainability integration</li>
 
 						</ul>
 
@@ -296,8 +326,7 @@
 
 				<div class="project-detail-actions">
 
-					<a href="https://github.com/Iam-Mak/vehicle-damage-detection-system" target="_blank"
-						class="hero-btn">
+					<a href="#" class="hero-btn">
 						View Code
 					</a>
 
@@ -308,7 +337,6 @@
 		</div>
 
 	</section>
-
 	<!-- =========================================
      FOOTER / CONTACT
 	========================================= -->
