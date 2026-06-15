@@ -23,9 +23,9 @@
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
 </head>
-
-
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
@@ -33,9 +33,7 @@
 		<div class="container">
 
 			<!-- Logo -->
-			<a class="navbar-brand" href="index.html">
-				Amil
-			</a>
+			<a class="navbar-brand" href="index.html"> MAK </a>
 
 			<!-- Mobile Toggle -->
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -67,11 +65,13 @@
 					</li>
 
 					<li class="nav-item d-flex align-items-center">
+
 						<button onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme">
 
-							<span id="theme-icon">☀️</span>
+							<i id="theme-icon" class="bi bi-moon"></i>
 
 						</button>
+
 					</li>
 
 					<!-- Future Blog Link -->
@@ -87,64 +87,48 @@
 		</div>
 	</nav>
 
-	<!-- Hero Section -->
 	<section id="home-section" class="hero-wrap">
 
 		<div class="container position-relative">
 
-			<div class="row justify-content-center align-items-center ">
+			<div class="row justify-content-center align-items-center">
 
 				<div class="col-lg-8">
 
 					<div class="hero-container">
 
-						<p class="hero-label">
-							Data Engineering • Machine Learning • Azure
-						</p>
-
 						<h1 class="hero-title">
-							From Data Pipelines <br>
-							to Production ML
+							Amil Khan
 						</h1>
 
 						<p class="hero-subtitle">
-							Designing scalable data pipelines, ML workflows,
-							and production-ready applications
+							Building data platforms and intelligent systems.
 						</p>
 
-						<div class="hero-flow">
+						<div class="hero-flow-wrapper">
 
-							<span>Data</span>
-							<span>→</span>
+							<div class="hero-flow">
+								<span>Data</span>
+								<span>Platform</span>
+								<span>Intelligence</span>
+								<span>Action</span>
+							</div>
 
-							<span>Pipelines</span>
-							<span>→</span>
-
-							<span>Models</span>
-							<span>→</span>
-
-							<span>Production</span>
+							<div class="pipeline">
+								<div class="pipeline-glow"></div>
+							</div>
 
 						</div>
 
-						<div class="hero-actions">
 
-							<a href="#project-section" class="hero-btn">
+
+						<!--<div class="hero-actions">
+
+							<a href="#projects-section" class="hero-btn">
 								View Projects
 							</a>
 
-							<!-- Future Resume Button -->
-							<!--
-						<a href="resume/amil_khan.pdf"
-							target="_blank"
-							class="hero-btn secondary">
-
-							View Resume
-
-						</a>
-						-->
-
-						</div>
+						</div>-->
 
 					</div>
 
@@ -173,21 +157,22 @@
 						</h2>
 
 						<p class="about-text">
-							I began my career in manufacturing, working with operational and maintenance data to
-							understand equipment performance and system behaviour. This experience sparked my interest
-							in using data and technology to solve real world problems.
+							Data is only valuable when it can be trusted, scaled, and transformed into decisions.
 						</p>
 
 						<p class="about-text">
-							Over time, I transitioned into data and cloud engineering, focusing on system integration,
-							scalable data workflows, and cloud-based platforms. Through this shift, I developed a
-							broader understanding of how reliable production systems are designed and operated.
+							Over the past several years, I have built and supported enterprise data platforms, cloud
+							integrations, deployment pipelines, and production systems that help organisations move,
+							manage, and use data effectively. My focus is on creating reliable foundations for
+							analytics, automation, and data-driven decision making.
 						</p>
 
 						<p class="about-text">
-							Currently, I am pursuing a Master’s in Machine Learning and Mathematical Modelling, with a
-							focus on applying machine learning within practical systems. My interests lie in building
-							scalable data and ML solutions that bridge engineering, cloud, and intelligent applications.
+							Currently pursuing an MSc in Mathematical Modelling and Machine Learning at University
+							College Cork, I am expanding my expertise into machine learning and AI through academic
+							research and hands-on projects. I am particularly interested in how data, cloud
+							infrastructure, and intelligent systems can work together to solve real-world business
+							problems.
 						</p>
 
 					</div>
@@ -212,8 +197,6 @@
 
 	</section>
 
-
-
 	<!-- Experience Section -->
 	<section class="experience-section" id="experience-section">
 
@@ -227,8 +210,8 @@
 				</h2>
 
 				<p class="section-subtitle">
-					Experience building scalable data workflows, cloud systems,
-					and production-focused engineering solutions.
+					Building reliable platforms, data systems, and intelligent technologies across cloud and enterprise
+					environments.
 				</p>
 
 			</div>
@@ -254,12 +237,12 @@
 
 							<div>
 
-								<h3 class="experience-company">
-									Cubastion Consulting Pvt. Ltd, India
+								<h3 class="experience-role">
+									Senior Associate Consultant
 								</h3>
 
-								<p class="experience-role">
-									Senior Associate Consultant
+								<p class="experience-company">
+									Cubastion Consulting Pvt. Ltd, India
 								</p>
 
 							</div>
@@ -272,93 +255,61 @@
 
 						<!-- Summary -->
 						<p class="experience-summary">
-							Worked on cloud data platforms, analytics systems, and deployment automation workflows,
-							improving data accessibility, operational visibility, and system reliability across
-							enterprise environments.
+
+							Worked across cloud data platforms, enterprise integrations,
+							deployment automation, and solution delivery within Salesforce
+							and Azure ecosystems.
+
 						</p>
 
-						<!-- Project 1 -->
-						<div class="experience-project">
+						<!-- Details -->
+						<details class="experience-details">
 
-							<h4 class="project-title">
-								Cloud Data Integration & Analytics Platform
-							</h4>
+							<summary>View Details →</summary>
 
-							<ul class="experience-points">
+							<div class="experience-details-content">
 
-								<li>
-									Enabled scalable access to vehicle service and operational data through zero-copy
-									integration between Azure Databricks and Salesforce Data Cloud
-								</li>
+								<ul class="experience-highlights">
 
-								<li>
-									Optimised data access workflows for performance, scalability, and efficient
-									analytics processing across integrated cloud platforms
-								</li>
+									<li>
+										<strong>Cloud Data Platforms:</strong>
+										Evaluated and validated a zero-copy integration architecture between
+										Azure Databricks and Salesforce Data Cloud, enabling scalable access
+										to operational vehicle data.
+									</li>
 
-								<li>
-									Built API-driven batch ingestion and integration workflows to support reliable
-									transfer and processing of operational datasets
-								</li>
+									<li>
+										<strong>Enterprise Integrations:</strong>
+										Delivered integrations across Salesforce, Azure, and external business
+										systems using APIs, authentication services, and cloud technologies.
+									</li>
 
-							</ul>
+									<li>
+										<strong>Automation & Delivery:</strong>
+										Built and supported deployment pipelines, release automation workflows,
+										monitoring processes, and environment promotion activities.
+									</li>
 
-						</div>
+									<li>
+										<strong>Technical Leadership:</strong>
+										Coordinated production releases, stakeholder communication, technical
+										documentation, and solution delivery across distributed teams.
+									</li>
 
-						<!-- Project 2 -->
-						<div class="experience-project">
+								</ul>
 
-							<h4 class="project-title">
-								CI/CD Automation & Deployment Platform
-							</h4>
+								<div class="experience-tags">
 
-							<ul class="experience-points">
+									<span>Cloud Data Platforms</span>
+									<span>Enterprise Integrations</span>
+									<span>Automation & Delivery</span>
+									<span>Technical Leadership</span>
 
-								<li>
-									Automated end-to-end deployment workflows using event-driven CI/CD pipelines
-								</li>
+								</div>
 
-								<li>
-									Reduced manual operational effort by ~40% while improving release consistency and
-									traceability
-								</li>
+							</div>
 
-								<li>
-									Improved operational reliability through monitoring, logging, and automated failure
-									notifications
-								</li>
-
-							</ul>
-
-						</div>
-
-						<!-- Project 3 -->
-						<div class="experience-project">
-
-							<h4 class="project-title">
-								Operational Analytics & Data Workflows
-							</h4>
-
-							<ul class="experience-points">
-
-								<li>
-									Built backend analytics workflows to process operational KPIs, SLA trends, and
-									system performance metrics
-								</li>
-
-								<li>
-									Developed automated data ingestion and validation workflows for structured
-									operational reporting
-								</li>
-
-								<li>
-									Supported deployment and release workflows across development, testing, and
-									production environments
-								</li>
-
-							</ul>
-
-						</div>
+						</details>
 
 					</div>
 
@@ -383,12 +334,12 @@
 
 							<div>
 
-								<h3 class="experience-company">
-									Vedanta Limited, India
+								<h3 class="experience-role">
+									Assistant Manager
 								</h3>
 
-								<p class="experience-role">
-									Assistant Manager
+								<p class="experience-company">
+									Vedanta Limited, India
 								</p>
 
 							</div>
@@ -401,37 +352,50 @@
 
 						<!-- Summary -->
 						<p class="experience-summary">
-							Worked in large-scale aluminium manufacturing operations, focusing on equipment reliability,
-							preventive maintenance, and operational performance improvement.
+
+							Supported equipment reliability, maintenance planning, and operational
+							performance improvement within large-scale aluminium production systems.
+
 						</p>
 
-						<!-- Responsibilities -->
-						<div class="experience-project">
+						<!-- Details -->
+						<details class="experience-details">
 
-							<h4 class="project-title">
-								Operations & Reliability Engineering
-							</h4>
+							<summary>View Details →</summary>
 
-							<ul class="experience-points">
+							<div class="experience-details-content">
 
-								<li>
-									Analysed maintenance and reliability data across 40+ industrial machines to identify
-									recurring failure patterns and improve equipment performance
-								</li>
+								<p>
+									Analyzed maintenance and breakdown data across critical production
+									assets to identify recurring failure patterns, prioritize corrective
+									actions, and support preventive maintenance initiatives.
+								</p>
 
-								<li>
-									Applied MTBF, MTTR, downtime, and availability analysis to optimise maintenance
-									planning, reducing unplanned downtime by ~20%
-								</li>
+								<p>
+									Applied reliability metrics including MTBF, MTTR, downtime, and
+									equipment availability to improve maintenance planning and reduce
+									operational disruptions across production systems.
+								</p>
 
-								<li>
-									Performed root cause analysis and preventive maintenance planning to improve
-									operational reliability and support structured decision-making
-								</li>
+								<p>
+									Supported inventory planning for maintenance-critical components and
+									contributed to continuous improvement initiatives, including 5S
+									programs that improved operational audit scores from 52 to 72.
+								</p>
 
-							</ul>
+								<div class="experience-tags">
 
-						</div>
+
+									<span>Root Cause Analysis</span>
+									<span>Preventive Maintenance</span>
+									<span>MTBF & MTTR Analysis</span>
+									<span>Inventory Management</span>
+
+								</div>
+
+							</div>
+
+						</details>
 
 					</div>
 
@@ -456,12 +420,12 @@
 
 							<div>
 
-								<h3 class="experience-company">
-									Hindustan Aeronautics Limited, India
+								<h3 class="experience-role">
+									Industrial Training — Aerospace Manufacturing & Quality
 								</h3>
 
-								<p class="experience-role">
-									Industrial Training — Aerospace Manufacturing & Quality
+								<p class="experience-company">
+									Hindustan Aeronautics Limited, India
 								</p>
 
 							</div>
@@ -472,39 +436,37 @@
 
 						</div>
 
-						<!-- Summary -->
-						<p class="experience-summary">
-							Completed industrial training focused on aerospace manufacturing operations, quality
-							assurance processes, and reliability standards within safety-critical engineering
-							environments.
-						</p>
+						<!-- Details -->
+						<details class="experience-details">
 
-						<!-- Responsibilities -->
-						<div class="experience-project">
+							<summary>View Details →</summary>
 
-							<h4 class="project-title">
-								Manufacturing Quality & Reliability
-							</h4>
+							<div class="experience-details-content">
 
-							<ul class="experience-points">
+								<p>
+									Completed industrial training at HAL with exposure to aerospace manufacturing
+									operations,
+									quality assurance processes, inspection procedures, and reliability practices in
+									safety critical engineering environments. </p>
 
-								<li>
-									Supported quality assurance and inspection workflows for aerospace components to
-									ensure compliance with engineering and safety standards
-								</li>
+								<div class="experience-tags">
 
-								<li>
-									Performed inspection and validation activities for safety-critical systems to
-									improve operational reliability and process consistency
-								</li>
+									<span>Engine Maintenance</span>
+									<span>Quality Assurance</span>
+									<span>Inspection Procedures</span>
+									<span>Reliability Engineering</span>
+									<span>Aerospace Engineering</span>
 
-							</ul>
+								</div>
 
-						</div>
+							</div>
+
+						</details>
 
 					</div>
 
 				</div>
+
 
 			</div>
 
@@ -525,8 +487,8 @@
 				</h2>
 
 				<p class="section-subtitle">
-					Technical skills focused on data systems, machine learning, cloud platforms, and scalable
-					engineering workflows.
+					Experience across data engineering, machine learning,
+					cloud platforms, and production system operations.
 				</p>
 
 			</div>
@@ -535,7 +497,7 @@
 			<div class="skills-grid">
 
 				<!-- Data Engineering -->
-				<div class="skill-card">
+				<article class="skill-card">
 
 					<h3 class="skill-title">
 						Data Engineering
@@ -545,19 +507,16 @@
 
 						<span>Python</span>
 						<span>SQL</span>
-						<span>PySpark</span>
-						<span>Pandas</span>
-						<span>NumPy</span>
-						<span>Data Pipelines</span>
+						<span>Azure Databricks</span>
+						<span>Data Integration</span>
 						<span>REST APIs</span>
-						<span>FastAPI</span>
 
 					</div>
 
-				</div>
+				</article>
 
 				<!-- Machine Learning -->
-				<div class="skill-card">
+				<article class="skill-card">
 
 					<h3 class="skill-title">
 						Machine Learning
@@ -566,56 +525,207 @@
 					<div class="skill-tags">
 
 						<span>Scikit-learn</span>
-						<span>Feature Engineering</span>
-						<span>Model Evaluation</span>
-						<span>Supervised Learning</span>
-						<span>Unsupervised Learning</span>
-						<span>Neural Networks</span>
 						<span>PyTorch</span>
+						<span>Feature Engineering</span>
+						<span>Model Training</span>
+						<span>Model Evaluation</span>
 
 					</div>
 
-				</div>
+				</article>
 
-				<!-- Cloud & Platforms -->
-				<div class="skill-card">
+				<!-- Cloud & Deployment -->
+				<article class="skill-card">
 
 					<h3 class="skill-title">
-						Cloud & Platforms
+						Cloud & Deployment
 					</h3>
 
 					<div class="skill-tags">
 
 						<span>Microsoft Azure</span>
-						<span>Azure Databricks</span>
 						<span>Docker</span>
-						<span>CI/CD Pipelines</span>
-						<span>Workflow Automation</span>
-						<span>Linux</span>
+						<span>FastAPI</span>
+						<span>Git</span>
+						<span>CI/CD</span>
 
 					</div>
 
-				</div>
+				</article>
 
-				<!-- Tools & Engineering -->
-				<div class="skill-card">
+				<!-- Systems & Operations -->
+				<article class="skill-card">
 
 					<h3 class="skill-title">
-						Tools & Engineering
+						Systems & Operations
 					</h3>
 
 					<div class="skill-tags">
 
-						<span>Git</span>
 						<span>System Integration</span>
 						<span>Monitoring</span>
-						<span>Deployment Workflows</span>
 						<span>Operational Analytics</span>
-						<span>Production Systems</span>
+						<span>Production Support</span>
 
 					</div>
 
-				</div>
+				</article>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<!--  Certifications Section  -->
+	<section class="certifications-section" id="certifications-section">
+
+		<div class="container">
+
+			<!-- Section Heading -->
+			<div class="section-heading">
+
+				<h2 class="section-title">
+					Certifications
+				</h2>
+
+				<p class="section-subtitle">
+					Certifications in cloud platforms, machine learning,
+					AI applications, and enterprise data technologies.
+				</p>
+
+			</div>
+
+			<!-- Certifications Grid -->
+			<div class="certifications-grid">
+
+				<!-- Certification -->
+				<article class="certification-card">
+
+					<div class="certification-header">
+
+						<div class="certification-logo-wrapper">
+
+							<img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+								alt="Microsoft" class="certification-logo">
+
+						</div>
+
+						<div class="certification-tag">
+							Cloud AI
+						</div>
+
+					</div>
+
+					<div class="certification-content">
+
+						<h3 class="certification-title">
+							Azure <br> AI Engineer Associate
+						</h3>
+
+						<p class="certification-meta">
+							Microsoft · AI-102
+						</p>
+
+					</div>
+
+				</article>
+
+				<!-- Certification -->
+				<article class="certification-card">
+
+					<div class="certification-header">
+
+						<div class="certification-logo-wrapper">
+
+							<img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+								alt="Microsoft" class="certification-logo">
+
+						</div>
+
+						<div class="certification-tag">
+							Machine Learning
+						</div>
+
+					</div>
+
+					<div class="certification-content">
+
+						<h3 class="certification-title">
+							Azure <br> Data Scientist Associate
+						</h3>
+
+						<p class="certification-meta">
+							Microsoft · DP-100
+						</p>
+
+					</div>
+
+				</article>
+
+				<!-- Certification -->
+				<article class="certification-card">
+
+					<div class="certification-header">
+
+						<div class="certification-logo-wrapper">
+
+							<img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg"
+								alt="Salesforce" class="certification-logo">
+
+						</div>
+
+						<div class="certification-tag">
+							AI Applications
+						</div>
+
+					</div>
+
+					<div class="certification-content">
+
+						<h3 class="certification-title">
+							Salesforce <br> AI Specialist
+						</h3>
+
+						<p class="certification-meta">
+							Salesforce
+						</p>
+
+					</div>
+
+				</article>
+
+				<!-- Certification -->
+				<article class="certification-card">
+
+					<div class="certification-header">
+
+						<div class="certification-logo-wrapper">
+
+							<img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg"
+								alt="Salesforce" class="certification-logo">
+
+						</div>
+
+						<div class="certification-tag">
+							Data Platform
+						</div>
+
+					</div>
+
+					<div class="certification-content">
+
+						<h3 class="certification-title">
+							Salesforce <br> Data Cloud Consultant
+						</h3>
+
+						<p class="certification-meta">
+							Salesforce
+						</p>
+
+					</div>
+
+				</article>
 
 			</div>
 
@@ -636,13 +746,14 @@
 				</h2>
 
 				<p class="section-subtitle">
-					Academic background focused on machine learning, mathematical modelling, and engineering systems.
+					Academic background focused on machine learning, mathematical modelling,
+					scientific computing, and engineering systems.
 				</p>
 
 			</div>
 
 			<!-- Education List -->
-			<div class="education-list">
+			<div class="experience-list">
 
 				<!-- MSc -->
 				<div class="experience-card">
@@ -663,12 +774,12 @@
 
 							<div>
 
-								<h3 class="experience-company">
-									University College Cork, Ireland
+								<h3 class="experience-role">
+									MSc Mathematical Modelling & Machine Learning
 								</h3>
 
-								<p class="experience-role">
-									MSc Mathematical Modelling & Machine Learning
+								<p class="experience-company">
+									University College Cork, Ireland
 								</p>
 
 							</div>
@@ -681,42 +792,55 @@
 
 						<!-- Summary -->
 						<p class="experience-summary">
-							Focused on machine learning systems, optimisation methods, scientific computing, and
-							modelling complex data-driven systems.
+
+							Focused on machine learning, mathematical modelling,
+							scientific computing, optimisation, and data-driven
+							analysis of complex systems.
+
 						</p>
 
-						<!-- Highlights -->
-						<div class="experience-project">
+						<!-- Details -->
+						<details class="experience-details">
 
-							<h4 class="project-title">
-								Key Areas
-							</h4>
+							<summary>View Details →</summary>
 
-							<ul class="experience-points">
+							<div class="experience-details-content">
 
-								<li>
-									Implemented reservoir computing (NGRC) models to simulate and predict chaotic
-									systems including Lorenz-63 and double scroll circuits
-								</li>
+								<p>
+									Implemented reservoir computing (NGRC) models to simulate
+									and predict chaotic systems including Lorenz-63 and
+									double-scroll circuits.
+								</p>
 
-								<li>
-									Analysed convergence behaviour of optimisation algorithms including Adam, SGD,
-									Momentum, and AdaGrad across nonlinear objective functions
-								</li>
+								<p>
+									Analysed convergence behaviour of optimisation algorithms
+									including Adam, SGD, Momentum, and AdaGrad across
+									nonlinear objective functions.
+								</p>
 
-								<li>
-									Applied clustering techniques including K-Means, hierarchical clustering, and DBSCAN
-									using multiple evaluation metrics
-								</li>
+								<p>
+									Applied clustering techniques including K-Means,
+									hierarchical clustering, and DBSCAN using multiple
+									evaluation metrics.
+								</p>
 
-								<li>
-									Worked with numerical methods and scientific computing to model and analyse complex
-									systems
-								</li>
+								<p>
+									Worked with numerical methods and scientific computing
+									to model and analyse complex systems.
+								</p>
 
-							</ul>
+								<div class="experience-tags">
 
-						</div>
+									<span>Machine Learning</span>
+									<span>Mathematical Modelling</span>
+									<span>Optimization</span>
+									<span>Scientific Computing</span>
+
+								</div>
+
+							</div>
+
+						</details>
 
 					</div>
 
@@ -741,12 +865,12 @@
 
 							<div>
 
-								<h3 class="experience-company">
-									National Institute of Technology Patna, India
+								<h3 class="experience-role">
+									B.Tech Mechanical Engineering
 								</h3>
 
-								<p class="experience-role">
-									B.Tech Mechanical Engineering
+								<p class="experience-company">
+									National Institute of Technology Patna, India
 								</p>
 
 							</div>
@@ -759,148 +883,51 @@
 
 						<!-- Summary -->
 						<p class="experience-summary">
-							Developed engineering foundations in system design, manufacturing processes, reliability
-							analysis, and applied problem solving.
+
+							Built a foundation in engineering design,
+							system analysis, reliability, and applied problem solving.
+
 						</p>
 
-						<!-- Highlights -->
-						<div class="experience-project">
+						<!-- Details -->
+						<details class="experience-details">
 
-							<h4 class="project-title">
-								Key Areas
-							</h4>
+							<summary>View Details →</summary>
 
-							<ul class="experience-points">
+							<div class="experience-details-content">
 
-								<li>
-									Designed and developed a pneumatic sheet metal cutting system integrating mechanical
-									and control components
-								</li>
+								<p>
+									Designed and developed a pneumatic sheet metal cutting
+									system integrating mechanical and control components.
+								</p>
 
-								<li>
-									Analysed system performance using force calculations and operational parameters to
-									estimate cutting capacity
-								</li>
+								<p>
+									Performed force and performance analysis to estimate
+									cutting capacity under operational conditions.
+								</p>
 
-								<li>
-									Evaluated system behaviour under varying operating conditions and design constraints
-								</li>
+								<p>
+									Evaluated system behaviour under varying design
+									constraints and operating parameters.
+								</p>
 
-								<li>
-									Awarded 1st place in a national engineering design competition at IIT Kharagpur
-								</li>
+								<p>
+									Secured 1st place in a national engineering design
+									competition at IIT Kharagpur.
+								</p>
 
-							</ul>
+								<div class="experience-tags">
 
-						</div>
+									<span>Engineering Design</span>
+									<span>System Analysis</span>
+									<span>Reliability Engineering</span>
+									<span>Problem Solving</span>
 
-					</div>
+								</div>
 
-				</div>
+							</div>
 
-
-			</div>
-
-		</div>
-
-	</section>
-
-	<!-- Certifications Section -->
-	<section class="certifications-section" id="certifications-section">
-
-		<div class="container">
-
-			<!-- Section Heading -->
-			<div class="section-heading">
-
-				<h2 class="section-title">
-					Certifications
-				</h2>
-
-				<p class="section-subtitle">
-					Certifications focused on cloud platforms, AI systems, and modern data engineering technologies.
-				</p>
-
-			</div>
-
-			<!-- Certification Grid -->
-			<div class="certifications-grid">
-
-				<!-- Certification -->
-				<div class="certification-card">
-
-					<img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft"
-						class="certification-logo">
-
-					<div class="certification-content">
-
-						<h3 class="certification-title">
-							Azure AI Engineer Associate
-						</h3>
-
-						<p class="certification-meta">
-							Microsoft • AI-102
-						</p>
-
-					</div>
-
-				</div>
-
-				<!-- Certification -->
-				<div class="certification-card">
-
-					<img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft"
-						class="certification-logo">
-
-					<div class="certification-content">
-
-						<h3 class="certification-title">
-							Azure Data Scientist Associate
-						</h3>
-
-						<p class="certification-meta">
-							Microsoft • DP-100
-						</p>
-
-					</div>
-
-				</div>
-
-				<!-- Certification -->
-				<div class="certification-card">
-
-					<img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg"
-						alt="Salesforce" class="certification-logo">
-
-					<div class="certification-content">
-
-						<h3 class="certification-title">
-							AI Specialist
-						</h3>
-
-						<p class="certification-meta">
-							Salesforce
-						</p>
-
-					</div>
-
-				</div>
-
-				<!-- Certification -->
-				<div class="certification-card">
-
-					<img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg"
-						alt="Salesforce" class="certification-logo">
-
-					<div class="certification-content">
-
-						<h3 class="certification-title">
-							Data Cloud Consultant
-						</h3>
-
-						<p class="certification-meta">
-							Salesforce
-						</p>
+						</details>
 
 					</div>
 
@@ -912,128 +939,7 @@
 
 	</section>
 
-
-
-	<!-- Projects Section -->
-	<section class="projects-section" id="project-section">
-
-		<div class="container">
-
-			<!-- Section Heading -->
-			<div class="section-heading">
-
-				<h2 class="section-title">
-					Projects
-				</h2>
-
-				<p class="section-subtitle">
-					Building practical machine learning and data-driven systems focused on scalable deployment and
-					real-world engineering workflows.
-				</p>
-
-			</div>
-
-			<!-- Featured Project -->
-			<div class="project-card">
-
-				<!-- Left Image -->
-				<div class="project-image">
-
-					<img src="images/vehicle-damage-detection-system.png" alt="Vehicle Damage Detection">
-
-				</div>
-
-				<!-- Right Content -->
-				<div class="project-content">
-
-					<!-- Header -->
-					<div class="project-header">
-
-						<h3 class="project-name">
-							Vehicle Damage Detection
-						</h3>
-
-						<p class="project-status">
-							Ongoing Project · Phase 1 — Damage Detection
-						</p>
-
-					</div>
-
-					<!-- Summary -->
-					<p class="project-summary">
-						Developing a computer vision system that detects and localises vehicle damage from images to
-						support automated inspection and scalable insurance workflows.
-					</p>
-
-					<!-- Key Focus -->
-					<div class="project-block">
-
-						<h4 class="project-subtitle">
-							Key Focus Areas
-						</h4>
-
-						<ul class="project-points">
-
-							<li>
-								Detects and localises vehicle damage from image data
-							</li>
-
-							<li>
-								Extracts structured damage information for downstream processing
-							</li>
-
-							<li>
-								Designed for scalable insurance inspection workflows
-							</li>
-
-							<li>
-								Focused on deployment readiness and inference performance
-							</li>
-
-						</ul>
-
-					</div>
-
-					<!-- Tech Stack -->
-					<div class="project-tech">
-
-						<span>Python</span>
-						<span>Deep Learning</span>
-						<span>OpenCV</span>
-						<span>FastAPI</span>
-
-					</div>
-
-					<!-- Action -->
-					<div class="project-actions">
-
-						<a href="projects/vehicle-damage-detection-system.html" target="_blank" class="hero-btn">
-							Explore Project
-						</a>
-
-					</div>
-
-				</div>
-
-			</div>
-
-			<!-- Footer -->
-			<div class="projects-footer">
-
-				<a href="projects.html" class="hero-btn">
-					View All Projects
-				</a>
-
-			</div>
-
-		</div>
-
-	</section>
-
-
-	<!-- =========================================
-     FOOTER / CONTACT
-    ========================================= -->
+	<!-- FOOTER / CONTACT -->
 
 	<footer class="footer-section" id="contact-section">
 

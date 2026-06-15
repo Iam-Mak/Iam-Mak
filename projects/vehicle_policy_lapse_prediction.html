@@ -22,10 +22,10 @@
 	<link rel="stylesheet" href="../css/aos.css">
 	<link rel="stylesheet" href="../css/flaticon.css">
 	<link rel="stylesheet" href="../css/icomoon.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
 
 </head>
-
-
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
@@ -33,8 +33,8 @@
 		<div class="container">
 
 			<!-- Logo -->
-			<a class="navbar-brand" href="index.html">
-				Amil
+			<a class="navbar-brand" href="../index.html">
+				MAK
 			</a>
 
 			<!-- Mobile Toggle -->
@@ -63,11 +63,13 @@
 						<a href="#contact-section" class="nav-link">Contact</a>
 					</li>
 					<li class="nav-item d-flex align-items-center">
+
 						<button onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme">
 
-							<span id="theme-icon">☀️</span>
+							<i id="theme-icon" class="bi bi-moon"></i>
 
 						</button>
+
 					</li>
 
 					<!-- 
@@ -83,166 +85,189 @@
 		</div>
 	</nav>
 
+
 	<!-- =========================================
-     PROJECT DETAILS SECTION
+     PROJECT DETAIL SECTION
 ========================================= -->
 
 	<section class="project-detail-section" id="project-section">
 
 		<div class="container">
 
-			<div class="project-detail-card">
+			<article class="project-detail-card">
 
-				<!-- =========================================
-			     HEADER
-			========================================= -->
+				<!-- Header -->
 
 				<div class="project-detail-header">
 
+					<div class="project-detail-meta">
+
+						<span>Insurance Systems</span>
+
+						<span>Computer Vision</span>
+
+						<span>Applied AI</span>
+
+					</div>
+
 					<h1 class="project-detail-title">
-						Vehicle Policy Lapse Prediction
+
+						Vehicle Damage Detection System
+
 					</h1>
 
 					<p class="project-detail-subtitle">
-						Predicting customer churn using behavioural and policy data
+
+						Building an AI-assisted vehicle inspection system that combines computer vision with structured
+						decision workflows to support scalable insurance assessment processes.
+
 					</p>
 
 				</div>
 
 
-				<!-- =========================================
-			     IMAGE
-			========================================= -->
+				<!-- Hero Image -->
 
 				<div class="project-detail-image-wrap">
 
-					<img src="../images/vehiclePolicyLapse.png" alt="Vehicle Policy Lapse Prediction"
+					<img src="../images/vehicle-damage-detection-system.png" alt="Vehicle Damage Detection System"
 						class="project-detail-image">
 
 				</div>
 
 
-				<!-- =========================================
-			     TECH STACK
-			========================================= -->
+				<!-- Technology -->
 
 				<div class="project-detail-tech">
 
 					<span>Python</span>
-					<span>Scikit-learn</span>
-					<span>MLflow</span>
+
+					<span>YOLOv8</span>
+
+					<span>PyTorch</span>
+
+					<span>OpenCV</span>
+
 					<span>FastAPI</span>
-					<span>Azure</span>
-					<span>Docker</span>
 
 				</div>
 
 
-				<!-- =========================================
-			     CONTENT
-			========================================= -->
+				<!-- Content -->
 
 				<div class="project-detail-content">
 
-					<!-- Summary -->
+
+					<!-- Motivation -->
+
 					<div class="project-detail-block">
 
-						<h3>Summary</h3>
+						<h2>Why This Project?</h2>
 
 						<p>
-							Developed a production-ready ML system using ~23k insurance policies to predict lapse risk
-							(~13% positive class). The system outputs probability scores to rank customers, enabling
-							targeted retention strategies and operational decision-making workflows.
+
+							Vehicle damage assessment is often manual, time-consuming, and dependent on human
+							inspection. These processes can slow down claim handling and introduce inconsistencies
+							across insurance workflows.
+
+						</p>
+
+						<p>
+
+							This project explores how AI can automate parts of this process and create a more scalable
+							and data-driven approach to vehicle assessment.
+
 						</p>
 
 					</div>
 
 
-					<!-- Architecture -->
+					<!-- Vision -->
+
 					<div class="project-detail-block">
 
-						<h3>System Architecture</h3>
+						<h2>Project Vision</h2>
+
+						<p>
+
+							Rather than building a standalone image classifier, the objective is to develop an
+							intelligent inspection pipeline that gradually moves from image understanding toward
+							decision support.
+
+						</p>
+
+						<p>
+
+							The system is designed to evolve over time while remaining modular and easy to extend.
+
+						</p>
+
+					</div>
+
+
+					<!-- Pipeline -->
+
+					<div class="project-detail-block">
+
+						<h2>Pipeline Architecture</h2>
 
 						<ul>
 
-							<li>End-to-end ML workflow from ingestion → preprocessing → model → API</li>
+							<li>
 
-							<li>Reusable training pipeline generating deployment-ready artifacts</li>
+								Detection → Identify damage types and their locations
 
-							<li>FastAPI inference service for real-time predictions</li>
+							</li>
 
-							<li>Dockerized deployment on Azure Web App</li>
+							<li>
 
-							<li>Consistent inference using persisted preprocessing artifacts</li>
+								Assessment → Interpret severity using detected information
+
+							</li>
+
+							<li>
+
+								Risk Estimation → Map severity to basic cost or risk levels
+
+							</li>
 
 						</ul>
 
 					</div>
 
 
-					<!-- Performance -->
+					<!-- Engineering -->
+
 					<div class="project-detail-block">
 
-						<h3>Model & Performance</h3>
+						<h2>Engineering Approach</h2>
 
 						<p>
-							Logistic Regression baseline trained using class balancing strategies to handle ~13%
-							positive lapse distribution.
+
+							The project follows a modular architecture where each component can evolve independently
+							without affecting the overall workflow.
+
 						</p>
 
 						<ul>
 
-							<li><strong>ROC-AUC:</strong> 0.60</li>
+							<li>
 
-							<li><strong>Recall:</strong> 0.96</li>
+								Independent detection, assessment, and risk estimation layers
 
-							<li><strong>Precision:</strong> 0.13</li>
+							</li>
 
-						</ul>
+							<li>
 
-						<p>
-							Optimised for recall to maximise identification of high-risk customers.
-						</p>
+								API-first design for future integrations
 
-					</div>
+							</li>
 
+							<li>
 
-					<!-- Insights -->
-					<div class="project-detail-block">
+								Extensible architecture for additional AI capabilities
 
-						<h3>Key Insights</h3>
-
-						<ul>
-
-							<li>Strong class imbalance made recall-focused optimisation critical</li>
-
-							<li>Premium-related variables showed strong multicollinearity</li>
-
-							<li>Younger policyholders demonstrated higher lapse rates</li>
-
-							<li>Feature selection improved interpretability more than raw performance</li>
-
-						</ul>
-
-					</div>
-
-
-					<!-- Deployment -->
-					<div class="project-detail-block">
-
-						<h3>Deployment & Engineering</h3>
-
-						<ul>
-
-							<li>Dockerized using python:3.10-slim</li>
-
-							<li>FastAPI + Gunicorn inference service</li>
-
-							<li>Azure Web App deployment</li>
-
-							<li>Optimised container builds using layer caching</li>
-
-							<li>Non-root container execution for improved security</li>
+							</li>
 
 						</ul>
 
@@ -250,21 +275,36 @@
 
 
 					<!-- Future -->
+
 					<div class="project-detail-block">
 
-						<h3>Future Improvements</h3>
+						<h2>Future Roadmap</h2>
 
 						<ul>
 
-							<li>XGBoost and LightGBM experimentation</li>
+							<li>
 
-							<li>MLflow experiment tracking</li>
+								Improve multi damage detection performance
 
-							<li>Monitoring and data drift detection</li>
+							</li>
 
-							<li>Automated retraining workflows</li>
+							<li>
 
-							<li>Model explainability integration</li>
+								Build structured severity scoring systems
+
+							</li>
+
+							<li>
+
+								Enhance risk estimation workflows
+
+							</li>
+
+							<li>
+
+								Generate AI-assisted inspection summaries
+
+							</li>
 
 						</ul>
 
@@ -273,23 +313,25 @@
 				</div>
 
 
-				<!-- =========================================
-			     ACTIONS
-			========================================= -->
+				<!-- Actions -->
 
 				<div class="project-detail-actions">
 
-					<a href="#" class="hero-btn">
-						View Code
+					<a href="https://github.com/Iam-Mak/vehicle-policy-lapse-prediction.git" class="hero-btn">
+
+						View Source Code →
+
 					</a>
 
 				</div>
 
-			</div>
+			</article>
 
 		</div>
 
 	</section>
+
+
 
 	<!-- =========================================
      FOOTER / CONTACT

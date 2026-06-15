@@ -22,6 +22,8 @@
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
 
 </head>
 
@@ -32,7 +34,7 @@
 
 			<!-- Logo -->
 			<a class="navbar-brand" href="index.html">
-				Amil
+				MAK
 			</a>
 
 			<!-- Mobile Toggle -->
@@ -64,11 +66,13 @@
 						<a href="#contact-section" class="nav-link">Contact</a>
 					</li>
 					<li class="nav-item d-flex align-items-center">
+
 						<button onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme">
 
-							<span id="theme-icon">☀️</span>
+							<i id="theme-icon" class="bi bi-moon"></i>
 
 						</button>
+
 					</li>
 					<!-- 
 
@@ -83,268 +87,218 @@
 	</nav>
 
 
-	<!-- =========================================
-     PROJECT PAGE SECTION
-	========================================= -->
-
-	<section class="project-page-section" id="project-section">
+	<!-- Featured Project Section -->
+	<section class="featured-project-section" id="project-section">
 
 		<div class="container">
 
-			<!-- Project Heading -->
-			<div class="project-page-heading">
+			<div class="section-heading">
 
-				<h2 class="project-page-title">
+				<h2 class="section-title">
+
 					Featured Project
+
 				</h2>
 
-				<p class="project-page-description">
-					ML pipeline to predict vehicle insurance policy lapse with experiment tracking, model optimisation,
-					and scalable deployment workflows.
+				<p class="section-subtitle">
+
+					An end-to-end machine learning project exploring how data, modelling, and deployment workflows can
+					support real-world insurance retention decisions.
+
 				</p>
 
 			</div>
 
-			<!-- Project Card -->
-			<div class="project-page-card">
+			<article class="featured-project-card">
 
-				<!-- Left Image -->
-				<div class="project-page-image">
+				<!-- Project Image -->
+
+				<div class="featured-project-image">
 
 					<img src="images/vehiclePolicyLapse.png" alt="Vehicle Policy Lapse Prediction">
 
 				</div>
 
-				<!-- Right Content -->
-				<div class="project-page-content">
+				<!-- Content -->
 
-					<!-- Project Name -->
-					<h3 class="project-page-name">
+				<div class="featured-project-content">
+
+
+
+					<div class="featured-project-tags">
+
+						<span>Insurance Systems</span>
+
+						<span>Machine Learning</span>
+
+						<span>MLOps</span>
+
+					</div>
+
+					<h3 class="featured-project-name">
+
 						Vehicle Policy Lapse Prediction
+
 					</h3>
 
-					<!-- Summary -->
-					<p class="project-page-summary">
-						Predicts customers likely to lapse their vehicle insurance policy using behavioural and
-						policy-related data to support proactive retention strategies and operational decision-making
-						workflows.
+					<p class="featured-project-summary">
+
+						Built an end-to-end machine learning system that identifies customers at high risk of policy
+						lapse to support proactive retention strategies before policy renewal.
+
 					</p>
 
-					<!-- Key Focus -->
-					<div class="project-page-block">
+					<ul class="featured-project-highlights">
 
-						<h4 class="project-page-subtitle">
-							Key Focus Areas
-						</h4>
+						<li>
 
-						<ul class="project-page-points">
+							Developed a recall-focused classification workflow using feature engineering and threshold
+							optimisation
 
-							<li>
-								Predicts policy lapse using behavioural and policy-level features
-							</li>
+						</li>
 
-							<li>
-								Applies feature engineering and model optimisation workflows
-							</li>
+						<li>
 
-							<li>
-								Tracks experiments and model performance using MLflow
-							</li>
+							Evaluated multiple models and selected an interpretable solution aligned with business
+							objectives
 
-							<li>
-								Designed for scalable ML experimentation and deployment workflows
-							</li>
+						</li>
 
-						</ul>
+						<li>
 
-					</div>
+							Integrated MLflow, FastAPI, and Docker to explore production-oriented ML workflows
 
-					<!-- Tech Stack -->
-					<div class="project-page-tech">
+						</li>
 
-						<span>Python</span>
-						<span>Scikit-learn</span>
-						<span>MLflow</span>
-						<span>FastAPI</span>
-						<span>Docker</span>
+					</ul>
 
-					</div>
+					<p class="featured-project-tech">
 
-					<!-- Highlight -->
-					<p class="project-page-highlight">
-						Supports targeted customer retention strategies by identifying high-risk policy holders before
-						policy lapse occurs.
+						Python · Scikit-learn · MLflow · FastAPI · Docker
+
 					</p>
 
-					<!-- Actions -->
-					<div class="project-page-actions">
+					<div class="featured-project-actions">
 
-						<a href="projects/vehicle_policy_lapse_prediction.html" class="hero-btn">
-							Explore Project
+						<a href="projects/vehicle_policy_lapse_prediction.html" class="featured-project-link">
+
+							View Project →
+
 						</a>
 
 					</div>
 
 				</div>
 
-			</div>
+			</article>
 
 		</div>
 
 	</section>
 
-	<!-- =========================================
-     MACHINE LEARNING SECTION
-========================================= -->
 
-	<section class="ml-section" id="ml-projects">
+
+	<!-- APPLIED DATA & AI SYSTEMS -->
+
+	<section class="showcase-section" id="applied-projects">
 
 		<div class="container">
 
-			<!-- =========================================
-		     HEADING
-		========================================= -->
+			<!-- Section Header -->
 
-			<div class="ml-heading">
+			<div class="showcase-header">
 
-				<h2 class="ml-section-title">
-					Machine Learning
+				<h2 class="showcase-title">
+
+					Applied Data & AI Systems
+
 				</h2>
 
-				<p class="ml-section-subtitle">
-					Selected projects focused on model development, predictive systems, and applied machine learning
-					workflows.
+				<p class="showcase-subtitle">
+
+					Projects exploring data platforms, machine learning workflows, and AI applications through practical
+					end-to-end implementations.
+
 				</p>
 
 			</div>
 
-
-			<!-- =========================================
-		     PROJECT GRID
-		========================================= -->
-
 			<div class="row g-4">
 
-				<!-- =========================================
-			     FINDING DONORS
-			========================================= -->
+				<!-- Vehicle Damage Detection -->
 
 				<div class="col-lg-6">
 
-					<div class="ml-card">
+					<article class="showcase-card">
 
-						<!-- Image -->
-						<div class="ml-image">
+						<div class="showcase-image">
 
-							<img src="images/charityML.png" alt="Finding Donors for CharityML">
+							<img src="images/vehicle-damage-detection-system.png" alt="Vehicle Damage Detection System">
 
 						</div>
 
-						<!-- Content -->
-						<div class="ml-content">
+						<div class="showcase-content">
 
-							<h3 class="ml-title">
-								Finding Donors for CharityML
+							<div class="showcase-tags">
+
+								<span>Insurance Systems</span>
+
+								<span>Computer Vision</span>
+
+								<span>Applied AI</span>
+
+							</div>
+
+							<h3 class="showcase-card-title">
+
+								Vehicle Damage Detection System
+
 							</h3>
 
-							<p class="ml-summary">
-								Predicts high-income individuals likely to donate using supervised learning techniques
-								and optimized classification workflows.
+							<p class="showcase-summary">
+
+								Developing an AI-assisted vehicle inspection system that detects vehicle damage from
+								images and supports scalable insurance assessment workflows.
+
 							</p>
 
-							<p class="ml-focus">
-								<b>Task:</b> Classification
+							<ul class="showcase-highlights">
+
+								<li>
+
+									Built an initial object detection pipeline using annotated vehicle image datasets
+
+								</li>
+
+								<li>
+
+									Designing structured damage assessment and risk estimation workflows
+
+								</li>
+
+								<li>
+
+									Building deployment-ready APIs for insurance inspection use cases
+
+								</li>
+
+							</ul>
+
+							<p class="showcase-tech">
+
+								Python · YOLOv8 · PyTorch · OpenCV · FastAPI
+
 							</p>
 
-							<p class="ml-highlight">
-								<b>Highlight:</b> Identified key income patterns influencing donation behaviour and
-								outreach efficiency.
-							</p>
+							<a href="projects/vehicle-damage-detection-system.html" class="showcase-link">
 
-							<!-- Tech Stack -->
-							<div class="ml-tech">
+								View Project →
 
-								<span>Python</span>
-								<span>Scikit-learn</span>
-								<span>Pandas</span>
-								<span>Supervised Learning</span>
-
-							</div>
-
-							<!-- Actions -->
-							<div class="ml-actions">
-
-								<a href="projects/finding_donors_charityml.html" class="hero-btn">
-									View Details
-								</a>
-
-							</div>
+							</a>
 
 						</div>
 
-					</div>
-
-				</div>
-
-
-				<!-- =========================================
-			     FLOWER CLASSIFIER
-			========================================= -->
-
-				<div class="col-lg-6">
-
-					<div class="ml-card">
-
-						<!-- Image -->
-						<div class="ml-image">
-
-							<img src="images/flowerClassifier.png" alt="Flower Image Classification">
-
-						</div>
-
-						<!-- Content -->
-						<div class="ml-content">
-
-							<h3 class="ml-title">
-								Flower Image Classification
-							</h3>
-
-							<p class="ml-summary">
-								Classifies flower species using transfer learning with MobileNetV2 and lightweight deep
-								learning workflows.
-							</p>
-
-							<p class="ml-focus">
-								<b>Task:</b> Image Classification
-							</p>
-
-							<p class="ml-highlight">
-								<b>Impact:</b> Achieved 81.10% accuracy using an efficient lightweight deep learning
-								model.
-							</p>
-
-							<!-- Tech Stack -->
-							<div class="ml-tech">
-
-								<span>Python</span>
-								<span>PyTorch</span>
-								<span>MobileNetV2</span>
-								<span>Transfer Learning</span>
-
-							</div>
-
-							<!-- Actions -->
-							<div class="ml-actions">
-
-								<a href="projects/flower_image_classification.html" class="hero-btn">
-									View Details
-								</a>
-
-							</div>
-
-						</div>
-
-					</div>
+					</article>
 
 				</div>
 
@@ -353,352 +307,152 @@
 		</div>
 
 	</section>
-
-	<!-- =========================================
-     ANALYTICS PROJECTS
-	========================================= -->
-
-	<section class="analytics-section" id="analytics-projects">
-
-		<div class="container">
-
-			<!-- Section Heading -->
-			<div class="analytics-heading">
-
-				<h2 class="analytics-section-title">
-					Data Analytics
-				</h2>
-
-				<p class="analytics-section-subtitle">
-					Projects focused on extracting insights, analysing behavioural patterns, and supporting data-driven
-					decision-making.
-				</p>
-
-			</div>
-
-			<!-- Analytics Grid -->
-			<div class="row g-4">
-
-				<!-- Bellabeat -->
-				<div class="col-lg-6">
-
-					<div class="analytics-card">
-
-						<!-- Image -->
-						<div class="analytics-image">
-
-							<img src="images/belabeaticon.png" alt="Bellabeat Analysis">
-
-						</div>
-
-						<!-- Content -->
-						<div class="analytics-content">
-
-							<h3 class="analytics-title">
-								Bellabeat Analysis
-							</h3>
-
-							<p class="analytics-summary">
-								Analyzes smart device usage data to uncover behavioural patterns and user insights.
-							</p>
-
-							<p class="analytics-focus">
-								<b>Focus:</b> Behavioral Analysis
-							</p>
-
-							<p class="analytics-insight">
-								<b>Insight:</b> Identified activity and usage trends to support product and marketing
-								decisions.
-							</p>
-
-							<!-- Tech Stack -->
-							<div class="analytics-tech">
-
-								<span>SQL</span>
-								<span>Python</span>
-								<span>Data Analysis</span>
-								<span>Visualization</span>
-
-							</div>
-
-							<!-- Action -->
-							<div class="analytics-actions">
-
-								<a href="https://github.com/Iam-Mak/google-data-analytics-specializations/blob/main/wellness-technology-case-study/readme.md"
-									target="_blank" class="hero-btn">
-									View Details
-								</a>
-
-							</div>
-
-						</div>
-
-					</div>
-
-				</div>
-
-				<!-- Cyclistic -->
-				<div class="col-lg-6">
-
-					<div class="analytics-card">
-
-						<!-- Image -->
-						<div class="analytics-image">
-
-							<img src="images/cyclistic.png" alt="Cyclistic Case Study">
-
-						</div>
-
-						<!-- Content -->
-						<div class="analytics-content">
-
-							<h3 class="analytics-title">
-								Cyclistic Case Study
-							</h3>
-
-							<p class="analytics-summary">
-								Explores user behaviour patterns to support data-driven marketing strategies.
-							</p>
-
-							<p class="analytics-focus">
-								<b>Focus:</b> Exploratory Data Analysis
-							</p>
-
-							<p class="analytics-insight">
-								<b>Insight:</b> Revealed key differences between user segments to guide business
-								decisions.
-							</p>
-
-							<!-- Tech Stack -->
-							<div class="analytics-tech">
-
-								<span>Python</span>
-								<span>Excel</span>
-								<span>Data Analysis</span>
-								<span>Visualization</span>
-
-							</div>
-
-							<!-- Action -->
-							<div class="analytics-actions">
-
-								<a href="https://github.com/Iam-Mak/google-data-analytics-specializations/blob/main/bike-share-case-study/readme.md"
-									target="_blank" class="hero-btn">
-									View Details
-								</a>
-
-							</div>
-
-						</div>
-
-					</div>
-
-				</div>
-
-			</div>
-
-		</div>
-
-	</section>
-
 
 	<!-- =========================================
      RESEARCH & ACADEMIC PROJECTS
-	========================================= -->
+========================================= -->
 
-	<section class="research-section" id="research-projects">
+	<section class="showcase-section" id="research-projects">
 
 		<div class="container">
 
-			<!-- Section Heading -->
-			<div class="research-heading">
+			<!-- Header -->
 
-				<h2 class="research-section-title">
+			<div class="showcase-header">
+
+				<h2 class="showcase-title">
+
 					Research & Academic
+
 				</h2>
 
-				<p class="research-section-subtitle">
-					Experimental work in dynamical systems, optimisation, machine learning theory, and scientific
-					computing.
+				<p class="showcase-subtitle">
+
+					Selected MSc projects exploring mathematical modelling, scientific machine learning, and data driven
+					research.
+
 				</p>
 
 			</div>
 
-			<!-- Research Grid -->
-			<div class="row research-row">
+			<div class="row g-4">
 
-				<!-- Reservoir Computing -->
+				<!-- MSc Thesis -->
+
 				<div class="col-lg-6">
 
-					<div class="research-card">
+					<article class="showcase-card">
 
-						<!-- Image -->
-						<div class="research-image">
+						<div class="showcase-image">
 
-							<img src="images/lorenz_plot.png" alt="Lorenz Attractor">
+							<img src="images/adam_convergence.png"
+								alt="Interpretable Machine Learning for Climate Dynamics">
 
 						</div>
 
-						<!-- Content -->
-						<div class="research-content">
+						<div class="showcase-content">
 
-							<h3 class="research-title">
-								Next Generation Reservoir Computing
+							<div class="showcase-tags">
+
+								<span>Climate Systems</span>
+
+								<span>Machine Learning</span>
+
+								<span>Time Series</span>
+
+							</div>
+							<h3 class="showcase-card-title">
+
+								Interpretable Machine Learning for Climate Dynamics
+
+
 							</h3>
 
-							<p class="research-summary">
-								Models chaotic dynamical systems such as Lorenz-63 and Double Scroll circuits using Next
-								Generation Reservoir Computing techniques.
+							<p class="showcase-summary">
+
+								Investigating how interpretable machine learning can uncover hidden relationships within
+								climate systems associated with El Niño-Southern Oscillation (ENSO).
 							</p>
 
-							<p class="research-focus">
-								<b>Focus:</b> Dynamical Systems & Nonlinear Modeling
+							<p class="showcase-tech">
+
+								Python · NumPy · Pandas · SciPy · Matplotlib
+
 							</p>
 
-							<p class="research-insight">
-								<b>Insight:</b> Captures complex nonlinear dynamics and achieves accurate short-term
-								forecasting behaviour.
-							</p>
+							<a href="#" class="showcase-link">
 
-							<!-- Tech Stack -->
-							<div class="research-tech">
+								View Project →
 
-								<span>Python</span>
-								<span>Dynamical Systems</span>
-								<span>Reservoir Computing</span>
+							</a>
+
+						</div>
+
+					</article>
+
+				</div>
+
+				<!-- Reservoir Computing -->
+
+				<div class="col-lg-6">
+
+					<article class="showcase-card">
+
+						<div class="showcase-image">
+
+							<img src="images/lorenz_plot.png"
+								alt="Nonlinear Dynamical Systems with Reservoir Computing">
+
+						</div>
+
+						<div class="showcase-content">
+
+							<div class="showcase-tags">
+
+								<span>Data Driven Modelling</span>
+
+								<span>Machine Learning</span>
+
 								<span>Time Series</span>
 
 							</div>
 
-							<!-- Actions -->
-							<div class="research-actions">
 
-								<a href="https://github.com/Iam-Mak/ng-rc-modeling" target="_blank" class="hero-btn">
-									View Details
-								</a>
 
-							</div>
 
-						</div>
+							<h3 class="showcase-card-title">
 
-					</div>
+								Machine Learning for Complex Dynamical Systems
 
-				</div>
 
-				<!-- Clustering -->
-				<div class="col-lg-6">
-
-					<div class="research-card">
-
-						<!-- Image -->
-						<div class="research-image">
-
-							<img src="images/clustering.png" alt="Clustering Analysis">
-
-						</div>
-
-						<!-- Content -->
-						<div class="research-content">
-
-							<h3 class="research-title">
-								Clustering Analysis
 							</h3>
 
-							<p class="research-summary">
-								Evaluates clustering algorithms across different datasets and compares performance under
-								varying data distributions.
+							<p class="showcase-summary">
+
+								Applied Next Generation Reservoir Computing to model and forecast complex dynamical
+								systems, exploring how machine learning can learn nonlinear patterns from time series
+								data.
+
+
 							</p>
 
-							<p class="research-focus">
-								<b>Focus:</b> Unsupervised Learning
+
+
+							<p class="showcase-tech">
+
+								Python · NumPy · Pandas · SciPy · Matplotlib
+
 							</p>
 
-							<p class="research-insight">
-								<b>Insight:</b> Highlights limitations of k-means on non-spherical data and compares
-								clustering behaviour across methods.
-							</p>
+							<a href="https://github.com/Iam-Mak/ng-rc-modeling" target="_blank" class="showcase-link">
 
-							<!-- Tech Stack -->
-							<div class="research-tech">
+								View Project →
 
-								<span>Python</span>
-								<span>Scikit-learn</span>
-								<span>Clustering</span>
-								<span>Unsupervised Learning</span>
-
-							</div>
-
-							<!-- Actions -->
-							<div class="research-actions">
-
-								<a href="https://github.com/Iam-Mak/clustering-algorithms-comparative-analysis"
-									target="_blank" class="hero-btn">
-									View Details
-								</a>
-
-							</div>
+							</a>
 
 						</div>
 
-					</div>
-
-				</div>
-
-				<!-- Adam Optimizer -->
-				<div class="col-lg-6">
-
-					<div class="research-card">
-
-						<!-- Image -->
-						<div class="research-image">
-
-							<img src="images/adam_convergence.png" alt="Adam Optimizer Analysis">
-
-						</div>
-
-						<!-- Content -->
-						<div class="research-content">
-
-							<h3 class="research-title">
-								Adam Optimizer Analysis
-							</h3>
-
-							<p class="research-summary">
-								Analyzes convergence behaviour of the Adam optimizer and investigates adaptive learning
-								rate dynamics.
-							</p>
-
-							<p class="research-focus">
-								<b>Focus:</b> Optimization & ML Theory
-							</p>
-
-							<p class="research-insight">
-								<b>Insight:</b> Examines optimisation stability and convergence under different
-								hyperparameter settings.
-							</p>
-
-							<!-- Tech Stack -->
-							<div class="research-tech">
-
-								<span>Optimization</span>
-								<span>Gradient Descent</span>
-								<span>Machine Learning</span>
-
-							</div>
-
-							<!-- Actions -->
-							<div class="research-actions">
-
-								<a href="https://github.com/Iam-Mak/adam-optimizer-convergence-analysis" target="_blank"
-									class="hero-btn">
-									View Details
-								</a>
-
-							</div>
-
-						</div>
-
-					</div>
+					</article>
 
 				</div>
 
@@ -707,6 +461,7 @@
 		</div>
 
 	</section>
+
 
 	<!-- =========================================
      FOOTER / CONTACT
@@ -794,6 +549,8 @@
 	<script src="js/particles.min.js"></script>
 	<script src="js/app.js"></script>
 	<script src="js/main.js"></script>
+	<script src="https://unpkg.com/lucide@latest"></script>
+
 
 </body>
 
