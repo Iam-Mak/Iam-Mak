@@ -444,25 +444,23 @@ $(function () {
 
 });
 
+/* =========================================
+   INITIAL THEME LOAD
+========================================= */
+
 (function () {
 
 	const savedTheme =
-		localStorage.getItem("theme");
+		localStorage.getItem("theme") || "dark";
 
-	if (savedTheme) {
-		document.documentElement.setAttribute(
-			"data-theme",
-			savedTheme
-		);
-	}
-
-	updateThemeIcon();
+	/* Apply Saved Theme */
+	document.documentElement.setAttribute(
+		"data-theme",
+		savedTheme
+	);
 
 })();
 
-/* =========================================
-   THEME TOGGLE
-========================================= */
 
 function toggleTheme() {
 
@@ -476,52 +474,50 @@ function toggleTheme() {
 		isDark ? "light" : "dark";
 
 	/* Update Theme */
-	html.setAttribute("data-theme", newTheme);
+	html.setAttribute(
+		"data-theme",
+		newTheme
+	);
 
 	/* Save Theme */
-	localStorage.setItem("theme", newTheme);
+	localStorage.setItem(
+		"theme",
+		newTheme
+	);
 
 	/* Update Icon */
 	updateThemeIcon();
 }
 
-
-/* =========================================
-   UPDATE THEME ICON
-========================================= */
 
 function updateThemeIcon() {
 
 	const icon =
 		document.getElementById("theme-icon");
 
-	/* Prevent Errors */
 	if (!icon) return;
 
 	const isDark =
 		document.documentElement.getAttribute("data-theme") === "dark";
 
-	icon.textContent =
-		isDark ? "☀️" : "🌙";
+	icon.className = isDark
+		? "bi bi-sun"
+		: "bi bi-moon";
 }
 
 
-/* =========================================
-   INITIALIZE THEME
-========================================= */
-
 document.addEventListener("DOMContentLoaded", () => {
 
-	const savedTheme =
-		localStorage.getItem("theme") || "dark";
-
-	/* Apply Saved Theme */
-	document.documentElement.setAttribute(
-		"data-theme",
-		savedTheme
-	);
-
-	/* Update Icon */
 	updateThemeIcon();
 
+});
+
+document.querySelectorAll('.experience-details').forEach(detail => {
+	const summary = detail.querySelector('summary');
+
+	detail.addEventListener('toggle', () => {
+		summary.textContent = detail.open
+			? 'Hide Details ↑'
+			: 'View Details →';
+	});
 });

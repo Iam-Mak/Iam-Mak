@@ -22,6 +22,8 @@
 	<link rel="stylesheet" href="../css/aos.css">
 	<link rel="stylesheet" href="../css/flaticon.css">
 	<link rel="stylesheet" href="../css/icomoon.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
 
 </head>
 
@@ -33,8 +35,8 @@
 		<div class="container">
 
 			<!-- Logo -->
-			<a class="navbar-brand" href="index.html">
-				Amil
+			<a class="navbar-brand" href="../index.html">
+				MAK
 			</a>
 
 			<!-- Mobile Toggle -->
@@ -63,11 +65,13 @@
 						<a href="#contact-section" class="nav-link">Contact</a>
 					</li>
 					<li class="nav-item d-flex align-items-center">
+
 						<button onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme">
 
-							<span id="theme-icon">☀️</span>
+							<i id="theme-icon" class="bi bi-moon"></i>
 
 						</button>
+
 					</li>
 
 					<!-- 
@@ -83,6 +87,7 @@
 		</div>
 	</nav>
 
+
 	<!-- =========================================
      PROJECT DETAIL SECTION
 ========================================= -->
@@ -91,28 +96,39 @@
 
 		<div class="container">
 
-			<div class="project-detail-card">
+			<article class="project-detail-card">
 
-				<!-- =========================================
-			     HEADER
-			========================================= -->
+				<!-- Header -->
 
 				<div class="project-detail-header">
 
+					<div class="project-detail-meta">
+
+						<span>Insurance Systems</span>
+
+						<span>Computer Vision</span>
+
+						<span>Applied AI</span>
+
+					</div>
+
 					<h1 class="project-detail-title">
+
 						Vehicle Damage Detection System
+
 					</h1>
 
 					<p class="project-detail-subtitle">
-						YOLOv8-based computer vision system for automated vehicle damage detection and localization.
+
+						Building an AI-assisted vehicle inspection system that combines computer vision with structured
+						decision workflows to support scalable insurance assessment processes.
+
 					</p>
 
 				</div>
 
 
-				<!-- =========================================
-			     IMAGE
-			========================================= -->
+				<!-- Hero Image -->
 
 				<div class="project-detail-image-wrap">
 
@@ -122,166 +138,195 @@
 				</div>
 
 
-				<!-- =========================================
-			     TECH STACK
-			========================================= -->
+				<!-- Skills -->
 
 				<div class="project-detail-tech">
 
 					<span>Python</span>
-					<span>PyTorch</span>
+
 					<span>YOLOv8</span>
-					<span>Computer Vision</span>
-					<span>Object Detection</span>
+
+					<span>PyTorch</span>
+
+					<span>OpenCV</span>
+
+					<span>FastAPI</span>
 
 				</div>
 
 
-				<!-- =========================================
-			     CONTENT
-			========================================= -->
+				<!-- Content -->
 
 				<div class="project-detail-content">
 
 
-					<!-- Overview -->
+					<!-- Why -->
+
 					<div class="project-detail-block">
 
-						<h3>Overview</h3>
+						<h2>Why This Project?</h2>
 
 						<p>
-							Developed a YOLOv8-based computer vision pipeline to detect and localize vehicle damage from
-							images. The system identifies damaged regions and classifies damage types, enabling
-							automated inspection workflows and reducing manual assessment effort.
+
+							Vehicle damage assessment is often manual, time-consuming, and highly dependent on human
+							inspection. These processes can slow down claims handling and introduce inconsistencies
+							across insurance workflows.
+
 						</p>
 
 						<p>
-							Designed for real-world use cases such as insurance claim assessment, automated inspection
-							systems, and operational vehicle damage analysis.
-						</p>
 
-						<p>
-							<strong>Status:</strong> Model training and evaluation completed; deployment and interface
-							development in progress.
+							This project explores how AI can automate parts of this process and create more scalable and
+							data-driven approaches to vehicle assessment.
+
 						</p>
 
 					</div>
 
 
-					<!-- Dataset -->
+					<!-- Vision -->
+
 					<div class="project-detail-block">
 
-						<h3>Dataset</h3>
+						<h2>Project Vision</h2>
+
+						<p>
+
+							Rather than building a standalone detection model, the objective is to develop an
+							intelligent inspection pipeline that gradually moves from image understanding toward
+							decision support.
+
+						</p>
+
+						<p>
+
+							The long-term goal is to bridge computer vision with practical insurance workflows and build
+							systems that can support future automation initiatives.
+
+						</p>
+
+					</div>
+
+
+					<!-- Architecture -->
+
+					<div class="project-detail-block">
+
+						<h2>System Architecture</h2>
+
+						<p>
+
+							The project follows a modular pipeline where each component can evolve independently while
+							remaining connected through a common workflow.
+
+						</p>
 
 						<ul>
 
-							<li>Annotated dataset with bounding boxes for multiple damage categories</li>
+							<li>
 
-							<li>Includes real-world variation in lighting, backgrounds, and viewing angles</li>
+								Detection → Identify damage types and their locations
 
-							<li>Preprocessed and structured for object detection training workflows</li>
+							</li>
 
-							<li>Separated into training and validation datasets</li>
+							<li>
+
+								Assessment → Interpret damage severity
+
+							</li>
+
+							<li>
+
+								Risk Estimation → Generate simple cost or risk insights
+
+							</li>
 
 						</ul>
 
 					</div>
 
 
-					<!-- Approach -->
+					<!-- Engineering -->
+
 					<div class="project-detail-block">
 
-						<h3>Approach</h3>
-
-						<ul>
-
-							<li>Trained YOLOv8 model for damage detection and localization</li>
-
-							<li>Applied augmentation techniques to improve generalization</li>
-
-							<li>Optimised training for balanced precision and recall</li>
-
-							<li>Generated predictions using bounding boxes and confidence scores</li>
-
-							<li>Evaluated using standard object detection metrics</li>
-
-						</ul>
-
-					</div>
-
-
-					<!-- Model -->
-					<div class="project-detail-block">
-
-						<h3>Model</h3>
+						<h2>Engineering Approach</h2>
 
 						<p>
-							YOLOv8 (You Only Look Once) was selected for efficient real-time object detection. The
-							architecture processes images in a single pass, simultaneously predicting damage location
-							and category, making it suitable for scalable deployment scenarios.
+
+							The system is being designed with extensibility in mind rather than as a single deep
+							learning model.
+
 						</p>
 
-					</div>
-
-
-					<!-- Results -->
-					<div class="project-detail-block">
-
-						<h3>Results</h3>
-
 						<ul>
 
-							<li><strong>Precision:</strong> 0.69</li>
+							<li>
 
-							<li><strong>Recall:</strong> 0.67</li>
+								Modular architecture with independently evolving components
 
-							<li><strong>mAP@0.5:</strong> 0.68</li>
+							</li>
 
-							<li><strong>mAP@0.5:0.95:</strong> 0.54</li>
+							<li>
 
-							<li>Reliable detection performance across varied real-world image conditions</li>
+								API-first design for future integrations
+
+							</li>
+
+							<li>
+
+								Structured outputs for downstream applications
+
+							</li>
+
+							<li>
+
+								Extensible pipeline for additional AI capabilities
+
+							</li>
 
 						</ul>
 
 					</div>
 
 
-					<!-- Insights -->
+					<!-- Roadmap -->
+
 					<div class="project-detail-block">
 
-						<h3>Key Insights</h3>
+						<h2>Future Roadmap</h2>
+
+						<p>
+
+							This project will gradually evolve into a more complete intelligent inspection platform.
+
+						</p>
 
 						<ul>
 
-							<li>Detection performance is highly sensitive to image quality and illumination</li>
+							<li>
 
-							<li>Diverse annotated data significantly improves generalization capability</li>
+								Improve multi-damage detection performance
 
-							<li>YOLO architecture enables efficient end-to-end detection workflows</li>
+							</li>
 
-							<li>Bounding box annotation quality strongly impacts localization accuracy</li>
+							<li>
 
-						</ul>
+								Build structured severity scoring systems
 
-					</div>
+							</li>
 
+							<li>
 
-					<!-- Next Steps -->
-					<div class="project-detail-block">
+								Enhance risk estimation workflows
 
-						<h3>Next Steps</h3>
+							</li>
 
-						<ul>
+							<li>
 
-							<li>Develop Streamlit interface for real-time predictions</li>
+								Generate AI-assisted inspection summaries
 
-							<li>Export structured prediction outputs and confidence scores</li>
-
-							<li>Deploy inference API for external integrations</li>
-
-							<li>Extend system with damage severity estimation</li>
-
-							<li>Investigate segmentation-based approaches for finer localization</li>
+							</li>
 
 						</ul>
 
@@ -290,20 +335,20 @@
 				</div>
 
 
-				<!-- =========================================
-			     ACTIONS
-			========================================= -->
+				<!-- Actions -->
 
 				<div class="project-detail-actions">
 
 					<a href="https://github.com/Iam-Mak/vehicle-damage-detection-system" target="_blank"
 						class="hero-btn">
-						View Code
+
+						View Source Code →
+
 					</a>
 
 				</div>
 
-			</div>
+			</article>
 
 		</div>
 
