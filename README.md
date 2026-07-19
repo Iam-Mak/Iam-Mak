@@ -1,58 +1,50 @@
-<h1 align="center">Hi there, I'm Amil Khan (Iam-Mak) 👋</h1>
-
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐_Visit_My-Portfolio-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://iam-mak.github.io/Iam-Mak) &nbsp;
-[![Projects](https://img.shields.io/badge/📂_View_My-Projects-success?style=for-the-badge&logo=github&logoColor=white)](https://iam-mak.github.io/Data-Science-And-Analytics-Portfolio) &nbsp;
-[![LinkedIn](https://img.shields.io/badge/Connect_on-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iam-mak) &nbsp;
-[![Email](https://img.shields.io/badge/Email-Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohd.amilk09@gmail.com)
+<h1>Hi, I'm Amil (Iam-Mak) 👋</h1>
+
+<h3>I enjoy building Cloud, Data & AI Systems</h3>
+
+<p>
+I enjoy designing and building solutions that combine Azure, cloud infrastructure, modern data platforms, automation, and AI to solve real-world challenges.
+</p>
 
 </div>
 
----
+## About
 
-## 👨‍💻 About Me
+I enjoy working with cloud technologies, data platforms, and automation to build systems that are simple, reliable, and practical.
 
-I work on **data driven systems**, with experience in **data pipelines**, **analytics platforms**, **cloud integrations**, and **CI/CD workflows**. I focus on building solutions that are **reliable**, **maintainable**, and suitable for real world use.
+I'm currently pursuing a Master's in Machine Learning and Mathematical Modelling, where I'm exploring machine learning, statistical modelling, and MLOps alongside modern cloud and data platforms.
 
-I am currently pursuing a **Master’s in Machine Learning and Mathematical Modelling**, developing my skills in **machine learning**, **statistical modelling**, and **MLOps**.
+I'm particularly interested in building end-to-end systems where cloud infrastructure, data engineering, and AI come together.
 
-I’m interested in the intersection of **data engineering** and **machine learning**, aiming to build systems that move beyond experimentation into **practical, production ready applications**.
+## Current Projects
 
+- **Azure Urban Mobility Data Platform** — Building an end-to-end Azure data platform, exploring modern data engineering from data ingestion to analytics using a Medallion Architecture.
 
-## 💻 What I’m Currently Working On
+- **Vehicle Insurance AI Platform** — Building a modular AI platform that combines computer vision and intelligent AI to automate vehicle damage assessment and insurance claim workflows.
 
-- Strengthening fundamentals in **machine learning**, **statistical modelling**, and **optimisation**
-- Building **end-to-end ML workflows** in Python (data preparation → modelling → evaluation)
-- Learning **MLOps practices**, including **model versioning**, **monitoring**, and basic **deployment patterns**
-- Applying **cloud and automation principles** to **data and ML pipelines**
-- Improving code quality, testing, and overall **system reliability**
-
----
+- **Vehicle Policy Lapse Prediction** — Building an end-to-end MLOps platform for predicting vehicle insurance policy lapse, covering data pipelines, model training, containerized microservices, CI/CD, and Azure cloud deployment.
 
 
-## ⚙️ Technical Focus Areas
+## Engineering Focus
 
-- **Data Engineering:** Data pipelines, integration patterns, and analytics-ready data models  
-- **Analytics & Monitoring:** SQL-based analysis, dashboards, and operational metrics  
-- **Cloud & Automation:** CI/CD workflows, containerisation, and cloud platforms  
-- **Machine Learning (Learning & Applied):** scikit-learn, PyTorch, model evaluation, and MLOps practices  
+| Domain | Technologies |
+|---------|--------------|
+| **Cloud Platform Engineering** | Azure · Terraform · Docker · Kubernetes · GitHub Actions · CI/CD |
+| **Data Engineering** | SQL · Azure Data Factory · Databricks · Spark · Delta Lake · Data Modelling |
+| **AI Engineering** | Python · FastAPI · Azure AI · RAG · Vector Databases · MCP |
+| **Software Engineering** | REST APIs · Git · Testing · Automation · Monitoring |
 
-
----
-
-
-## 📊 GitHub Activity
+## GitHub Activity
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Iam-Mak&theme=default)
 
 ---
-<div align="center">
-  <p><i>Always learning, building, and improving — feel free to connect.</i></p>
-  <a href="https://www.linkedin.com/in/iam-mak">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin" alt="Connect on LinkedIn" />
-  </a>
-  <a href="https://github.com/Iam-Mak">
-    <img src="https://img.shields.io/github/followers/Iam-Mak?label=Follow&style=social" alt="Follow on GitHub" />
-  </a>
-</div>
+
+<p align="center">
+<a href="https://iam-mak.github.io/Iam-Mak">Portfolio</a> •
+<a href="https://iam-mak.github.io/Data-Science-And-Analytics-Portfolio">Projects</a> •
+<a href="https://www.linkedin.com/in/iam-mak">LinkedIn</a> •
+<a href="mailto:mohd.amilk09@gmail.com">Contact</a>
+</p>

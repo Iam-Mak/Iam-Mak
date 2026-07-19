@@ -7957,7 +7957,7 @@ h5,
 .hero-title {
   font-family: var(--font-family-heading);
 
-  font-size: clamp(3rem, 6vw, 5rem);
+  font-size: clamp(3rem, 6vw, 4.5rem);
   font-weight: 700;
 
   line-height: 0.95;
@@ -7981,6 +7981,7 @@ h5,
 
   opacity: 0.92;
 }
+
 
 /* ==========================================
    DATA FLOW
@@ -8149,7 +8150,6 @@ h5,
 /* ========================================
    About  Section
  ======================================== */
-
 .about-content {
   max-width: 720px;
 }
