@@ -2,13 +2,15 @@
 <html lang="en">
 
 <head>
-	<title>Amil | AI & ML Portfolio</title>
+	<title>Amil Khan | Data Platform Engineering</title>
+
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta property="og:title" content="Amil" />
-	<meta property="og:description" content="Portfolio" />
+	<meta property="og:title" content="Amil Khan | Data Platform Engineering">
+	<meta property="og:description"
+		content="Portfolio showcasing Azure data platforms, Databricks, cloud integration, and engineering automation.">
 
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
@@ -22,10 +24,10 @@
 	<link rel="stylesheet" href="../css/aos.css">
 	<link rel="stylesheet" href="../css/flaticon.css">
 	<link rel="stylesheet" href="../css/icomoon.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
-
 
 </head>
+
+
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
@@ -63,13 +65,11 @@
 						<a href="#contact-section" class="nav-link">Contact</a>
 					</li>
 					<li class="nav-item d-flex align-items-center">
-
 						<button onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme">
 
-							<i id="theme-icon" class="bi bi-moon"></i>
+							<span id="theme-icon">☀️</span>
 
 						</button>
-
 					</li>
 
 					<!-- 
@@ -86,308 +86,189 @@
 	</nav>
 
 
-	<!-- =========================================
-     PROJECT DETAIL SECTION
-========================================= -->
+	<!-- PROJECT DETAIL SECTION -->
+
 
 	<section class="project-detail-section" id="project-section">
-
 		<div class="container">
+			<div class="project-detail-card">
 
-			<article class="project-detail-card">
-
-				<!-- Header -->
-
+				<!-- PROJECT HEADER -->
 				<div class="project-detail-header">
-
-					<div class="project-detail-meta">
-
-						<span>Insurance Systems</span>
-
-						<span>Computer Vision</span>
-
-						<span>Applied AI</span>
-
-					</div>
-
 					<h1 class="project-detail-title">
-
-						Vehicle Damage Detection System
-
+						Vehicle Policy Lapse Prediction
 					</h1>
-
 					<p class="project-detail-subtitle">
-
-						Building an AI-assisted vehicle inspection system that combines computer vision with structured
-						decision workflows to support scalable insurance assessment processes.
-
+						An insurance risk scoring service combining supervised
+						learning, reproducible preprocessing, API based inference,
+						and containerised cloud deployment.
 					</p>
-
 				</div>
 
-
-				<!-- Hero Image -->
-
+				<!-- PROJECT VISUAL -->
 				<div class="project-detail-image-wrap">
-
-					<img src="../images/vehicle-damage-detection-system.png" alt="Vehicle Damage Detection System"
+					<img src="../images/vehiclePolicyLapse.png" alt="Vehicle Policy Lapse Prediction system"
 						class="project-detail-image">
-
 				</div>
 
-
-				<!-- Technology -->
-
+				<!-- TECHNOLOGIES -->
 				<div class="project-detail-tech">
-
 					<span>Python</span>
-
-					<span>YOLOv8</span>
-
-					<span>PyTorch</span>
-
-					<span>OpenCV</span>
-
+					<span>Scikit-learn</span>
+					<span>MLflow</span>
 					<span>FastAPI</span>
-
+					<span>Docker</span>
+					<span>Azure App Service</span>
 				</div>
-
-
-				<!-- Content -->
 
 				<div class="project-detail-content">
 
-
-					<!-- Motivation -->
-
+					<!-- BUSINESS CONTEXT -->
 					<div class="project-detail-block">
-
-						<h2>Why This Project?</h2>
-
+						<h3>Business Context</h3>
 						<p>
-
-							Vehicle damage assessment is often manual, time-consuming, and dependent on human
-							inspection. These processes can slow down claim handling and introduce inconsistencies
-							across insurance workflows.
-
+							Policy lapse prediction is a binary classification problem:
+							identify policies at risk of lapsing so an insurer can
+							prioritise retention activity. The challenge is to identify
+							as many lapse cases as possible without overwhelming
+							retention teams with false alarms.
 						</p>
-
-						<p>
-
-							This project explores how AI can automate parts of this process and create a more scalable
-							and data-driven approach to vehicle assessment.
-
-						</p>
-
 					</div>
 
-
-					<!-- Vision -->
-
+					<!-- SOLUTION DESIGN -->
 					<div class="project-detail-block">
-
-						<h2>Project Vision</h2>
-
+						<h3>Solution Design</h3>
 						<p>
-
-							Rather than building a standalone image classifier, the objective is to develop an
-							intelligent inspection pipeline that gradually moves from image understanding toward
-							decision support.
-
+							The workflow uses policy level data to prepare model features,
+							train a classification model, and generate lapse risk
+							probabilities. The selected model and preprocessing steps
+							are packaged for inference through a FastAPI service.
 						</p>
-
-						<p>
-
-							The system is designed to evolve over time while remaining modular and easy to extend.
-
-						</p>
-
-					</div>
-
-
-					<!-- Pipeline -->
-
-					<div class="project-detail-block">
-
-						<h2>Pipeline Architecture</h2>
-
 						<ul>
-
-							<li>
-
-								Detection → Identify damage types and their locations
-
-							</li>
-
-							<li>
-
-								Assessment → Interpret severity using detected information
-
-							</li>
-
-							<li>
-
-								Risk Estimation → Map severity to basic cost or risk levels
-
-							</li>
-
+							<li>Data preparation and feature engineering.</li>
+							<li>Classification and decision threshold evaluation.</li>
+							<li>Consistent preprocessing during training and inference.</li>
+							<li>Containerised API deployment using Docker and Azure App Service.</li>
 						</ul>
-
 					</div>
 
-
-					<!-- Engineering -->
-
+					<!-- EVALUATION -->
 					<div class="project-detail-block">
-
-						<h2>Engineering Approach</h2>
-
+						<h3>Model Evaluation & Trade offs</h3>
 						<p>
-
-							The project follows a modular architecture where each component can evolve independently
-							without affecting the overall workflow.
-
+							Logistic Regression was evaluated on a dataset of approximately
+							23,000 policies, with a lapse rate of around 13%.
+							Evaluation prioritised recall to reduce missed lapse cases.
 						</p>
-
 						<ul>
-
-							<li>
-
-								Independent detection, assessment, and risk estimation layers
-
-							</li>
-
-							<li>
-
-								API-first design for future integrations
-
-							</li>
-
-							<li>
-
-								Extensible architecture for additional AI capabilities
-
-							</li>
-
+							<li><strong>ROC AUC:</strong> 0.60</li>
+							<li><strong>Lapse recall:</strong> 0.96</li>
+							<li><strong>Lapse precision:</strong> 0.13</li>
 						</ul>
-
+						<p>
+							The results expose an important operational trade off.
+							High recall captures most lapse cases, but low precision
+							means many flagged policies would not lapse. The model
+							therefore requires further discrimination improvements
+							before it could be relied on for cost efficient targeting.
+						</p>
 					</div>
 
-
-					<!-- Future -->
-
+					<!-- DATA DECISIONS -->
 					<div class="project-detail-block">
-
-						<h2>Future Roadmap</h2>
-
+						<h3>Data Preparation & Feature Decisions</h3>
+						<p>
+							The dataset contained 19 input features. Preparation included
+							categorical encoding, handling skewed distributions, and
+							reviewing highly correlated premium variables.
+						</p>
 						<ul>
-
-							<li>
-
-								Improve multi damage detection performance
-
-							</li>
-
-							<li>
-
-								Build structured severity scoring systems
-
-							</li>
-
-							<li>
-
-								Enhance risk estimation workflows
-
-							</li>
-
-							<li>
-
-								Generate AI-assisted inspection summaries
-
-							</li>
-
+							<li>Investigated premium feature correlations above 0.89.</li>
+							<li>Evaluated feature selection to reduce complexity and improve interpretability.</li>
+							<li>Compared model performance against the goal of identifying lapse cases.</li>
 						</ul>
+					</div>
 
+					<!-- ENGINEERING -->
+					<div class="project-detail-block">
+						<h3>Serving & Deployment</h3>
+						<p>
+							The inference layer exposes predictions through FastAPI.
+							Docker packages the application and dependencies, while
+							Azure App Service provides the hosting environment.
+							The preprocessing and model artifacts are reused during
+							inference to keep predictions consistent with training.
+						</p>
+					</div>
+
+					<!-- NEXT STEPS -->
+					<div class="project-detail-block">
+						<h3>Further Engineering Work</h3>
+						<ul>
+							<li>Evaluate stronger models and improve separation between lapse and non lapse cases.</li>
+							<li>Track experiments and compare model versions using MLflow.</li>
+							<li>Monitor prediction quality and input data drift.</li>
+							<li>Assess the operational impact of false positives at different thresholds.</li>
+						</ul>
 					</div>
 
 				</div>
 
-
-				<!-- Actions -->
-
+				<!-- SOURCE CODE -->
 				<div class="project-detail-actions">
-
-					<a href="https://github.com/Iam-Mak/vehicle-policy-lapse-prediction.git" class="hero-btn">
-
+					<a href="https://github.com/Iam-Mak/vehicle-policy-lapse-prediction" class="hero-btn"
+						target="_blank" rel="noopener noreferrer">
 						View Source Code →
-
 					</a>
-
 				</div>
 
-			</article>
-
+			</div>
 		</div>
-
 	</section>
 
 
 
-	<!-- =========================================
-     FOOTER / CONTACT
-	========================================= -->
-
+	<!-- FOOTER / CONTACT -->
 	<footer class="footer-section" id="contact-section">
-
 		<div class="container">
 
-			<!-- Heading -->
 			<div class="footer-content">
-
-				<h2 class="footer-title">
-					Get in Touch
-				</h2>
-
+				<h2 class="footer-title">Get in Touch</h2>
 				<p class="footer-subtitle">
-					Open to internships, projects, and collaborations.
+					Open to Azure Data Engineering and Data Platform Engineering opportunities.
 				</p>
-
 			</div>
 
 			<!-- Social Links -->
 			<div class="footer-socials">
-
-				<a href="https://www.linkedin.com/in/iam-mak/" target="_blank" class="footer-social-link">
+				<a href="https://www.linkedin.com/in/iam-mak/" target="_blank" rel="noopener noreferrer"
+					class="footer-social-link" aria-label="LinkedIn">
 					<span class="icon-linkedin-square"></span>
 				</a>
 
-				<a href="https://github.com/Iam-Mak" target="_blank" class="footer-social-link">
+				<a href="https://github.com/Iam-Mak" target="_blank" rel="noopener noreferrer"
+					class="footer-social-link" aria-label="GitHub">
 					<span class="icon-github"></span>
 				</a>
 
-				<a href="mailto:mohd.amilk09@gmail.com" class="footer-social-link">
+				<a href="mailto:mohd.amilk09@gmail.com" class="footer-social-link" aria-label="Email">
 					<span class="icon-paper-plane"></span>
 				</a>
 
-				<a href="tel:+917302344786" class="footer-social-link">
+				<a href="tel:+917302344786" class="footer-social-link" aria-label="Phone">
 					<span class="icon-phone2"></span>
 				</a>
-
 			</div>
 
 			<!-- Back To Top -->
 			<div class="footer-actions">
-
 				<a href="#home-section" class="hero-btn">
 					Back to Top ↑
 				</a>
-
 			</div>
 
-			<!-- Divider -->
 			<div class="footer-divider"></div>
 
-			<!-- Bottom -->
 			<p class="footer-bottom">
 				©
 				<script>document.write(new Date().getFullYear());</script>
@@ -395,16 +276,16 @@
 			</p>
 
 		</div>
-
 	</footer>
 
-
-	<!-- loader -->
-	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+	<!-- Loader -->
+	<div id="ftco-loader" class="show fullscreen">
+		<svg class="circular" width="48px" height="48px">
 			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
 			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
 				stroke="#F96D00" />
-		</svg></div>
+		</svg>
+	</div>
 
 
 	<script src="../js/jquery.min.js"></script>

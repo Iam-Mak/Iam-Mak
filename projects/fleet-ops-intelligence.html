@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Amil Khan | Data Platform Engineering</title>
+
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:title" content="Amil Khan | Data Platform Engineering">
+	<meta property="og:description"
+		content="Portfolio showcasing Azure data platforms, Databricks, cloud integration, and engineering automation.">
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+	<link rel="icon" href="images/mak.png">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/animate.css">
+	<link rel="stylesheet" href="../css/owl.carousel.min.css">
+	<link rel="stylesheet" href="../css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="../css/magnific-popup.css">
+	<link rel="stylesheet" href="../css/aos.css">
+	<link rel="stylesheet" href="../css/flaticon.css">
+	<link rel="stylesheet" href="../css/icomoon.css">
+
+</head>
+
+
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+	<nav class="navbar navbar-expand-lg site-navbar-target" id="navbar">
+		<div class="container">
+
+			<!-- Logo -->
+			<a class="navbar-brand" href="../index.html">
+				MAK
+			</a>
+
+			<!-- Mobile Toggle -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+				<span class="oi oi-menu"></span>
+
+			</button>
+
+			<!-- Nav Links -->
+			<div class="collapse navbar-collapse" id="navbarNav">
+
+				<ul class="navbar-nav ml-auto">
+
+					<li class="nav-item">
+						<a href="../index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="../index.html#about-section" class="nav-link">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="../projects.html" class="nav-link">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contact-section" class="nav-link">Contact</a>
+					</li>
+					<li class="nav-item d-flex align-items-center">
+						<button onclick="toggleTheme()" class="theme-toggle" aria-label="Toggle theme">
+
+							<span id="theme-icon">☀️</span>
+
+						</button>
+					</li>
+
+					<!-- 
+						<li class="nav-item">
+						<a href="https://iam-mak.github.io/myblogs/" class="nav-link" target="_blank">
+							Blog
+						</a>
+
+						</li>-->
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<!-- PROJECT DETAIL SECTION -->
+
+
+	<section class="project-detail-section" id="project-section">
+		<div class="container">
+			<div class="project-detail-card">
+
+				<!-- PROJECT HEADER -->
+				<div class="project-detail-header">
+					<h1 class="project-detail-title">
+						FleetOps Intelligence
+					</h1>
+					<p class="project-detail-subtitle">
+						An Azure data platform for ingesting fleet and vehicle tracking
+						data, building a governed lakehouse, and preparing trusted
+						datasets for operational analytics.
+					</p>
+				</div>
+
+				<!-- PROJECT IMAGE -->
+				<div class="project-detail-image-wrap">
+					<img src="../images/FleetOpsIntelligence.png"
+						alt="FleetOps Intelligence Azure data platform architecture" class="project-detail-image">
+				</div>
+
+				<!-- TECHNOLOGY STACK -->
+				<div class="project-detail-tech">
+					<span>Azure</span>
+					<span>Azure Databricks</span>
+					<span>PySpark</span>
+					<span>ADLS Gen2</span>
+					<span>Delta Lake</span>
+					<span>Unity Catalog</span>
+					<span>Terraform</span>
+				</div>
+
+				<div class="project-detail-content">
+
+					<!-- BUSINESS CONTEXT -->
+					<div class="project-detail-block">
+						<h3>Business Context</h3>
+						<p>
+							Fleet operators need reliable data to understand vehicle
+							utilisation, trip distances, speed patterns, and operational
+							performance. FleetOps Intelligence is designed to bring fleet
+							records and vehicle tracking data into a consistent analytical
+							platform, making it easier to prepare trusted data for these use cases.
+						</p>
+					</div>
+
+					<!-- SOLUTION ARCHITECTURE -->
+					<div class="project-detail-block">
+						<h3>Solution Architecture</h3>
+						<p>
+							The platform uses Azure Data Lake Storage Gen2 as its data
+							storage layer and Azure Databricks for data processing.
+							The architecture separates raw ingestion from subsequent
+							data refinement through a Medallion Architecture.
+						</p>
+						<ul>
+							<li><strong>Source:</strong> Azure SQL Database containing fleet and tracking records, with
+								simulated vehicle speed telemetry planned.</li>
+							<li><strong>Landing:</strong> Store source extracts in ADLS Gen2.</li>
+							<li><strong>Bronze:</strong> Preserve ingested source data in Delta tables.</li>
+							<li><strong>Silver:</strong> Clean, validate, deduplicate, and standardise records.</li>
+							<li><strong>Gold:</strong> Prepare analytical datasets for fleet utilisation and operational
+								performance.</li>
+						</ul>
+					</div>
+
+					<!-- IMPLEMENTATION STATUS -->
+					<div class="project-detail-block">
+						<h3>Implementation Status</h3>
+						<p>
+							The initial platform setup and source ingestion workflow
+							are in place. The transformation layers and broader
+							pipeline capabilities are the next stages of development.
+						</p>
+						<ul>
+							<li>Provisioned Azure infrastructure using Terraform.</li>
+							<li>Configured ADLS Gen2 with Landing, Bronze, Silver, and Gold storage areas.</li>
+							<li>Set up Azure Databricks and Unity Catalog.</li>
+							<li>Connected Azure SQL Database to Databricks using JDBC.</li>
+							<li>Read the fleet table and wrote the initial extract to the Landing layer as CSV.</li>
+							<li>Prepared the approach for ingesting tracking records.</li>
+						</ul>
+					</div>
+
+					<!-- DATA ENGINEERING -->
+					<div class="project-detail-block">
+						<h3>Data Engineering Approach</h3>
+						<p>
+							The planned pipeline separates ingestion from transformation
+							so source data can be retained and progressively refined.
+							PySpark and Delta Lake will support structured processing
+							across the Medallion layers.
+						</p>
+						<ul>
+							<li>Develop reusable ingestion and transformation logic.</li>
+							<li>Preserve source traceability across processing stages.</li>
+							<li>Apply validation, deduplication, and standardisation.</li>
+							<li>Build Gold datasets around defined fleet analytics use cases.</li>
+						</ul>
+					</div>
+
+					<!-- GOVERNANCE AND INFRASTRUCTURE -->
+					<div class="project-detail-block">
+						<h3>Governance & Infrastructure</h3>
+						<p>
+							Terraform supports repeatable provisioning of cloud resources,
+							while Unity Catalog provides the governance foundation for
+							organising and controlling access to data assets.
+						</p>
+						<ul>
+							<li>Infrastructure as code with Terraform.</li>
+							<li>Data organisation and access governance with Unity Catalog.</li>
+							<li>ADLS Gen2 as the central storage layer.</li>
+						</ul>
+					</div>
+
+					<!-- NEXT STEPS -->
+					<div class="project-detail-block">
+						<h3>Next Engineering Milestones</h3>
+						<ul>
+							<li>Complete ingestion for fleet and tracking data.</li>
+							<li>Implement Bronze, Silver, and Gold transformations.</li>
+							<li>Add incremental processing and data quality checks.</li>
+							<li>Introduce pipeline orchestration, failure handling, and monitoring.</li>
+							<li>Manage credentials securely using Azure Key Vault.</li>
+							<li>Document architecture decisions and validate the end to end workflow.</li>
+						</ul>
+					</div>
+
+				</div>
+
+				<!-- SOURCE CODE -->
+				<div class="project-detail-actions">
+					<a href="https://github.com/Iam-Mak/fleetops-intelligence-platform" class="hero-btn" target="_blank"
+						rel="noopener noreferrer">
+						View Source Code →
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<!-- FOOTER / CONTACT -->
+	<footer class="footer-section" id="contact-section">
+		<div class="container">
+
+			<div class="footer-content">
+				<h2 class="footer-title">Get in Touch</h2>
+				<p class="footer-subtitle">
+					Open to Azure Data Engineering and Data Platform Engineering opportunities.
+				</p>
+			</div>
+
+			<!-- Social Links -->
+			<div class="footer-socials">
+				<a href="https://www.linkedin.com/in/iam-mak/" target="_blank" rel="noopener noreferrer"
+					class="footer-social-link" aria-label="LinkedIn">
+					<span class="icon-linkedin-square"></span>
+				</a>
+
+				<a href="https://github.com/Iam-Mak" target="_blank" rel="noopener noreferrer"
+					class="footer-social-link" aria-label="GitHub">
+					<span class="icon-github"></span>
+				</a>
+
+				<a href="mailto:mohd.amilk09@gmail.com" class="footer-social-link" aria-label="Email">
+					<span class="icon-paper-plane"></span>
+				</a>
+
+				<a href="tel:+917302344786" class="footer-social-link" aria-label="Phone">
+					<span class="icon-phone2"></span>
+				</a>
+			</div>
+
+			<!-- Back To Top -->
+			<div class="footer-actions">
+				<a href="#home-section" class="hero-btn">
+					Back to Top ↑
+				</a>
+			</div>
+
+			<div class="footer-divider"></div>
+
+			<p class="footer-bottom">
+				©
+				<script>document.write(new Date().getFullYear());</script>
+				Amil Khan
+			</p>
+
+		</div>
+	</footer>
+
+	<!-- Loader -->
+	<div id="ftco-loader" class="show fullscreen">
+		<svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg>
+	</div>
+
+
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/jquery.waypoints.min.js"></script>
+	<script src="../js/jquery.stellar.min.js"></script>
+	<script src="../js/owl.carousel.min.js"></script>
+	<script src="../js/jquery.magnific-popup.min.js"></script>
+	<script src="../js/aos.js"></script>
+	<script src="../js/jquery.animateNumber.min.js"></script>
+	<script src="../js/scrollax.min.js"></script>
+	<script src="../js/particles.min.js"></script>
+	<script src="../js/app.js"></script>
+	<script src="../js/main.js"></script>
+
+</body>
+
+</html>

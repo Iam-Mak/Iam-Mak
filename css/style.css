@@ -7923,22 +7923,19 @@ h5,
   background: var(--bg-primary);
 }
 
-/* Background Glow */
-
 .hero-wrap::before {
   content: "";
   position: absolute;
   top: -240px;
   left: 50%;
-  transform: translateX(-50%);
-
   width: 800px;
   height: 800px;
-
-  background: radial-gradient(circle,
-      rgba(59, 130, 246, 0.08),
-      transparent 70%);
-
+  transform: translateX(-50%);
+  background: radial-gradient(
+    circle,
+    rgba(59, 130, 246, 0.08),
+    transparent 70%
+  );
   pointer-events: none;
 }
 
@@ -7948,44 +7945,34 @@ h5,
   max-width: 820px;
   margin: 0 auto;
   padding: 40px 20px 60px;
-  text-align: center;
   position: relative;
-  z-index: 2;
+  z-index: 1;
+  text-align: center;
 }
 
-/* Name */
 .hero-title {
+  margin: 0 0 20px;
+  color: var(--text-primary);
   font-family: var(--font-family-heading);
-
   font-size: clamp(3rem, 6vw, 4.5rem);
   font-weight: 700;
-
   line-height: 0.95;
   letter-spacing: -3px;
-
-  color: var(--text-primary);
-
-  margin: 0 0 20px;
 }
 
 .hero-subtitle {
   max-width: 700px;
-
   margin: 0 auto 34px;
-
   color: var(--text-primary);
-
-  font-size: 1.20rem;
+  font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.6;
-
   opacity: 0.92;
 }
 
-
-/* ==========================================
+/* =========================================
    DATA FLOW
-========================================== */
+========================================= */
 
 .hero-flow-wrapper {
   display: flex;
@@ -7998,18 +7985,12 @@ h5,
   display: flex;
   align-items: center;
   justify-content: center;
-
-  gap: 22px;
-
+  gap: 12px;
   margin-bottom: 8px;
-
-  font-size: 0.85rem;
-  font-family: var(--font-family-monospace);
-
-  letter-spacing: 0.12em;
-
   color: var(--text-secondary);
-
+  font-family: var(--font-family-monospace);
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
   opacity: 0.9;
 }
 
@@ -8018,61 +7999,48 @@ h5,
 }
 
 .hero-flow span:not(:last-child)::after {
-  content: " • ";
+  content: "•";
+  display: inline-block;
+  margin-left: 12px;
   color: var(--text-primary);
   opacity: 0.6;
-  margin-left: 12px;
 }
 
 /* Pipeline */
 
 .pipeline {
   position: relative;
-
-  width: 420px;
-  max-width: 90vw;
-
+  width: min(420px, 90vw);
   height: 1px;
-
   overflow: hidden;
-
   border-radius: 999px;
-
   background: rgba(59, 130, 246, 0.08);
 }
 
-/* Data Signal */
-
 .pipeline::before {
   content: "";
-
   position: absolute;
-
   top: 50%;
-  left: -90px;
-
-  width: 90px;
+  left: 0;
+  width: 22%;
   height: 4px;
-
-  transform: translateY(-50%);
-
+  transform: translate(-100%, -50%);
   border-radius: 999px;
-
-  background: linear-gradient(90deg,
-      transparent,
-      rgba(59, 130, 246, 0.25),
-      rgba(59, 130, 246, 0.95),
-      rgba(59, 130, 246, 0.25),
-      transparent);
-
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(59, 130, 246, 0.25),
+    rgba(59, 130, 246, 0.95),
+    rgba(59, 130, 246, 0.25),
+    transparent
+  );
   filter: blur(2px);
-
   animation: pipelineFlow 6s ease-in-out infinite;
 }
 
 @keyframes pipelineFlow {
   0% {
-    transform: translate(-90px, -50%);
+    left: 0;
     opacity: 0;
   }
 
@@ -8085,7 +8053,7 @@ h5,
   }
 
   100% {
-    transform: translate(510px, -50%);
+    left: 100%;
     opacity: 0;
   }
 }
@@ -8100,52 +8068,57 @@ h5,
   display: inline-flex;
   align-items: center;
   justify-content: center;
-
   padding: 13px 30px;
-
-  border-radius: 999px;
-
   border: 1px solid var(--border-color);
-
+  border-radius: 999px;
   background: transparent;
-
   color: var(--text-primary);
-
   font-size: 0.92rem;
   font-weight: 500;
-
   transition: var(--transition);
 }
 
-
 .hero-btn:hover {
-  background: var(--primary);
-  border-color: var(--primary);
-  color: #fff;
   transform: translateY(-1px);
+  border-color: var(--primary);
+  background: var(--primary);
+  color: #fff;
+}
+
+/* Accessibility */
+
+@media (prefers-reduced-motion: reduce) {
+  .pipeline::before {
+    animation: none;
+  }
 }
 
 /* Mobile */
 
 @media (max-width: 768px) {
+  .hero-container {
+    padding: 40px 16px;
+  }
+
   .hero-title {
     letter-spacing: -2px;
   }
 
   .hero-subtitle {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 
   .hero-flow {
-    gap: 14px;
+    gap: 8px;
     font-size: 0.72rem;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.06em;
   }
 
-  .pipeline {
-    width: 90%;
+  .hero-flow span:not(:last-child)::after {
+    margin-left: 8px;
   }
 }
+
 
 /* ========================================
    About  Section
